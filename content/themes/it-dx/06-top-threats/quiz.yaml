@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: it-dx-06
+questions:
+  - id: it-dx-06/q-first
+    prompt: IPA の「情報セキュリティ10大脅威 2026」（組織）で 1 位はどれですか。
+    choices:
+      - { id: a, label: "ビジネスメール詐欺" }
+      - { id: b, label: "DDoS 攻撃" }
+      - { id: c, label: "ランサム攻撃による被害" }
+      - { id: d, label: "内部不正による情報漏えい等" }
+    answer: c
+    explanation: 1 位はランサム攻撃による被害で、2016年から 11 年続けて選ばれています。ビジネスメール詐欺は 10 位です。
+    reviewSection: 要点
+  - id: it-dx-06/q-new
+    prompt: 2026年に初めて選ばれた脅威はどれですか。
+    choices:
+      - { id: a, label: "AI の利用をめぐるサイバーリスク" }
+      - { id: b, label: "機密情報を狙った標的型攻撃" }
+      - { id: c, label: "システムの脆弱性を悪用した攻撃" }
+      - { id: d, label: "リモートワーク等の環境や仕組みを狙った攻撃" }
+    answer: a
+    explanation: 3 位の「AI の利用をめぐるサイバーリスク」が、2026年に初めて選ばれました。
+    reviewSection: 2026年の10大脅威（組織）
+  - id: it-dx-06/q-second
+    prompt: 2 位の脅威はどれですか。
+    choices:
+      - { id: a, label: "DDoS 攻撃" }
+      - { id: b, label: "ビジネスメール詐欺" }
+      - { id: c, label: "内部不正による情報漏えい等" }
+      - { id: d, label: "サプライチェーンや委託先を狙った攻撃" }
+    answer: d
+    explanation: 2 位は「サプライチェーンや委託先を狙った攻撃」です。予約システムなど、外の会社に任せている部分の対策も確かめましょう。
+    reviewSection: 2026年の10大脅威（組織）
+  - id: it-dx-06/q-bec
+    prompt: 取引先を名乗るメールで「振込先が変わりました」と連絡がありました。このテーマに合う備えはどれですか。
+    choices:
+      - { id: a, label: "メールの指示どおりにすぐ振り込む" }
+      - { id: b, label: "電話など、メールとは別の方法で取引先に確かめる" }
+      - { id: c, label: "同じメールに返信して確かめる" }
+      - { id: d, label: "経理の担当者 1 人の判断に任せる" }
+    answer: b
+    explanation: ビジネスメール詐欺は 10 位に入っています。振込先の変更は、メールとは別の方法で確かめましょう。
+    reviewSection: 自社に当てはめる
+  - id: it-dx-06/q-use
+    prompt: 10大脅威の使い方として、このテーマに合うのはどれですか。
+    choices:
+      - { id: a, label: "一度読めば、何年も見直さなくてよい" }
+      - { id: b, label: "順位の高いものだけ対策し、ほかは考えない" }
+      - { id: c, label: "毎年、自社のリスクの一覧と見比べ、影響が大きいものから備える順番を決める" }
+      - { id: d, label: "大きな会社だけが使うもの" }
+    answer: c
+    explanation: 10大脅威は毎年変わります。自社に当てはめて、起きたときの影響が大きいものから備えましょう。
+    reviewSection: 経営者が見るところ

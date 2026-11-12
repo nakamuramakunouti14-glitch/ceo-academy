@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: strategy-07
+questions:
+  - id: strategy-07/q-red
+    prompt: レッド・オーシャンとはどんな市場ですか。
+    choices:
+      - { id: a, label: "まだ誰も手をつけていない市場" }
+      - { id: b, label: "海の近くにある市場" }
+      - { id: c, label: "多くの会社が同じお客様を取り合い、値下げが続く市場" }
+      - { id: d, label: "国が値段を決めている市場" }
+    answer: c
+    explanation: 同じお客様を取り合って値下げが続く市場を、赤い海（レッド・オーシャン）と呼びます。誰も手をつけていない市場は青い海です。
+    reviewSection: 要点
+  - id: strategy-07/q-four
+    prompt: 4つのアクションのうち、主に費用をへらす2つはどれですか。
+    choices:
+      - { id: a, label: "増やす・付け加える" }
+      - { id: b, label: "取り除く・付け加える" }
+      - { id: c, label: "減らす・増やす" }
+      - { id: d, label: "取り除く・減らす" }
+    answer: d
+    explanation: 取り除く・減らすで費用がへります。増やす・付け加えるで、お客様にとっての価値が上がります。
+    reviewSection: 4つのアクション
+  - id: strategy-07/q-both
+    prompt: 4つのアクションを同時に行うと、何をねらえますか。
+    choices:
+      - { id: a, label: "安さと違いの両方" }
+      - { id: b, label: "部屋の数を倍にすること" }
+      - { id: c, label: "税金をなくすこと" }
+      - { id: d, label: "ライバルと同じものを同じ値段で売ること" }
+    answer: a
+    explanation: 費用をおさえながら価値も上げるので、安さと違いの両方をねらえます。
+    reviewSection: 4つのアクション
+  - id: strategy-07/q-add
+    prompt: みなと館ホテルの2館目の案で、「付け加える」にあたるものはどれですか。
+    choices:
+      - { id: a, label: "大浴場をなくす" }
+      - { id: b, label: "近くの食堂と組んだ朝ごはん券" }
+      - { id: c, label: "部屋の広さをおさえる" }
+      - { id: d, label: "ベッドと枕の質を上げる" }
+    answer: b
+    explanation: 朝ごはん券は、まわりのホテルがまだ出していない価値です。大浴場をなくすのは取り除く、部屋の広さは減らす、ベッドの質は増やすです。
+    reviewSection: みなと館ホテルで考える
+  - id: strategy-07/q-copy
+    prompt: 青い海でうまくいったあと、気をつけることはどれですか。
+    choices:
+      - { id: a, label: "もう何も見直さなくてよい" }
+      - { id: b, label: "すぐに値下げをする" }
+      - { id: c, label: "まねする会社が出てきて、いずれ赤い海になる" }
+      - { id: d, label: "取り除いたものをすべて元にもどす" }
+    answer: c
+    explanation: うまくいくと、まねする会社が出てきます。青い海もいずれ競争の海になるので、次の見直しを考えておきます。
+    reviewSection: 経営者が見るところ

@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: governance-03
+questions:
+  - id: governance-03/q-axes
+    prompt: リスクを並べるときの、2つの見方はどれですか。
+    choices:
+      - { id: a, label: "起こりやすさと、影響の大きさ" }
+      - { id: b, label: "担当者の数と、店の広さ" }
+      - { id: c, label: "売上と利益" }
+      - { id: d, label: "季節と曜日" }
+    answer: a
+    explanation: 起こりやすさと、影響の大きさ。この両方が大きいリスクから備えます。
+    reviewSection: 要点
+  - id: governance-03/q-transfer
+    prompt: 4つの備え方のうち、保険に入ることは、どれにあたりますか。
+    choices:
+      - { id: a, label: "防ぐ" }
+      - { id: b, label: "受け入れる" }
+      - { id: c, label: "移す" }
+      - { id: d, label: "小さくする" }
+    answer: c
+    explanation: 保険は、起きたときのお金の損を、ほかに受け持ってもらう備え方です。
+    reviewSection: 要点
+  - id: governance-03/q-loss
+    prompt: 1日の売上が 20 万円の店が、5 日間店を開けられなくなりました。失う売上はいくらですか。
+    choices:
+      - { id: a, label: "20 万円" }
+      - { id: b, label: "100 万円" }
+      - { id: c, label: "25 万円" }
+      - { id: d, label: "300 万円" }
+    answer: b
+    explanation: 20 万円 × 5 日 ＝ 100 万円です。このあいだも、人件費や家賃は出ていきます。
+    reviewSection: 影響を数字にする
+  - id: governance-03/q-after
+    prompt: 再開したあと、お客様が 2 割減り、それが 75 日続きました（もとの1日の売上は 20 万円）。減る売上はいくらですか。
+    choices:
+      - { id: a, label: "100 万円" }
+      - { id: b, label: "1,500 万円" }
+      - { id: c, label: "4 万円" }
+      - { id: d, label: "300 万円" }
+    answer: d
+    explanation: 20 万円 × 20％ × 75 日 ＝ 300 万円です。信用をなくしたあとの減り方は、店を閉めていたあいだの損より大きいことがあります。
+    reviewSection: 影響を数字にする
+  - id: governance-03/q-bcp
+    prompt: BCP（事業継続計画）の説明として、正しいのはどれですか。
+    choices:
+      - { id: a, label: "毎年の売上の計画" }
+      - { id: b, label: "災害やシステムが止まったときに、何を優先し、どう事業を続けるかを前もって決めたもの" }
+      - { id: c, label: "新しい店を出す計画" }
+      - { id: d, label: "従業員の休みの計画" }
+    answer: b
+    explanation: BCP は、いざというときにあわてず動けるように、優先する仕事と手順を前もって決めておく計画です。
+    reviewSection: 要点

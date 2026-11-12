@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: tax-01
+questions:
+  - id: tax-01/q-base
+    prompt: 法人税は何にかかりますか。
+    choices:
+      - { id: a, label: "税法で計算した所得（益金 − 損金）" }
+      - { id: b, label: "売上高" }
+      - { id: c, label: "会計の営業利益そのもの" }
+      - { id: d, label: "現金の残高" }
+    answer: a
+    explanation: 法人税は、税法で計算した所得にかかります。会計の利益に、損金にならない費用などの直しを加えて出します。
+    reviewSection: 要点
+  - id: tax-01/q-income
+    prompt: 会計の利益が 2,800 万円、損金にならない費用が 200 万円のとき、所得はいくらですか。
+    choices:
+      - { id: a, label: "2,600 万円" }
+      - { id: b, label: "2,800 万円" }
+      - { id: c, label: "3,000 万円" }
+      - { id: d, label: "200 万円" }
+    answer: c
+    explanation: 損金にならない費用は、会計では引かれていますが、税法では引けません。だから足し戻します。2,800 ＋ 200 ＝ 3,000 万円です。
+    reviewSection: 会計の利益と所得のずれ
+  - id: tax-01/q-tax
+    prompt: 中小法人（所得 10 億円以下）の所得が 3,000 万円のとき、法人税はいくらですか。
+    choices:
+      - { id: a, label: "696 万円" }
+      - { id: b, label: "630.4 万円" }
+      - { id: c, label: "450 万円" }
+      - { id: d, label: "120 万円" }
+    answer: b
+    explanation: 800 万円 × 15％ ＝ 120 万円、2,200 万円 × 23.2％ ＝ 510.4 万円で、合計 630.4 万円です。696 万円は、全部に 23.2％ をかけたまちがいです。
+    reviewSection: 税額を計算する
+  - id: tax-01/q-meal
+    prompt: 取引先との飲食費を交際費から外せる条件で、2026-11-07 時点の国税庁の説明に合うのはどれですか。
+    choices:
+      - { id: a, label: "金額に関係なく、領収書があればよい" }
+      - { id: b, label: "1人あたり 5,000 円以下で、記録は要らない" }
+      - { id: c, label: "社内の人だけの飲食である" }
+      - { id: d, label: "1人あたり 10,000 円以下で、日付・参加者・人数・金額・店名などを記録する" }
+    answer: d
+    explanation: 2024 年 4 月以後に払ったものは、1人あたり 10,000 円以下で記録を残せば、交際費から外せます。それより前は 5,000 円でした。社内の人だけの飲食は、この扱いになりません。
+    reviewSection: 会計の利益と所得のずれ
+  - id: tax-01/q-carryforward
+    prompt: 青色申告の会社が赤字になりました。その赤字は、次の年からどう扱えますか。
+    choices:
+      - { id: a, label: "次の年から 10 年間、黒字の年の所得から差し引ける" }
+      - { id: b, label: "その年で消える" }
+      - { id: c, label: "国から赤字の額が払われる" }
+      - { id: d, label: "次の年の売上から差し引く" }
+    answer: a
+    explanation: 青色申告の赤字（欠損金）は、10 年間持ち越して、黒字の年の所得から差し引けます。中小法人ではない会社は、差し引ける額に上限があります。
+    reviewSection: 赤字の年は繰り越せる

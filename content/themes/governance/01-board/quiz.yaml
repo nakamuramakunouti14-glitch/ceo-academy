@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: governance-01
+questions:
+  - id: governance-01/q-define
+    prompt: ガバナンスの基本の考え方として、このテーマが挙げているのはどれですか。
+    choices:
+      - { id: a, label: "執行（決めて動かす）と監督（確かめる）を分ける" }
+      - { id: b, label: "社長がすべてを決めて、すべてを確かめる" }
+      - { id: c, label: "取締役会を開かない" }
+      - { id: d, label: "株主に経営を任せる" }
+    answer: a
+    explanation: 決める人と確かめる人を分けると、思いこみや、都合の悪い情報に気づきやすくなります。
+    reviewSection: 要点
+  - id: governance-01/q-role
+    prompt: 監督の役割を持つのはどれですか。
+    choices:
+      - { id: a, label: "店長" }
+      - { id: b, label: "支配人" }
+      - { id: c, label: "取締役会・監査役・株主" }
+      - { id: d, label: "アルバイト" }
+    answer: c
+    explanation: 取締役会、監査役、株主は、経営者の計画と結果を確かめる「監督」の役割を持ちます。
+    reviewSection: 執行と監督
+  - id: governance-01/q-agenda
+    prompt: 取締役会で確かめる「大きな決定」にあたるのはどれですか。
+    choices:
+      - { id: a, label: "日替わり定食の献立" }
+      - { id: b, label: "3 億円の借入と、全部の改装" }
+      - { id: c, label: "アルバイトのシフト" }
+      - { id: d, label: "備品の注文" }
+    answer: b
+    explanation: 大きな投資や借入は、取り消しにくく、会社の将来を大きく変えます。だから取締役会で話し合って決めます。
+    reviewSection: 取締役会で何を見るか
+  - id: governance-01/q-signal
+    prompt: 監督がうまく働いていない合図として、このテーマが挙げているのはどれですか。
+    choices:
+      - { id: a, label: "資料を会議の前に配っている" }
+      - { id: b, label: "社外の顧問がいる" }
+      - { id: c, label: "計画と実際の差を確かめている" }
+      - { id: d, label: "いつも全員賛成で、反対の意見が出ない" }
+    answer: d
+    explanation: 反対の意見が出ない会議は、確かめる役割が働いていないおそれがあります。
+    reviewSection: 経営者が見るところ
+  - id: governance-01/q-bad-news
+    prompt: 悪い報告を持ってきた人を強く責め続けると、何が起こりやすいですか。
+    choices:
+      - { id: a, label: "悪い報告がもっと早く上がるようになる" }
+      - { id: b, label: "悪い報告が上がってこなくなり、問題が大きくなってから見つかる" }
+      - { id: c, label: "問題が自然に解決する" }
+      - { id: d, label: "取締役会がいらなくなる" }
+    answer: b
+    explanation: 悪い知らせを持ってくると責められるなら、人はかくすようになります。早く上がるようにするには、報告してくれたこと自体をほめましょう。
+    reviewSection: 経営者が見るところ

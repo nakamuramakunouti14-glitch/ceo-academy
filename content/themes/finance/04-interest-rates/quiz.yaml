@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: finance-04
+questions:
+  - id: finance-04/q-interest
+    prompt: 100 万円を金利 2％ で 1 年借りました。利息はいくらですか。
+    choices:
+      - { id: a, label: "2 万円" }
+      - { id: b, label: "20 万円" }
+      - { id: c, label: "2,000 円" }
+      - { id: d, label: "102 万円" }
+    answer: a
+    explanation: 利息は、借りたお金 × 金利 です。100 万円 × 2％ ＝ 2 万円です。102 万円は、返すお金の合計です。
+    reviewSection: 要点
+  - id: finance-04/q-floating
+    prompt: 金利が上がったとき、利息が増えるのはどちらで借りている場合ですか。
+    choices:
+      - { id: a, label: "固定金利" }
+      - { id: b, label: "どちらも増えない" }
+      - { id: c, label: "変動金利" }
+      - { id: d, label: "どちらも同じだけ増える" }
+    answer: c
+    explanation: 変動金利は、世の中の金利に合わせて途中で変わります。固定金利は、借りたときの金利のまま変わりません。
+    reviewSection: 変動金利と固定金利
+  - id: finance-04/q-calc
+    prompt: 44,000 万円を変動金利で借りています。金利が 1.5％ から 2.5％ に上がると、1 年の利息はいくら増えますか。
+    choices:
+      - { id: a, label: "44 万円" }
+      - { id: b, label: "440 万円" }
+      - { id: c, label: "1,100 万円" }
+      - { id: d, label: "660 万円" }
+    answer: b
+    explanation: 1.5％ なら 660 万円、2.5％ なら 1,100 万円です。差は 440 万円です。44,000 万円 × 1％ ＝ 440 万円と計算しても同じです。
+    reviewSection: みなと館ホテルで計算する
+  - id: finance-04/q-npv
+    prompt: 金利が上がると、投資の判断はどう変わりますか。
+    choices:
+      - { id: a, label: "割引率が下がり、NPV が大きくなる" }
+      - { id: b, label: "何も変わらない" }
+      - { id: c, label: "回収期間が必ず短くなる" }
+      - { id: d, label: "割引率が上がり、同じ投資でも NPV が小さくなる" }
+    answer: d
+    explanation: 割引率は、金利が上がると上がりやすくなります。将来のお金を今の価値に直すと小さくなるので、NPV も小さくなります。
+    reviewSection: 投資の判断も変わる
+  - id: finance-04/q-check
+    prompt: 金利が上がりそうなとき、経営者がまず計算しておくとよいことはどれですか。
+    choices:
+      - { id: a, label: "売上高の合計" }
+      - { id: b, label: "変動金利の借入が、金利 1％ でいくら利息が増えるか" }
+      - { id: c, label: "従業員の人数" }
+      - { id: d, label: "客室の数" }
+    answer: b
+    explanation: 変動金利で借りている分は、金利が上がると利息が増えます。1％ でいくら増えるかを先に知っておくと、早めに手を打てます。
+    reviewSection: 経営者が見るところ

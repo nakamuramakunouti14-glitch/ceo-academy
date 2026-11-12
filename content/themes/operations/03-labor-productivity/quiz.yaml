@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: operations-03
+questions:
+  - id: operations-03/q-formula
+    prompt: このテーマで使う、人時生産性の計算はどれですか。
+    choices:
+      - { id: a, label: "売上高 ÷ スタッフの人数" }
+      - { id: b, label: "人件費 ÷ 売上高" }
+      - { id: c, label: "粗利 ÷ 全員の働いた時間の合計" }
+      - { id: d, label: "全員の働いた時間の合計 ÷ 営業日数" }
+    answer: c
+    explanation: 人時生産性は、1時間働くと、いくらの粗利が生まれたかを表します。粗利 ÷ 全員の働いた時間の合計 で計算します。人件費 ÷ 売上高 は、人件費率です。
+    reviewSection: 要点
+  - id: operations-03/q-calc
+    prompt: 粗利 420 万円、全員の働いた時間の合計が 1,750 時間のお店です。人時生産性はいくらですか。
+    choices:
+      - { id: a, label: "2,400 円" }
+      - { id: b, label: "3,429 円" }
+      - { id: c, label: "1,200 円" }
+      - { id: d, label: "24,000 円" }
+    answer: a
+    explanation: 420 万円 ÷ 1,750 時間 ＝ 2,400 円です。売上 600 万円で割ると 3,429 円になりますが、ここでは粗利で計算します。
+    reviewSection: 計算してみる
+  - id: operations-03/q-idle
+    prompt: 時間帯ごとの表で、まず見直す時間帯はどれですか。
+    choices:
+      - { id: a, label: "11〜14時（1時間の売上 3.6 万円、5 人）" }
+      - { id: b, label: "17〜21時（1時間の売上 2.0 万円、5 人）" }
+      - { id: c, label: "どの時間帯も同じ" }
+      - { id: d, label: "14〜17時（1時間の売上 0.4 万円、4 人）" }
+    answer: d
+    explanation: 14〜17時は、売上が少ないのに 4 人いて、1人あたりの売上がいちばん低いです。仕込みやそうじをまとめて、人数を減らせる余地があります。
+    reviewSection: 時間帯ごとに見る
+  - id: operations-03/q-after
+    prompt: 粗利 420 万円のまま、働いた時間の合計を 1,750 時間から 1,570 時間に減らしました。人時生産性はおよそいくらになりますか。
+    choices:
+      - { id: a, label: "2,400 円" }
+      - { id: b, label: "約 2,675 円" }
+      - { id: c, label: "2,800 円" }
+      - { id: d, label: "2,250 円" }
+    answer: b
+    explanation: 420 万円 ÷ 1,570 時間 ≒ 2,675 円です。粗利が同じでも、時間が減れば、人時生産性は上がります。
+    reviewSection: 時間帯ごとに見る
+  - id: operations-03/q-caution
+    prompt: 人時生産性を上げようとして、こむ時間の人も減らしました。起こりやすいことはどれですか。
+    choices:
+      - { id: a, label: "粗利が必ず増える" }
+      - { id: b, label: "何も起こらない" }
+      - { id: c, label: "料理を出すのが遅れてお客様が減り、粗利も減る" }
+      - { id: d, label: "人時生産性がいつまでも上がり続ける" }
+    answer: c
+    explanation: 人を減らしてサービスが悪くなると、お客様が減り、粗利も減ります。ただ減らすのではなく、仕事のやり方を変えて時間を減らしましょう。
+    reviewSection: 経営者が見るところ

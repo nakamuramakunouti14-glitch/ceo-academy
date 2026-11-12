@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: marketing-04
+questions:
+  - id: marketing-04/q-four
+    prompt: 4P に入らないものはどれですか。
+    choices:
+      - { id: a, label: "商品（Product）" }
+      - { id: b, label: "値段（Price）" }
+      - { id: c, label: "利益（Profit）" }
+      - { id: d, label: "知らせ方（Promotion）" }
+    answer: c
+    explanation: 4P は、商品・値段・届け方（Place）・知らせ方の4つです。利益は、4P を組み立てた結果として出てくるものです。
+    reviewSection: 要点
+  - id: marketing-04/q-added
+    prompt: サービスのために足された3つの P はどれですか。
+    choices:
+      - { id: a, label: "人・手順・見た目（証拠）" }
+      - { id: b, label: "値段・届け方・知らせ方" }
+      - { id: c, label: "商品・人・利益" }
+      - { id: d, label: "計画・実行・確認" }
+    answer: a
+    explanation: ブームスとビトナーが、人（People）・手順（Process）・見た目や証拠（Physical evidence）を足しました。合わせて7P です。
+    reviewSection: 要点
+  - id: marketing-04/q-why
+    prompt: サービスで、人・手順・見た目が大事になるのはなぜですか。
+    choices:
+      - { id: a, label: "法律で決まっているから" }
+      - { id: b, label: "サービスは買う前にためせないので、お客様はそれを手がかりに決めるから" }
+      - { id: c, label: "値段を決めなくてよくなるから" }
+      - { id: d, label: "広告がいらなくなるから" }
+    answer: b
+    explanation: 形のないサービスは、買う前に中身がわかりません。お客様は、スタッフ・流れ・お店のようすを見て「よさそうか」を判断します。
+    reviewSection: 7つの P
+  - id: marketing-04/q-evidence
+    prompt: 「見た目・証拠（Physical evidence）」の例はどれですか。
+    choices:
+      - { id: a, label: "平日の料金" }
+      - { id: b, label: "予約サイトとの契約" }
+      - { id: c, label: "料理人の数" }
+      - { id: d, label: "ロビーのきれいさや、メニュー表" }
+    answer: d
+    explanation: 目で見て質がわかるものが、見た目・証拠です。ロビー、制服、メニュー表、口コミの写真などです。
+    reviewSection: 7つの P
+  - id: marketing-04/q-umikaze
+    prompt: うみかぜ食堂の 8,000 円のコースで、まず直すとよいことはどれですか。
+    choices:
+      - { id: a, label: "値段を 3,000 円に下げる" }
+      - { id: b, label: "料理の品数を倍にする" }
+      - { id: c, label: "説明の練習、出す順番の見直し、メニュー表の作り直し" }
+      - { id: d, label: "コースをやめる" }
+    answer: c
+    explanation: 商品と値段は「特別な日」向けなのに、人・手順・見た目がふだんのままでした。ちぐはぐな3つを、コースの立ち位置にそろえます。
+    reviewSection: 7P がそろっていない例

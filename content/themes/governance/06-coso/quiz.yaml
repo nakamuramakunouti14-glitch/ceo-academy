@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: governance-06
+questions:
+  - id: governance-06/q-objectives
+    prompt: COSO の内部統制の枠組みが挙げる3つの目的の組み合わせはどれですか。
+    choices:
+      - { id: a, label: "売上・利益・株価" }
+      - { id: b, label: "採用・育成・評価" }
+      - { id: c, label: "業務・報告・法令の順守" }
+      - { id: d, label: "予約・客室・レジ" }
+    answer: c
+    explanation: 3つの目的は、業務（operations）、報告（reporting）、法令の順守（compliance）です。
+    reviewSection: 3つの目的
+  - id: governance-06/q-components
+    prompt: 次のうち、COSO の5つの要素に入らないものはどれですか。
+    choices:
+      - { id: a, label: "統制環境" }
+      - { id: b, label: "リスクの評価" }
+      - { id: c, label: "モニタリング" }
+      - { id: d, label: "広告宣伝" }
+    answer: d
+    explanation: 5つの要素は、統制環境・リスクの評価・統制活動・情報と伝達・モニタリングです。
+    reviewSection: 5つの要素
+  - id: governance-06/q-segregation
+    prompt: 「注文する人と支払いを認める人を分ける（職務の分離）」は、5つの要素のどれに入りますか。
+    choices:
+      - { id: a, label: "統制活動" }
+      - { id: b, label: "統制環境" }
+      - { id: c, label: "情報と伝達" }
+      - { id: d, label: "どれにも入らない" }
+    answer: a
+    explanation: 承認・確認・照合などの具体的な手続は統制活動です。COSO は、職務の分離はふつう統制活動の中に組みこまれるとしています。
+    reviewSection: 5つの要素
+  - id: governance-06/q-limit
+    prompt: COSO が挙げる、内部統制の限界に入るのはどれですか。
+    choices:
+      - { id: a, label: "経営者が内部統制を無視できること、何人かが共謀してすり抜けられること" }
+      - { id: b, label: "内部統制があれば不正は絶対に起きないこと" }
+      - { id: c, label: "小さな会社では内部統制が作れないこと" }
+      - { id: d, label: "法律を守る目的が入っていないこと" }
+    answer: a
+    explanation: よくできた内部統制でも、判断のまちがい、単純なミス、経営者による無視、共謀、外の出来事で失敗することがあります。だから保証は合理的なもので、絶対ではありません。
+    reviewSection: 内部統制にもできないこと
+  - id: governance-06/q-erm
+    prompt: COSO の内部統制の枠組みと ERM の枠組みの関係について、COSO の説明に合うのはどれですか。
+    choices:
+      - { id: a, label: "ERM ができたので、内部統制の枠組みは使わなくなった" }
+      - { id: b, label: "互いに補い合うもので、どちらかがもう一方に置きかわるものではない" }
+      - { id: c, label: "2つはまったく関係がない" }
+      - { id: d, label: "内部統制の枠組みは、上場会社だけのもの" }
+    answer: b
+    explanation: COSO は、2つの枠組みは補い合うもので、どちらも置きかわらないとしています。ERM は 2017年に「戦略とパフォーマンスとの統合」として改訂されました。
+    reviewSection: ERM との関係

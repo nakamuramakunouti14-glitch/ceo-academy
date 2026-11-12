@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: negotiation-05
+questions:
+  - id: negotiation-05/q-reciprocity
+    prompt: 「してもらったら、お返ししたくなる」原則を何と呼びますか。
+    choices:
+      - { id: a, label: "希少性" }
+      - { id: b, label: "返報性" }
+      - { id: c, label: "権威" }
+      - { id: d, label: "社会的証明" }
+    answer: b
+    explanation: 返報性は、何かをしてもらうと、お返しをしたくなる原則です。
+    reviewSection: 要点
+  - id: negotiation-05/q-scarcity
+    prompt: 予約ページに「残り 2 室」と出すとき、正直な使い方はどれですか。
+    choices:
+      - { id: a, label: "いつも「残り 2 室」と出しておく" }
+      - { id: b, label: "空いている部屋が多いときほど出す" }
+      - { id: c, label: "本当に残りが少ない部屋だけに出す" }
+      - { id: d, label: "ほかのホテルの残りの数を出す" }
+    answer: c
+    explanation: 希少性は、事実のときだけ使います。うその限定は、ばれたときに信用をなくします。
+    reviewSection: ホテルと飲食での使い方
+  - id: negotiation-05/q-social-proof
+    prompt: 営業の人に「ほかのホテルさんも、みんな入れています」と言われました。これはどの原則ですか。
+    choices:
+      - { id: a, label: "返報性" }
+      - { id: b, label: "一貫性" }
+      - { id: c, label: "好意" }
+      - { id: d, label: "社会的証明" }
+    answer: d
+    explanation: みんながしていることは正しいと思う、社会的証明の原則です。自分の店に合うかは、別に考えます。
+    reviewSection: 使われる側として気づく
+  - id: negotiation-05/q-seventh
+    prompt: 2021 年の新しい版で足された 7 つ目の原則は、どんな内容ですか。
+    choices:
+      - { id: a, label: "「同じ仲間だ」と感じる相手には、「はい」と言いやすい" }
+      - { id: b, label: "値段が高いものほど、よく売れる" }
+      - { id: c, label: "朝より夜の方が、決めやすい" }
+      - { id: d, label: "書面にすると、断りやすい" }
+    answer: a
+    explanation: 7 つ目は、「同じ仲間だ」と感じる相手に応じやすい、という原則です。訳の新版は 2023 年に出ました。
+    reviewSection: 要点
+  - id: negotiation-05/q-pressure
+    prompt: 営業で「今日決めてくれれば、この値段です」と言われました。よい対応はどれですか。
+    choices:
+      - { id: a, label: "その場ですぐ契約する" }
+      - { id: b, label: "明日でも同じ条件か聞き、一晩おいて数字で確かめる" }
+      - { id: c, label: "何も聞かずに断る" }
+      - { id: d, label: "ほかの店にも今日決めるようにすすめる" }
+    answer: b
+    explanation: 「今日だけ」は希少性です。その場で決めず、数字で確かめると、くせにふり回されにくくなります。
+    reviewSection: 使われる側として気づく

@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: hr-01
+questions:
+  - id: hr-01/q-rate
+    prompt: 年のはじめに 60 人いた会社で、1 年に 12 人が辞めました。離職率は何％ですか。
+    choices:
+      - { id: a, label: "20％" }
+      - { id: b, label: "12％" }
+      - { id: c, label: "5％" }
+      - { id: d, label: "72％" }
+    answer: a
+    explanation: 離職率 ＝ 辞めた人数 ÷ 年のはじめの人数 ＝ 12 ÷ 60 ＝ 20％ です。
+    reviewSection: 要点
+  - id: hr-01/q-cost
+    prompt: 1人辞めるごとに、採用に 30 万円、育てるのに 40 万円かかる会社があります。1 年に 12 人辞めると、費用は1年でいくらですか。
+    choices:
+      - { id: a, label: "70 万円" }
+      - { id: b, label: "360 万円" }
+      - { id: c, label: "840 万円" }
+      - { id: d, label: "480 万円" }
+    answer: c
+    explanation: (30 ＋ 40) 万円 × 12 人 ＝ 840 万円です。360 万円は採用の費用だけ、480 万円は育てる費用だけの金額です。
+    reviewSection: 離職のコストを計算する
+  - id: hr-01/q-timing
+    prompt: 人に辞めずにいてもらうために、とくに力を入れたい時期はいつですか。
+    choices:
+      - { id: a, label: "入社して 10 年目" }
+      - { id: b, label: "入社して最初の 3 か月" }
+      - { id: c, label: "辞めたいと言われた後" }
+      - { id: d, label: "定年の直前" }
+    answer: b
+    explanation: 辞める人は、入ってすぐの時期に多いです。初日の迎え方、教える担当の人、最初の目標で、辞めるかどうかが大きく変わります。
+    reviewSection: 要点
+  - id: hr-01/q-ask
+    prompt: 辞める理由を知る方法として、このテーマがすすめているのはどれですか。
+    choices:
+      - { id: a, label: "辞めた人の退職面談だけで十分" }
+      - { id: b, label: "理由は聞かない" }
+      - { id: c, label: "求人広告の反応から想像する" }
+      - { id: d, label: "今いる人に定期的に聞く" }
+    answer: d
+    explanation: 退職面談では、本音が出にくいです。今いる人に定期的に聞けば、辞める前に手が打てます。
+    reviewSection: 辞めない職場にする
+  - id: hr-01/q-dept
+    prompt: 同じ会社なのに、部署によって離職率が大きく違います。まず疑いたいのはどれですか。
+    choices:
+      - { id: a, label: "給料の計算のまちがい" }
+      - { id: b, label: "上司の関わり方や任せ方の違い" }
+      - { id: c, label: "求人広告の色" }
+      - { id: d, label: "会社の住所" }
+    answer: b
+    explanation: 同じ会社なら、給料の決まりは同じです。差の多くは、職場の上司との関係や、仕事の任され方から生まれます。
+    reviewSection: 経営者が見るところ

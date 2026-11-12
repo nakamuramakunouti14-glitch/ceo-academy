@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: negotiation-06
+questions:
+  - id: negotiation-06/q-top
+    prompt: ピラミッド原則で、いちばん上に置くものはどれですか。
+    choices:
+      - { id: a, label: "調べたことの一覧" }
+      - { id: b, label: "これまでのいきさつ" }
+      - { id: c, label: "細かい数字の表" }
+      - { id: d, label: "言いたいこと（結論）を1つ" }
+    answer: d
+    explanation: いちばん上は結論です。その下に理由、さらにその下に事実や数字を積みます。
+    reviewSection: 要点
+  - id: negotiation-06/q-link
+    prompt: ピラミッドの上と下は、どんな問いでつながりますか。
+    choices:
+      - { id: a, label: "「いつ？」と「どこで？」" }
+      - { id: b, label: "「なぜ？」と「だから？」" }
+      - { id: c, label: "「だれが？」と「いくら？」" }
+      - { id: d, label: "「本当に？」と「どうして今？」" }
+    answer: b
+    explanation: 上から「なぜ？」と聞くと下が答え、下から「だから？」と聞くと上が答えになるように組みます。
+    reviewSection: 要点
+  - id: negotiation-06/q-overlap
+    prompt: ランチを始める理由に「売上が増える」と「お客様が増える」を並べました。どう直すのがよいですか。
+    choices:
+      - { id: a, label: "ほぼ同じことなので、1つにまとめる" }
+      - { id: b, label: "そのまま並べる" }
+      - { id: c, label: "理由をもっと増やす" }
+      - { id: d, label: "結論を消す" }
+    answer: a
+    explanation: 横にならぶ理由は、重ならず、もれがないようにします。重なる理由は1つにまとめます。
+    reviewSection: よくある失敗
+  - id: negotiation-06/q-count
+    prompt: 結論を支える理由は、いくつくらいにしぼるとよいですか。
+    choices:
+      - { id: a, label: "1つだけ" }
+      - { id: b, label: "思いつくだけ全部" }
+      - { id: c, label: "3つくらい" }
+      - { id: d, label: "10 個以上" }
+    answer: c
+    explanation: 理由が多すぎると覚えられません。まとめて 3 つくらいにしぼりましょう。
+    reviewSection: よくある失敗
+  - id: negotiation-06/q-book
+    prompt: ピラミッド原則を教えてきたバーバラ・ミントについて、正しいものはどれですか。
+    choices:
+      - { id: a, label: "『ファスト＆スロー』を書いた" }
+      - { id: b, label: "ハーバード流交渉術の4つの原則を作った" }
+      - { id: c, label: "影響力の6つの原則を作った" }
+      - { id: d, label: "マッキンゼーで初めての女性コンサルタントで、本の訳は『考える技術・書く技術』" }
+    answer: d
+    explanation: ミントはマッキンゼーで初めての女性コンサルタントでした。本の訳は『考える技術・書く技術』（ダイヤモンド社）です。
+    reviewSection: 要点

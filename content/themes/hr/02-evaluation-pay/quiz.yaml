@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: hr-02
+questions:
+  - id: hr-02/q-parts
+    prompt: 人事の仕組みをつくる3つの組み合わせはどれですか。
+    choices:
+      - { id: a, label: "採用・研修・退職" }
+      - { id: b, label: "等級・評価・報酬" }
+      - { id: c, label: "給料・賞与・手当" }
+      - { id: d, label: "本社・店舗・工場" }
+    answer: b
+    explanation: 等級（役割の段階）、評価（働きぶりと成果を見る）、報酬（給料など）の3つです。3つをつなげると、何ができればどう上がるかが見えます。
+    reviewSection: 要点
+  - id: hr-02/q-order
+    prompt: 報酬を決める順番として、このテーマがすすめているのはどれですか。
+    choices:
+      - { id: a, label: "人件費の総額を先に決め、その中で配り方を決める" }
+      - { id: b, label: "一人ひとりの希望を聞いて足し合わせる" }
+      - { id: c, label: "競合と同じ額にする" }
+      - { id: d, label: "前の年と同じにする" }
+    answer: a
+    explanation: 先に、会社が払い続けられる人件費の合計を決めます。その中で、等級と評価に合わせて配ります。一人ずつ足していくと、利益で払えない額になりやすいです。
+    reviewSection: 要点
+  - id: hr-02/q-raise-calc
+    prompt: 人件費が 17,000 万円の会社で、昇給によって人件費の全体が 3％ 増えます。人件費は1年でいくら増えますか。
+    choices:
+      - { id: a, label: "170 万円" }
+      - { id: b, label: "300 万円" }
+      - { id: c, label: "5,100 万円" }
+      - { id: d, label: "510 万円" }
+    answer: d
+    explanation: 17,000 万円 × 3％ ＝ 510 万円です。昇給は次の年からも続きます。毎年の利益で払えるかを確かめましょう。
+    reviewSection: 昇給の重さを計算する
+  - id: hr-02/q-strategy
+    prompt: 「地元の魚料理で違いを出す」戦略の会社です。評価の項目に入れたいのはどれですか。
+    choices:
+      - { id: a, label: "出勤した日数だけ" }
+      - { id: b, label: "社長と話した回数" }
+      - { id: c, label: "料理の腕前と、料理のいわれをお客様に伝える接客" }
+      - { id: d, label: "持っている資格の数だけ" }
+    answer: c
+    explanation: 評価の項目は、戦略とそろえます。違いを生む腕前やふるまいを評価すると、働く人がそこに力を入れます。
+    reviewSection: 3つの仕組み
+  - id: hr-02/q-bonus
+    prompt: 昇給と賞与の違いとして、正しいのはどれですか。
+    choices:
+      - { id: a, label: "昇給は一度上げると下げにくく、賞与は業績に合わせて増減しやすい" }
+      - { id: b, label: "賞与は一度上げると下げられない" }
+      - { id: c, label: "昇給は人件費に入らない" }
+      - { id: d, label: "どちらも同じ" }
+    answer: a
+    explanation: 基本給は、毎月の生活の土台です。だから下げにくいです。賞与は、その年の業績に合わせやすいです。利益の波を受け止める役目があります。
+    reviewSection: 昇給の重さを計算する

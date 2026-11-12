@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: negotiation-02
+questions:
+  - id: negotiation-02/q-calc
+    prompt: 1年に 2,000 万円の仕入れの値段が 3％ 下がると、1年でいくら費用が減りますか。
+    choices:
+      - { id: a, label: "6 万円" }
+      - { id: b, label: "600 万円" }
+      - { id: c, label: "60 万円" }
+      - { id: d, label: "1,940 万円" }
+    answer: c
+    explanation: 2,000 万円 × 3％ ＝ 60 万円です。交渉の前に、1％ の違いが1年でいくらになるかを計算しておきましょう。
+    reviewSection: 仕入先との交渉
+  - id: negotiation-02/q-only-price
+    prompt: 値段だけを押し下げる交渉のよくない点として、このテーマが挙げているのはどれですか。
+    choices:
+      - { id: a, label: "法律で禁止されている" }
+      - { id: b, label: "一度は勝てても、品質が下がる・後回しにされるなどの形で返ってくる" }
+      - { id: c, label: "必ず値段が上がる" }
+      - { id: d, label: "税金が増える" }
+    answer: b
+    explanation: 相手に得がない条件は、長続きしません。よい魚を後回しにされるなど、別の形で損が返ってきます。
+    reviewSection: 要点
+  - id: negotiation-02/q-give
+    prompt: 仕入先にとって得になる条件として、このテーマが挙げていないのはどれですか。
+    choices:
+      - { id: a, label: "1年分の注文の量を約束する" }
+      - { id: b, label: "支払いを早める" }
+      - { id: c, label: "注文を前の日に決めておく" }
+      - { id: d, label: "支払いを半年おくらせる" }
+    answer: d
+    explanation: 支払いをおくらせると、相手のお金のやりくりが苦しくなります。注文の量の約束、早い支払い、早い注文の決定は、相手の得になります。
+    reviewSection: 仕入先との交渉
+  - id: negotiation-02/q-bank
+    prompt: 銀行がお金を貸すかどうかを決めるとき、いちばん知りたいのはどれですか。
+    choices:
+      - { id: a, label: "返してもらえるか" }
+      - { id: b, label: "社長の趣味" }
+      - { id: c, label: "店の内装の色" }
+      - { id: d, label: "競合の社長の名前" }
+    answer: a
+    explanation: 銀行は、貸したお金が利息といっしょに返ってくるかを見ます。数字と計画で、本業でかせぐ現金から返せることを示しましょう。
+    reviewSection: 銀行との交渉
+  - id: negotiation-02/q-bad-news
+    prompt: 業績が悪くなったとき、銀行への伝え方として、このテーマがすすめているのはどれですか。
+    choices:
+      - { id: a, label: "決算までかくしておく" }
+      - { id: b, label: "悪い知らせほど早く伝え、計画といっしょに相談する" }
+      - { id: c, label: "別の銀行に乗りかえる" }
+      - { id: d, label: "数字をよく見せて伝える" }
+    answer: b
+    explanation: 早く伝えるほど、返す条件の見直しなど、いっしょに手を考えやすくなります。かくしてあとでわかると、信用をなくします。
+    reviewSection: 銀行との交渉

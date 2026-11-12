@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: negotiation-03
+questions:
+  - id: negotiation-03/q-order
+    prompt: このテーマがすすめる、説明の順番はどれですか。
+    choices:
+      - { id: a, label: "いきさつ → 苦労話 → 結論" }
+      - { id: b, label: "理由を10個 → 結論" }
+      - { id: c, label: "数字だけを並べる" }
+      - { id: d, label: "結論 → 理由（3つまで） → 数字 → お願い" }
+    answer: d
+    explanation: 聞く人が決めることを、先に言います。それを理由と数字でささえます。最後に、何を決めてほしいかをはっきり伝えます。
+    reviewSection: 要点
+  - id: negotiation-03/q-first
+    prompt: 聞く人が、説明の最初に知りたいことは何ですか。
+    choices:
+      - { id: a, label: "自分は何を決めればよいか" }
+      - { id: b, label: "話す人の経歴" }
+      - { id: c, label: "これまでのいきさつ" }
+      - { id: d, label: "資料の枚数" }
+    answer: a
+    explanation: 何を決めるのかがわかれば、聞く人はそのつもりで理由や数字を聞けます。
+    reviewSection: 要点
+  - id: negotiation-03/q-number
+    prompt: 数字の示し方として、いちばん伝わるのはどれですか。
+    choices:
+      - { id: a, label: "RevPAR は 15,000 円" }
+      - { id: b, label: "RevPAR は 15,000 円（今は 11,200 円）" }
+      - { id: c, label: "RevPAR はかなり上がる" }
+      - { id: d, label: "数字は示さない" }
+    answer: b
+    explanation: 数字は、くらべる相手と並べると意味が伝わります。今との差が見えると、案の効果を判断しやすくなります。
+    reviewSection: 経営者が見るところ
+  - id: negotiation-03/q-reasons
+    prompt: 理由の数について、このテーマの考え方に合うのはどれですか。
+    choices:
+      - { id: a, label: "多いほど説得力がある" }
+      - { id: b, label: "理由は言わない" }
+      - { id: c, label: "強いものを3つまでにしぼる" }
+      - { id: d, label: "10個以上並べる" }
+    answer: c
+    explanation: 理由が多すぎると、聞く人は1つもおぼえられません。強い3つにしぼりましょう。
+    reviewSection: よくある失敗
+  - id: negotiation-03/q-ask
+    prompt: 「お願い」がぬけた説明で、起こりやすいことはどれですか。
+    choices:
+      - { id: a, label: "説明が終わっても、何を決めればよいかが伝わらず、決めるのが先のばしになる" }
+      - { id: b, label: "すぐに承認される" }
+      - { id: c, label: "数字が正しくなる" }
+      - { id: d, label: "理由が増える" }
+    answer: a
+    explanation: 最後に「何を、いつまでに決めてほしいか」を言いましょう。言わないと、聞く人は、決める場だと気づかないことがあります。
+    reviewSection: よくある失敗

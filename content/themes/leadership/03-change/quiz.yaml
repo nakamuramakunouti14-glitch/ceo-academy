@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: leadership-03
+questions:
+  - id: leadership-03/q-order
+    prompt: 変化を進める順番として、このテーマがすすめているのはどれですか。
+    choices:
+      - { id: a, label: "なぜ変わるのか → 何がどう変わるのか → 最初の成果を早く見せる" }
+      - { id: b, label: "最初の成果 → なぜ → 何を" }
+      - { id: c, label: "命令する → 評価する → 処分する" }
+      - { id: d, label: "全員が賛成するまで待つ → 始める" }
+    answer: a
+    explanation: 理由がわかり、自分の仕事がどう変わるかがわかり、うまくいく証拠が見える。そうなると、人は動きやすくなります。
+    reviewSection: 要点
+  - id: leadership-03/q-resist
+    prompt: 人が変化に反対する理由として、このテーマが挙げていないのはどれですか。
+    choices:
+      - { id: a, label: "理由がわからない" }
+      - { id: b, label: "自分の仕事がどうなるかわからない" }
+      - { id: c, label: "変化を知らせる資料の色が気に入らない" }
+      - { id: d, label: "うまくいくと思えない" }
+    answer: c
+    explanation: 反対の多くは、理由・自分への影響・うまくいく見こみがわからないことから来ます。資料の見た目は、根っこの理由ではありません。
+    reviewSection: 要点
+  - id: leadership-03/q-first-win
+    prompt: 最初の成果を、小さな範囲で試して見せるのはなぜですか。
+    choices:
+      - { id: a, label: "お金をまったく使わないため" }
+      - { id: b, label: "うまくいきやすく、反対していた人の気持ちを変える材料になるため" }
+      - { id: c, label: "失敗をかくすため" }
+      - { id: d, label: "全社に一度に広げると法律に違反するため" }
+    answer: b
+    explanation: うまくいった事実は、言葉の説明より強いです。最初は、うまくいきやすい小さな範囲で試して、成果を見せましょう。
+    reviewSection: 3つの段階
+  - id: leadership-03/q-objection
+    prompt: 「朝の人手が足りなくなる」という反対の意見に、どうこたえるのがいちばんよいですか。
+    choices:
+      - { id: a, label: "反対する人を外す" }
+      - { id: b, label: "聞かなかったことにする" }
+      - { id: c, label: "計画をやめる" }
+      - { id: d, label: "多能工化や採用の計画を先に立て、反対の理由を計画に取り入れる" }
+    answer: d
+    explanation: 反対の意見には、現場の大事な情報が入っています。その理由を計画に取り入れると、変化は速く進みます。
+    reviewSection: 抵抗を味方に変える
+  - id: leadership-03/q-sustain
+    prompt: 変化を根づかせて、元に戻らないようにする方法として、このテーマが挙げているのはどれですか。
+    choices:
+      - { id: a, label: "社長が毎日見張る" }
+      - { id: b, label: "一度伝えたら二度と言わない" }
+      - { id: c, label: "新しいやり方を評価の項目や手順書に入れる" }
+      - { id: d, label: "変化を知らせる張り紙を増やす" }
+    answer: c
+    explanation: 評価や手順書に入れると、新しいやり方が、毎日の仕事の「ふつう」になります。
+    reviewSection: 経営者が見るところ

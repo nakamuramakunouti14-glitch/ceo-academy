@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: accounting-03
+questions:
+  - id: accounting-03/q-depreciation-addback
+    prompt: 営業キャッシュフローを当期純利益から出すとき、減価償却費を足し戻すのはなぜですか。
+    choices:
+      - { id: a, label: "減価償却費には税金がかからないから" }
+      - { id: b, label: "費用として利益から引かれているが、その年に現金は出ていかないから" }
+      - { id: c, label: "減価償却費は売上の一部だから" }
+      - { id: d, label: "銀行から借りたお金だから" }
+    answer: b
+    explanation: 建物や設備の代金は、ふつう買った年に払い終えています。減価償却費は、その代金を毎年に分けた費用です。その年に現金は出ていかないので、利益に足し戻すと、現金の動きに近づきます。
+    reviewSection: 利益と現金はずれる
+  - id: accounting-03/q-section
+    prompt: 銀行への借金の返済は、CF のどの区分に入りますか。
+    choices:
+      - { id: a, label: "営業キャッシュフロー" }
+      - { id: b, label: "投資キャッシュフロー" }
+      - { id: c, label: "財務キャッシュフロー" }
+      - { id: d, label: "CF には出ない" }
+    answer: c
+    explanation: お金を借りる・返す、増資、配当は、財務キャッシュフローに入ります。返済は費用ではないので、PL には出ません。でも現金は出ていきます。
+    reviewSection: CF は3つに分ける
+  - id: accounting-03/q-free-cash-flow
+    prompt: みなと館ホテルの営業キャッシュフローは 8,700 万円、投資キャッシュフローは −6,000 万円です。フリーキャッシュフローはいくらですか。
+    choices:
+      - { id: a, label: "14,700 万円" }
+      - { id: b, label: "−1,800 万円" }
+      - { id: c, label: "3,500 万円" }
+      - { id: d, label: "2,700 万円" }
+    answer: d
+    explanation: フリーキャッシュフロー ＝ 営業 ＋ 投資 ＝ 8,700 − 6,000 ＝ 2,700 万円です。−1,800 万円は、財務キャッシュフローまで入れた現金の増減です。
+    reviewSection: みなと館ホテルの CF を読む
+  - id: accounting-03/q-kuroji-tousan
+    prompt: PL は黒字なのに現金が足りなくなる。その原因になりにくいものは、どれですか。
+    choices:
+      - { id: a, label: "売掛金の回収が遅れて、売上の現金がなかなか入らない" }
+      - { id: b, label: "減価償却費が大きい" }
+      - { id: c, label: "借金の返済額が、営業キャッシュフローより大きい" }
+      - { id: d, label: "大きな設備投資を、手元の現金で払った" }
+    answer: b
+    explanation: 減価償却費は、現金が出ていかない費用です。大きくても現金は減りません。むしろ、利益より現金が多くなる理由になります。ほかの3つは、利益が出ていても現金を減らします。
+    reviewSection: 利益と現金はずれる
+  - id: accounting-03/q-link
+    prompt: CF の合計（現金の増減）と同じになるのは、どれですか。
+    choices:
+      - { id: a, label: "PL の当期純利益" }
+      - { id: b, label: "BS の利益剰余金の増減" }
+      - { id: c, label: "BS の現金・預金の、前の年からの増減" }
+      - { id: d, label: "PL の営業利益" }
+    answer: c
+    explanation: CF は、現金の動きを区分ごとに集めたものです。なので合計は、BS の現金・預金の増減と同じになります。当期純利益（から配当を引いた額）と同じになるのは、利益剰余金の増減です。
+    reviewSection: 3つの表のつながり

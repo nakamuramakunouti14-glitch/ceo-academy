@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: it-dx-03
+questions:
+  - id: it-dx-03/q-goal
+    prompt: 情報セキュリティで守りたい2つのことは、どれですか。
+    choices:
+      - { id: a, label: "止まらないことと、漏れないこと" }
+      - { id: b, label: "速いことと、安いこと" }
+      - { id: c, label: "新しいことと、きれいなこと" }
+      - { id: d, label: "多いことと、大きいこと" }
+    answer: a
+    explanation: 予約やレジが止まらないことと、お客様の情報が漏れないことの2つを守ります。
+    reviewSection: 要点
+  - id: it-dx-03/q-ransomware
+    prompt: ランサムウェアの説明で、正しいのはどれですか。
+    choices:
+      - { id: a, label: "パソコンを速くするソフト" }
+      - { id: b, label: "新しいお客様を集める広告" }
+      - { id: c, label: "データを使えなくして、元に戻すかわりに身代金を求める攻撃" }
+      - { id: d, label: "パスワードを忘れたときの機能" }
+    answer: c
+    explanation: ランサムウェアは、データにかぎをかける（暗号化する）などして使えなくし、身代金を求めます。バックアップから戻せれば、被害を小さくできます。
+    reviewSection: 要点
+  - id: it-dx-03/q-mfa
+    prompt: パスワードに加えて、スマホに届くコードなどで本人を確かめる対策はどれですか。
+    choices:
+      - { id: a, label: "バックアップ" }
+      - { id: b, label: "2段階の確認（多要素認証）" }
+      - { id: c, label: "更新" }
+      - { id: d, label: "見られる人をしぼる" }
+    answer: b
+    explanation: パスワードが盗まれても、もう1つの確認ができなければ入れません。だから、乗っ取りを防げます。
+    reviewSection: 基本の5つ
+  - id: it-dx-03/q-backup
+    prompt: バックアップについて、このテーマが特に強く言っていることはどれですか。
+    choices:
+      - { id: a, label: "同じパソコンの中にだけ取ればよい" }
+      - { id: b, label: "年に1回取れば十分" }
+      - { id: c, label: "取るのはお金のむだ" }
+      - { id: d, label: "別の場所にも取り、本当に戻せるかを試しておく" }
+    answer: d
+    explanation: 同じ場所にしかないと、いっしょに使えなくなります。別の場所に取り、戻せることを確かめておくと、止まる期間を短くできます。
+    reviewSection: 止まったときの損を考える
+  - id: it-dx-03/q-leave
+    prompt: 従業員が辞めたときに、すぐするべきことはどれですか。
+    choices:
+      - { id: a, label: "その人のアカウントを止める" }
+      - { id: b, label: "パスワードをほかの人に引きついで、そのまま使う" }
+      - { id: c, label: "何もしない" }
+      - { id: d, label: "その人のアカウントをみんなで使う" }
+    answer: a
+    explanation: 辞めた人のアカウントが使えるままだと、外から入られる入口になります。辞める日に止めましょう。
+    reviewSection: 経営者が見るところ

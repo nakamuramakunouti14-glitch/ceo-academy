@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: governance-05
+questions:
+  - id: governance-05/q-comply
+    prompt: コーポレートガバナンス・コードの「コンプライ・オア・エクスプレイン」とは、どういう意味ですか。
+    choices:
+      - { id: a, label: "原則を守るか、守らない理由を十分に説明するかを選ぶ" }
+      - { id: b, label: "すべての原則を必ず守らなければ罰がある" }
+      - { id: c, label: "説明すれば何をしてもよい" }
+      - { id: d, label: "原則は上場しない会社だけが守る" }
+    answer: a
+    explanation: コードの各原則には法的な拘束力がありません。守らない原則があれば、その理由を、ひな型でなく丁寧に説明することが求められます。
+    reviewSection: 要点
+  - id: governance-05/q-principles
+    prompt: 2026年の改訂後の基本原則に入っていないものはどれですか。
+    choices:
+      - { id: a, label: "株主の権利・平等性の確保、株主との対話" }
+      - { id: b, label: "適切な情報開示と透明性の確保" }
+      - { id: c, label: "売上を毎年 10％ 増やすこと" }
+      - { id: d, label: "取締役会等の責務" }
+    answer: c
+    explanation: 基本原則は、株主の権利と対話、株主以外のステークホルダーとの協働、情報開示と透明性、取締役会等の責務の4つです。売上の目標は入っていません。
+    reviewSection: 4つの基本原則
+  - id: governance-05/q-number
+    prompt: プライム市場の上場会社が選ぶべき独立社外取締役の人数は、コードでどう書かれていますか。
+    choices:
+      - { id: a, label: "1名以上" }
+      - { id: b, label: "全員" }
+      - { id: c, label: "決まりはない" }
+      - { id: d, label: "少なくとも3分の1以上" }
+    answer: d
+    explanation: プライム市場は少なくとも3分の1以上、そのほかの市場は2名以上です。支配株主がいるプライム市場の会社は、少なくとも過半数です。
+    reviewSection: 独立社外取締役
+  - id: governance-05/q-role
+    prompt: コードが独立社外取締役に期待する役割に入るのはどれですか。
+    choices:
+      - { id: a, label: "毎日の店の運営を自分で指揮する" }
+      - { id: b, label: "会社と経営陣・支配株主との利益相反を監督する" }
+      - { id: c, label: "経営陣の決めたことに、いつも賛成する" }
+      - { id: d, label: "経理の仕訳を入力する" }
+    answer: b
+    explanation: 経営の監督、利益相反の監督、少数株主などの意見の反映、成長に向けた助言が期待されています。
+    reviewSection: 独立社外取締役
+  - id: governance-05/q-private
+    prompt: 上場していない会社がこのコードを使う考え方として、このテーマに合うのはどれですか。
+    choices:
+      - { id: a, label: "守らなければ罰がある" }
+      - { id: b, label: "上場していない会社には関係がないので読まない" }
+      - { id: c, label: "守る決まりはないが、取締役会の動かし方を見直す手がかりにする" }
+      - { id: d, label: "全文をそのまま社内規程にしなければならない" }
+    answer: c
+    explanation: コードは上場会社向けです。それでも、資料の早い配布や社外の目、独立した内部通報の窓口など、取り入れられる考え方があります。
+    reviewSection: 上場していない会社での使い方

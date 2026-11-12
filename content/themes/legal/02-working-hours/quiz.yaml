@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: legal-02
+questions:
+  - id: legal-02/q-legal-hours
+    prompt: 労働基準法で決まった働く時間（法定労働時間、休憩を除く）はどれですか。
+    choices:
+      - { id: a, label: "1日10時間・1週50時間" }
+      - { id: b, label: "1日7時間・1週35時間" }
+      - { id: c, label: "1日8時間・1週40時間" }
+      - { id: d, label: "決まりはない" }
+    answer: c
+    explanation: 労働基準法第32条で、法定労働時間は1日8時間・1週40時間です。
+    reviewSection: 要点
+  - id: legal-02/q-36
+    prompt: 法律で決まった時間を超えて残業してもらうために、要るものはどれですか。
+    choices:
+      - { id: a, label: "本人が口で「いいよ」と言うことだけ" }
+      - { id: b, label: "従業員の代表と36協定を結び、届け出ること" }
+      - { id: c, label: "社長の許可だけ" }
+      - { id: d, label: "何も要らない" }
+    answer: b
+    explanation: 時間外や休日に働いてもらうには、労働基準法第36条の協定（36協定）を結んで届け出る必要があります。協定があっても上限があります。
+    reviewSection: 要点
+  - id: legal-02/q-limit
+    prompt: 36協定のふつう（原則）の上限はどれですか。
+    choices:
+      - { id: a, label: "月 100 時間・年 1,200 時間" }
+      - { id: b, label: "月 80 時間・年 720 時間" }
+      - { id: c, label: "上限はない" }
+      - { id: d, label: "月 45 時間・年 360 時間" }
+    answer: d
+    explanation: 原則は月 45 時間・年 360 時間です。特別条項を使っても、時間外は年 720 時間以内などの上限があります。
+    reviewSection: 残業の上限
+  - id: legal-02/q-premium
+    prompt: 時給にすると 1,500 円の人が、月 20 時間残業しました（月 60 時間以内）。上乗せの率 25％ で計算すると、残業代はいくらですか。
+    choices:
+      - { id: a, label: "37,500 円" }
+      - { id: b, label: "30,000 円" }
+      - { id: c, label: "45,000 円" }
+      - { id: d, label: "7,500 円" }
+    answer: a
+    explanation: 1,500 円 × 1.25 × 20 時間 ＝ 37,500 円です。30,000 円は上乗せをしていない額、7,500 円は上乗せの部分だけです。
+    reviewSection: 割増賃金
+  - id: legal-02/q-industry
+    prompt: 宿泊業・飲食業と残業の上限について、2026-11-07 時点の厚生労働省の説明に合うのはどれですか。
+    choices:
+      - { id: a, label: "宿泊業・飲食業には上限が当てはまらない" }
+      - { id: b, label: "宿泊業・飲食業は、ふつうでも月 100 時間まで残業できる" }
+      - { id: c, label: "猶予・除外の業種に宿泊業・飲食業は入らず、ほかの業種と同じ上限が当てはまる" }
+      - { id: d, label: "忙しい時期は上限がなくなる" }
+    answer: c
+    explanation: 猶予・除外の業種は、建設業、自動車運転の仕事、医師、鹿児島県・沖縄県の砂糖づくりです。宿泊業・飲食業は入っていません。
+    reviewSection: 残業の上限

@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: marketing-03
+questions:
+  - id: marketing-03/q-ota-fee
+    prompt: 1泊 14,000 円の予約を、手数料 12％ の旅行サイトで売りました。手数料はいくらですか。
+    choices:
+      - { id: a, label: "120 円" }
+      - { id: b, label: "12,320 円" }
+      - { id: c, label: "1,680 円" }
+      - { id: d, label: "1,400 円" }
+    answer: c
+    explanation: 14,000 円 × 12％ ＝ 1,680 円です。手元に残るのは 12,320 円です。
+    reviewSection: 経路ごとの費用
+  - id: marketing-03/q-shift
+    prompt: 旅行サイト（1件 1,680 円）で売っていた 5,000 泊を、自分のホテルのサイト（1件 420 円）に移しました。営業利益はいくら増えますか。
+    choices:
+      - { id: a, label: "210 万円" }
+      - { id: b, label: "630 万円" }
+      - { id: c, label: "840 万円" }
+      - { id: d, label: "1,680 万円" }
+    answer: b
+    explanation: 1件あたりの差は 1,680 − 420 ＝ 1,260 円です。1,260 円 × 5,000 泊 ＝ 630 万円の費用が減ります。その分、営業利益が増えます。
+    reviewSection: 経路ごとの費用
+  - id: marketing-03/q-ltv
+    prompt: 1回 850 円の利益を、1年に 24 回、3年もたらしてくれるお客様の LTV はいくらですか。
+    choices:
+      - { id: a, label: "20,400 円" }
+      - { id: b, label: "2,550 円" }
+      - { id: c, label: "850 円" }
+      - { id: d, label: "61,200 円" }
+    answer: d
+    explanation: LTV ＝ 1回あたりの利益 × 1年の回数 × 年数 ＝ 850 × 24 × 3 ＝ 61,200 円です。20,400 円は1年分です。
+    reviewSection: 顧客生涯価値（LTV）
+  - id: marketing-03/q-ota-role
+    prompt: 旅行サイトとの付き合い方として、このテーマですすめているものはどれですか。
+    choices:
+      - { id: a, label: "はじめてのお客様の入口として使い、2回目からは直接予約してもらう" }
+      - { id: b, label: "手数料がかかるので、すぐにやめる" }
+      - { id: c, label: "すべての予約を旅行サイトに任せる" }
+      - { id: d, label: "旅行サイトだけ値段を下げる" }
+    answer: a
+    explanation: 旅行サイトは、遠くのお客様に見つけてもらう入口になります。やめるのではありません。リピートのお客様を直接予約に移して、手数料を減らします。
+    reviewSection: 経路ごとの費用
+  - id: marketing-03/q-acquisition
+    prompt: 新しいお客様を1人呼ぶ費用について、経営者が確かめることはどれですか。
+    choices:
+      - { id: a, label: "できるだけ 0 円に近いこと" }
+      - { id: b, label: "ライバルより多く使っていること" }
+      - { id: c, label: "その人の LTV より大きくなっていないこと" }
+      - { id: d, label: "売上高のちょうど 10％ であること" }
+    answer: c
+    explanation: 獲得費用が LTV より小さければ、呼ぶほど利益が増えます。LTV より大きいと、呼ぶほど損をします。
+    reviewSection: 経営者が見るところ

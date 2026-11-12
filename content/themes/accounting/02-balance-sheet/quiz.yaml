@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: accounting-02
+questions:
+  - id: accounting-02/q-equation
+    prompt: BS でいつも成り立つ式は、どれですか。
+    choices:
+      - { id: a, label: "資産 ＝ 負債 − 純資産" }
+      - { id: b, label: "資産 ＝ 売上高 − 費用" }
+      - { id: c, label: "資産 ＝ 負債 ＋ 純資産" }
+      - { id: d, label: "負債 ＝ 資産 ＋ 純資産" }
+    answer: c
+    explanation: 右側（負債と純資産）はお金の出どころで、左側（資産）はそのお金のいまの形です。同じお金を2つの目で見ているので、資産 ＝ 負債 ＋ 純資産 がいつも成り立ちます。
+    reviewSection: 左右がいつも同じになるわけ
+  - id: accounting-02/q-loan-side
+    prompt: 銀行から3億円を借りたすぐあと、BS はどう動きますか。
+    choices:
+      - { id: a, label: "資産の現金が3億円増えて、負債の借入金が3億円増える" }
+      - { id: b, label: "資産の現金が3億円増えて、純資産が3億円増える" }
+      - { id: c, label: "負債の借入金が3億円増えて、純資産が3億円減る" }
+      - { id: d, label: "PL の売上高が3億円増える" }
+    answer: a
+    explanation: 借りたお金は返さないといけないので、負債に入ります。受け取った現金は資産に入ります。左右が同じ額だけ動きます。借金は売上ではないので、PL には載りません。
+    reviewSection: 左右がいつも同じになるわけ
+  - id: accounting-02/q-equity-ratio
+    prompt: みなと館ホテルの純資産は 44,000 万円、資産の合計は 93,000 万円です。自己資本比率はおよそいくらですか。
+    choices:
+      - { id: a, label: "約 32％" }
+      - { id: b, label: "約 47％" }
+      - { id: c, label: "約 89％" }
+      - { id: d, label: "約 144％" }
+    answer: b
+    explanation: 自己資本比率は、純資産 ÷ 資産の合計 ＝ 44,000 ÷ 93,000 ≒ 47％ です。144％ は流動比率です。
+    reviewSection: 経営者が見るところ
+  - id: accounting-02/q-current-ratio
+    prompt: 流動比率（流動資産 ÷ 流動負債）が 100％ よりずっと低いとき、まず心配することはどれですか。
+    choices:
+      - { id: a, label: "売上が少ないこと" }
+      - { id: b, label: "建物が古いこと" }
+      - { id: c, label: "株主への配当が少ないこと" }
+      - { id: d, label: "1年以内の支払いに、手元のお金が足りなくなるおそれ" }
+    answer: d
+    explanation: 流動比率は、1年以内に払うお金（流動負債）を、1年以内に現金になる資産（流動資産）でまかなえるかを表します。100％ より低いと、お金のやりくり（資金繰り）が苦しくなるおそれがあります。
+    reviewSection: 経営者が見るところ
+  - id: accounting-02/q-snapshot
+    prompt: PL と BS のちがいとして、正しいものはどれですか。
+    choices:
+      - { id: a, label: "PL は1年間の動き、BS は決算日の残り高を表す" }
+      - { id: b, label: "PL は決算日の残り高、BS は1年間の動きを表す" }
+      - { id: c, label: "PL も BS も1年間の動きを表す" }
+      - { id: d, label: "BS は現金の動きだけを表す" }
+    answer: a
+    explanation: PL は1年間の成績（動画）です。BS はある1日の財産とお金の出どころ（写真）です。現金の動きを表すのは、キャッシュフロー計算書です。
+    reviewSection: BS は決算日の写真

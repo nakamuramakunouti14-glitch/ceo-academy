@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: finance-05
+questions:
+  - id: finance-05/q-claim
+    prompt: 税金も倒産の費用もない世界について、MM 定理は何と言っていますか。
+    choices:
+      - { id: a, label: "借入で集めても出資で集めても、会社の価値は変わらない" }
+      - { id: b, label: "借入をすればするほど、会社の価値は上がる" }
+      - { id: c, label: "出資だけで集めると、会社の価値が最も高くなる" }
+      - { id: d, label: "配当を多く払う会社ほど、価値が高い" }
+    answer: a
+    explanation: その世界では、会社の価値は事業がどれだけ稼ぐかで決まります。お金の集め方（借入と出資の割合）では変わりません。
+    reviewSection: 要点
+  - id: finance-05/q-who
+    prompt: MM 定理を考えた2人と、最初の論文の年の組み合わせはどれですか。
+    choices:
+      - { id: a, label: "キャプランとノートン、1992年" }
+      - { id: b, label: "マイヤーズとマジュフ、1984年" }
+      - { id: c, label: "モディリアーニとミラー、1958年" }
+      - { id: d, label: "モディリアーニとミラー、1992年" }
+    answer: c
+    explanation: フランコ・モディリアーニとマートン・ミラーが、1958年に American Economic Review で論文を出しました。
+    reviewSection: 誰が考えたか
+  - id: finance-05/q-pizza
+    prompt: 借入を増やすと、株主はどうするとされていますか。
+    choices:
+      - { id: a, label: "見返りを求めなくなる" }
+      - { id: b, label: "必ず株を売る" }
+      - { id: c, label: "銀行と同じ利息で満足する" }
+      - { id: d, label: "リスクが大きくなるので、もっと大きな見返りを求める" }
+    answer: d
+    explanation: 借入が増えると、利息を払ったあとの利益が大きくぶれます。株主のリスクが上がるので、求める見返りも上がります。
+    reviewSection: ピザのたとえ
+  - id: finance-05/q-tax
+    prompt: 4 億 4,000 万円を金利 1.5％ で借り、税率が 30％ のとき、利息で減る税金は1年でいくらですか。
+    choices:
+      - { id: a, label: "660 万円" }
+      - { id: b, label: "198 万円" }
+      - { id: c, label: "1,320 万円" }
+      - { id: d, label: "20 万円" }
+    answer: b
+    explanation: 利息は 44,000 万円 × 1.5％ ＝ 660 万円です。それが費用になるので、税金は 660 万円 × 30％ ＝ 198 万円減ります。
+    reviewSection: 税金を入れると
+  - id: finance-05/q-why-debt
+    prompt: 税金のある世界で、借入が出資より有利になる理由はどれですか。
+    choices:
+      - { id: a, label: "借入の利息は税金の計算で費用になり、税金が減るから" }
+      - { id: b, label: "借入は返さなくてよいから" }
+      - { id: c, label: "配当は税金の計算で費用になるから" }
+      - { id: d, label: "借入をすると売上が増えるから" }
+    answer: a
+    explanation: 利息は費用になるので、そのぶん法人税が減ります。配当は費用にならないので、税金は減りません。
+    reviewSection: 税金を入れると

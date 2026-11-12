@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: strategy-06
+questions:
+  - id: strategy-06/q-letters
+    prompt: VRIO の O は何を問いますか。
+    choices:
+      - { id: a, label: "その強みを生かすしくみが社内にあるか" }
+      - { id: b, label: "お客様の数が多いか" }
+      - { id: c, label: "値段が安いか" }
+      - { id: d, label: "海外でも使えるか" }
+    answer: a
+    explanation: O は組織です。価値があり、めずらしく、まねしにくい強みでも、生かすしくみがなければ使えません。
+    reviewSection: 要点
+  - id: strategy-06/q-bed
+    prompt: 新しいベッドは、VRIO で見るとどんな強みですか。
+    choices:
+      - { id: a, label: "長く続く強み" }
+      - { id: b, label: "どの問いにも当てはまらない、価値のないもの" }
+      - { id: c, label: "価値はあるが、ほかもすぐ買えるので、他社と同じ" }
+      - { id: d, label: "めずらしいが、価値がない" }
+    answer: c
+    explanation: ベッドはお客様に喜ばれますが、お金を出せばどこでも買えます。めずらしさもまねしにくさもないので、他社と同じです。
+    reviewSection: 4つの問いで点検する
+  - id: strategy-06/q-location
+    prompt: みなと館ホテルの強みのうち、4つの問いすべてに「はい」となったものはどれですか。
+    choices:
+      - { id: a, label: "新しいベッド" }
+      - { id: b, label: "料理長の魚料理" }
+      - { id: c, label: "広い駐車場" }
+      - { id: d, label: "港が見える立地" }
+    answer: d
+    explanation: 港が見える場所には、ほかのホテルが同じように建てられません。価値・めずらしさ・まねしにくさ・組織の4つがそろっています。
+    reviewSection: 4つの問いで点検する
+  - id: strategy-06/q-chef
+    prompt: 料理長の魚料理を、辞めても消えない強みにする手として、テーマで挙げていないものはどれですか。
+    choices:
+      - { id: a, label: "レシピと仕入れ先を書いて残す" }
+      - { id: b, label: "料理長の給料を下げる" }
+      - { id: c, label: "若い料理人を料理長の下で育てる" }
+      - { id: d, label: "予約ページで料理を大きく見せる" }
+    answer: b
+    explanation: 書いて残す、育てる、見せる、の3つが挙げた手です。給料を下げると、強みを持つ人が辞めてしまうおそれがあります。
+    reviewSection: 組織の問いがいちばん見落とされる
+  - id: strategy-06/q-barney
+    prompt: VRIO を考えたのは誰ですか。
+    choices:
+      - { id: a, label: "マイケル・ポーター" }
+      - { id: b, label: "ジェイ・バーニー" }
+      - { id: c, label: "エリヤフ・ゴールドラット" }
+      - { id: d, label: "デービッド・アーカー" }
+    answer: b
+    explanation: VRIO は、経営学者のジェイ・バーニーの考えです。会社が持つ資源から強みが生まれる、という見方にもとづいています。
+    reviewSection: 要点

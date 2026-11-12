@@ -1,0 +1,84 @@
+schemaVersion: 1
+# 地図の真ん中に置く分野。どの分野の判断も、最後はこの分野の 3 表で確かめる
+center: accounting
+fields:
+  - id: accounting
+    name: 財務（決算書の読み方）
+    short: 財務3表
+    order: 0
+    summary: PL・BS・キャッシュフローの3表。全分野の共通のものさし
+    howItShows: どの分野の判断も、最後はここ（PL・BS・キャッシュフロー）の数字で確かめます
+  - id: marketing
+    name: マーケティング
+    short: マーケティング
+    order: 1
+    summary: 誰に、何を、いくらで、どう届けるか
+    howItShows: 値段やお客様の選び方が、PL の売上と広告費を動かします
+  - id: operations
+    name: 現場の運営管理
+    short: 現場の運営管理
+    order: 2
+    summary: 稼働率・原価率・人時生産性で現場を数字で見る
+    howItShows: 稼働率や原価率など現場の数字が、PL の売上と費用の中身になります
+  - id: finance
+    name: ファイナンス（お金の集め方・株の持ち方）
+    short: ファイナンス
+    order: 3
+    summary: お金をどこから、どんな条件で集めるか
+    howItShows: 借りるか出資してもらうかで、BS の右側とキャッシュフローの財務の欄が変わります
+  - id: strategy
+    name: 経営戦略
+    short: 経営戦略
+    order: 4
+    summary: どこで戦い、どう勝つかを決める
+    howItShows: どこで戦うかで、出店や改装のお金（BS とキャッシュフローの投資の欄）が決まります
+  - id: hr
+    name: 人事・組織づくり
+    short: 人事・組織
+    order: 5
+    summary: 採用・育成・評価・配置で組織の力をつくる
+    howItShows: 採用・給料・辞める人の数が、PL のいちばん大きい費用（人件費）を動かします
+  - id: leadership
+    name: リーダーシップ・意思決定
+    short: リーダーシップ
+    order: 6
+    summary: 不確かな中で決め、人を動かす
+    howItShows: 決め方と任せ方で、ほかの分野の判断の速さと正しさが変わります
+  - id: legal
+    name: 法務
+    short: 法務
+    order: 7
+    summary: 契約・労務・会社のきまりで事業を守る
+    howItShows: 契約や働く時間のきまりを守らないと、あとから大きな支払い（PL の費用）が出てきます
+    requiresSources: true
+  - id: tax
+    name: 税務
+    short: 税務
+    order: 8
+    summary: 法人税・消費税の基本と、節税と脱税の線引き
+    howItShows: 税金は PL の最後の方で引かれ、払う月にはキャッシュフローの現金が減ります
+    requiresSources: true
+  - id: governance
+    name: ガバナンス・リスク管理
+    short: ガバナンス
+    order: 9
+    summary: 経営を見張るしくみと、起こりうる危機への備え
+    howItShows: 不正や事故を防ぐと、PL の思わぬ損と、信用の傷を小さくできます
+  - id: it-dx
+    name: IT・DX
+    short: IT・DX
+    order: 10
+    summary: IT への投資で、仕事のやり方と稼ぎ方を変える
+    howItShows: IT への投資は BS の資産に載り、減った作業時間は PL の人件費の減少になります
+  - id: ma
+    name: M&A・投資判断
+    short: M&A・投資判断
+    order: 11
+    summary: 買う・投資する価値があるかを数字で決める
+    howItShows: 買う・投資するかどうかを、毎年戻ってくる現金（キャッシュフロー）で決めます
+  - id: negotiation
+    name: 交渉・プレゼン
+    short: 交渉・プレゼン
+    order: 12
+    summary: 相手と合意をつくり、考えを伝える
+    howItShows: 家賃・仕入れ・金利の条件が、PL の費用の行を直接動かします

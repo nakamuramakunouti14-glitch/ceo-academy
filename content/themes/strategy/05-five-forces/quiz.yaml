@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: strategy-05
+questions:
+  - id: strategy-05/q-five
+    prompt: ポーターの5つの力に入らないものはどれですか。
+    choices:
+      - { id: a, label: "代わりになるもの" }
+      - { id: b, label: "社長の好み" }
+      - { id: c, label: "売り手（仕入先）の力" }
+      - { id: d, label: "新しく入ってくる会社" }
+    answer: b
+    explanation: 5つの力は、ライバルどうしの競争、新しく入る会社、代わりになるもの、買い手の力、売り手の力です。社長の好みは入りません。
+    reviewSection: 要点
+  - id: strategy-05/q-why
+    prompt: 5つの力が強い業界では、何が起きやすいですか。
+    choices:
+      - { id: a, label: "値段を上げやすくなる" }
+      - { id: b, label: "費用が必ず下がる" }
+      - { id: c, label: "業界のお客様がふえる" }
+      - { id: d, label: "値段を上げにくくなったり、費用が上がったりして、利益がへる" }
+    answer: d
+    explanation: 力が強いと、利益がお客様や仕入先、ライバルなどへ逃げていきます。手元に残る利益がへります。
+    reviewSection: 5つの力とは
+  - id: strategy-05/q-ota
+    prompt: 予約の多くが予約サイト（OTA）から来ていて、手数料を下げてもらえません。これは5つの力のどれが強い例ですか。
+    choices:
+      - { id: a, label: "買い手の力" }
+      - { id: b, label: "新しく入ってくる会社" }
+      - { id: c, label: "売り手の力" }
+      - { id: d, label: "代わりになるもの" }
+    answer: a
+    explanation: お客様とのあいだに立って値段や手数料を決める相手は、買い手の力として見ます。
+    reviewSection: 5つの力とは
+  - id: strategy-05/q-substitute
+    prompt: ホテルにとって「代わりになるもの」の例はどれですか。
+    choices:
+      - { id: a, label: "となりのチェーンのホテル" }
+      - { id: b, label: "リネンを洗う会社" }
+      - { id: c, label: "民泊" }
+      - { id: d, label: "予約サイト" }
+    answer: c
+    explanation: 民泊は、ホテルとは別の形で「泊まる」という用を足します。となりのホテルはライバル、洗濯の会社は売り手、予約サイトは買い手として見ます。
+    reviewSection: みなと館ホテルで考える
+  - id: strategy-05/q-supplier
+    prompt: リネンを洗う会社が町に1社しかありません。売り手の力を弱める手はどれですか。
+    choices:
+      - { id: a, label: "客室の値段を下げる" }
+      - { id: b, label: "別の町の会社にも頼めるようにしておく" }
+      - { id: c, label: "広告をふやす" }
+      - { id: d, label: "部屋の数をへらす" }
+    answer: b
+    explanation: 替えのきかない仕入先は、値段を上げやすい立場です。ほかに頼める先を持っておくと、力の差が小さくなります。
+    reviewSection: みなと館ホテルで考える

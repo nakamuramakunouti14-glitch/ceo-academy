@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: marketing-01
+questions:
+  - id: marketing-01/q-stp-order
+    prompt: STP の順番として、正しいものはどれですか。
+    choices:
+      - { id: a, label: "お客様を分ける → ねらう層を選ぶ → ライバルとくらべた立ち位置を決める" }
+      - { id: b, label: "立ち位置を決める → お客様を分ける → ねらう層を選ぶ" }
+      - { id: c, label: "ねらう層を選ぶ → 価格を決める → 広告を出す" }
+      - { id: d, label: "広告を出す → 反応を見る → お客様を分ける" }
+    answer: a
+    explanation: セグメンテーション（お客様を分ける）、ターゲティング（ねらう層を選ぶ）、ポジショニング（立ち位置を決める）の順に考えます。
+    reviewSection: 要点
+  - id: marketing-01/q-everyone
+    prompt: 「すべてのお客様に選ばれる店にする」という方針の問題として、いちばん当てはまるものはどれですか。
+    choices:
+      - { id: a, label: "広告費がかからなくなる" }
+      - { id: b, label: "客単価が必ず上がる" }
+      - { id: c, label: "誰にとっても「ほかの店でもいい店」になり、選ばれる理由がなくなる" }
+      - { id: d, label: "ライバルがまねできなくなる" }
+    answer: c
+    explanation: ほしいものがちがうお客様全員に合わせると、どの層にとっても一番にはなれません。ねらわない層を決めると、選ばれる理由がはっきりします。
+    reviewSection: 要点
+  - id: marketing-01/q-segment
+    prompt: ホテルのお客様を「出張」「観光」「記念日」に分けました。これはどの分け方ですか。
+    choices:
+      - { id: a, label: "予約のしかた" }
+      - { id: b, label: "使う目的" }
+      - { id: c, label: "価格の感じ方" }
+      - { id: d, label: "住んでいる地域" }
+    answer: b
+    explanation: 出張・観光・記念日は、泊まる目的のちがいで分けています。目的がちがうと、ほしい部屋、場所、サービスもちがいます。
+    reviewSection: お客様を分ける
+  - id: marketing-01/q-consistency
+    prompt: 高い価格帯の立ち位置をとると決めました。でも、客室だけ改装して、接客と料理は変えませんでした。何が起こりやすいですか。
+    choices:
+      - { id: a, label: "何も起こらない。客室が良ければ十分である" }
+      - { id: b, label: "稼働率が必ず上がる" }
+      - { id: c, label: "広告費が減る" }
+      - { id: d, label: "期待と体験が合わず、評判が下がって、高い値段を保てなくなる" }
+    answer: d
+    explanation: ポジショニングは、価格・設備・人・言葉をそろえて、はじめてお客様に伝わります。一部だけ高級にすると、高い期待に体験が追いつきません。そして評判が下がります。
+    reviewSection: 立ち位置を決める
+  - id: marketing-01/q-check
+    prompt: ねらう層を選ぶとき、経営者がまず確かめることはどれですか。
+    choices:
+      - { id: a, label: "社長の好みに合うか" }
+      - { id: b, label: "その層の人数と払える金額で、店や客室を埋められるか" }
+      - { id: c, label: "ライバルが1つもいないか" }
+      - { id: d, label: "はやっているか" }
+    answer: b
+    explanation: ねらう層が小さすぎると、どれだけ満足してもらっても売上が足りません。人数（市場の大きさ）と払える金額で、商売が成り立つかを確かめます。
+    reviewSection: 経営者が見るところ

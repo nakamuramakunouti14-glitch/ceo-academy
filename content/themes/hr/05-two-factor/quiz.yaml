@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: hr-05
+questions:
+  - id: hr-05/q-hygiene
+    prompt: 二要因理論で「衛生要因」に入るものはどれですか。
+    choices:
+      - { id: a, label: "仕事を任されること" }
+      - { id: b, label: "新しい技術を覚えること" }
+      - { id: c, label: "給料や働く環境" }
+      - { id: d, label: "お客様に認められること" }
+    answer: c
+    explanation: 給料や働く環境は、足りないと不満になる衛生要因です。任されること・成長・認められることは、動機づけ要因です。
+    reviewSection: 要点
+  - id: hr-05/q-raise-effect
+    prompt: 二要因理論では、衛生要因をよくすると、どうなると考えますか。
+    choices:
+      - { id: a, label: "不満は減るが、それだけではやる気は生まれにくい" }
+      - { id: b, label: "やる気が大きく上がる" }
+      - { id: c, label: "不満が増える" }
+      - { id: d, label: "何も変わらないので、手を入れなくてよい" }
+    answer: a
+    explanation: 衛生要因は不満を減らします。でも、やる気を生むのは、仕事そのものの面白さや責任などの動機づけ要因です。
+    reviewSection: 2つの要因を分ける
+  - id: hr-05/q-shokudo
+    prompt: うみかぜ食堂で、スタッフが自分から工夫するようになったきっかけはどれですか。
+    choices:
+      - { id: a, label: "時給を 50 円上げたこと" }
+      - { id: b, label: "休憩室を広くしたこと" }
+      - { id: c, label: "厳しい罰の決まりを作ったこと" }
+      - { id: d, label: "おすすめを決めさせ、仕込みを任せ、ほめ言葉を伝えたこと" }
+    answer: d
+    explanation: 時給を上げると不満の声は減りました。自分から動く人が出たのは、任せることや認めることを始めてからです。
+    reviewSection: うみかぜ食堂で考える
+  - id: hr-05/q-not-ignore
+    prompt: 「やる気は仕事そのものから生まれる」と聞いた経営者の考えとして、正しいものはどれですか。
+    choices:
+      - { id: a, label: "給料は相場より大きく低くてもかまわない" }
+      - { id: b, label: "衛生要因も手ぬきせず、そのうえで仕事を面白くする" }
+      - { id: c, label: "休みは減らしてもよい" }
+      - { id: d, label: "ほめれば、給料の不満はすべて消える" }
+    answer: b
+    explanation: 衛生要因が大きく劣ると、不満で人は辞めます。衛生要因を整えたうえで、動機づけ要因を足します。
+    reviewSection: 2つの要因を分ける
+  - id: hr-05/q-limit
+    prompt: 二要因理論の注意点として、このテーマが挙げているものはどれですか。
+    choices:
+      - { id: a, label: "ホテルの仕事だけを調べて作られた" }
+      - { id: b, label: "給料の大切さを否定している" }
+      - { id: c, label: "エンジニアと会計の仕事をする人への聞き取りから生まれ、どの仕事にもそのまま当てはまるとは限らない" }
+      - { id: d, label: "法律で使い方が決められている" }
+    answer: c
+    explanation: もとになった聞き取りの相手は、エンジニアと会計の仕事をする人でした。「満足」と「やる気」は同じではない、という批判もあります。
+    reviewSection: 気をつけること

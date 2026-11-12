@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: ma-02
+questions:
+  - id: ma-02/q-ebitda
+    prompt: 営業利益 6,000 万円、減価償却費 5,000 万円の会社です。EBITDA はいくらですか。
+    choices:
+      - { id: a, label: "1,000 万円" }
+      - { id: b, label: "6,000 万円" }
+      - { id: c, label: "30,000 万円" }
+      - { id: d, label: "11,000 万円" }
+    answer: d
+    explanation: EBITDA ＝ 営業利益 ＋ 減価償却費 ＝ 6,000 ＋ 5,000 ＝ 11,000 万円です。
+    reviewSection: みなと館ホテルの値段を見積もる
+  - id: ma-02/q-equity
+    prompt: 事業価値 77,000 万円、借入金 44,000 万円、現金 8,000 万円です。株式の値段はいくらですか。
+    choices:
+      - { id: a, label: "41,000 万円" }
+      - { id: b, label: "33,000 万円" }
+      - { id: c, label: "129,000 万円" }
+      - { id: d, label: "77,000 万円" }
+    answer: a
+    explanation: 株式の値段 ＝ 事業価値 − 借入金 ＋ 現金 ＝ 77,000 − 44,000 ＋ 8,000 ＝ 41,000 万円です。33,000 万円は、現金を足し忘れた額です。
+    reviewSection: みなと館ホテルの値段を見積もる
+  - id: ma-02/q-why-debt
+    prompt: 株式の値段を出すとき、借入金を引くのはなぜですか。
+    choices:
+      - { id: a, label: "借入金は売上だから" }
+      - { id: b, label: "株式を買うと、その会社の借入も引き継ぐから" }
+      - { id: c, label: "借入金は税金だから" }
+      - { id: d, label: "引く必要はない" }
+    answer: b
+    explanation: 株式を買えば、会社ごと手に入ります。借入の返済も、買い手のものになった会社が続けます。その分を、値段から引くのです。
+    reviewSection: 要点
+  - id: ma-02/q-multiple
+    prompt: EBITDA 11,000 万円の会社です。倍率が 7 倍から 6 倍に変わると、事業価値はいくら変わりますか。
+    choices:
+      - { id: a, label: "1,000 万円" }
+      - { id: b, label: "6,000 万円" }
+      - { id: c, label: "11,000 万円" }
+      - { id: d, label: "変わらない" }
+    answer: c
+    explanation: 倍率 1 倍分は、EBITDA と同じ 11,000 万円です。倍率の根拠しだいで、値段が大きく変わります。
+    reviewSection: みなと館ホテルの値段を見積もる
+  - id: ma-02/q-normal
+    prompt: 見積もりに使う EBITDA について、このテーマが気をつけていることはどれですか。
+    choices:
+      - { id: a, label: "その年だけの利益や費用をのぞいた、ふつうの年の数字で見る" }
+      - { id: b, label: "いちばんよかった年の数字を使う" }
+      - { id: c, label: "売上高をそのまま使う" }
+      - { id: d, label: "設備の入れかえの費用まで、すべて含んでいる" }
+    answer: a
+    explanation: その年だけの数字で見積もると、値段をまちがえます。また、EBITDA は先々の設備の入れかえの費用を見ていません。それは別に確かめます。
+    reviewSection: 経営者が見るところ

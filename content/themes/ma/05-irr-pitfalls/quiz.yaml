@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: ma-05
+questions:
+  - id: ma-05/q-define
+    prompt: IRR（内部収益率）の説明として、正しいものはどれですか。
+    choices:
+      - { id: a, label: "投資を取りもどすまでの年数" }
+      - { id: b, label: "投資の金額の合計" }
+      - { id: c, label: "NPV がちょうどゼロになる割引率" }
+      - { id: d, label: "借入の金利" }
+    answer: c
+    explanation: IRR は、NPV がゼロになる割引率です。「この投資は年何％で回るか」と考えるとわかりやすいです。a は回収期間です。
+    reviewSection: 要点
+  - id: ma-05/q-compare
+    prompt: 1,000 万円を投資し、5 年間、毎年 300 万円が戻ります。IRR は約 15.2％ です。集めたお金の費用が 5％ なら、どう判断しますか。
+    choices:
+      - { id: a, label: "IRR が費用より高いので、投資する価値がある" }
+      - { id: b, label: "IRR が費用より低いので、やめる" }
+      - { id: c, label: "IRR と費用はくらべられない" }
+      - { id: d, label: "回収期間が 5 年なので、やめる" }
+    answer: a
+    explanation: IRR 15.2％ は、集めたお金の費用 5％ より高いです。1つの案だけなら、NPV がプラスであることと同じ意味になります。
+    reviewSection: IRR を計算する
+  - id: ma-05/q-scale
+    prompt: どちらか1つしか選べない2つの案があります。A は IRR 30％・NPV 約 238 万円、B は IRR 15％・NPV 約 476 万円です。基本はどちらを選びますか。
+    choices:
+      - { id: a, label: "A。IRR が高いから" }
+      - { id: b, label: "どちらも選ばない" }
+      - { id: c, label: "A。投資の金額が小さいから" }
+      - { id: d, label: "B。生まれる価値（NPV）が大きいから" }
+    answer: d
+    explanation: IRR は割合なので、投資の大きさがわかりません。どちらか1つを選ぶときは、NPV の大きい B を選ぶのが基本です。
+    reviewSection: 落とし穴1：大きさを見ていない
+  - id: ma-05/q-multiple
+    prompt: IRR が2つ以上出てしまうことがあるのは、どんな計画ですか。
+    choices:
+      - { id: a, label: "最初に1回だけお金が出て、あとは毎年戻る計画" }
+      - { id: b, label: "途中で大きな支出があり、お金の向きが何度も変わる計画" }
+      - { id: c, label: "毎年同じ額が戻る計画" }
+      - { id: d, label: "投資の金額が小さい計画" }
+    answer: b
+    explanation: 出る → 戻る → また出る、と向きが何度も変わると、NPV がゼロになる割引率が2つ以上出ることがあります。そのときは NPV で判断します。
+    reviewSection: 落とし穴2：答えが2つ出ることがある
+  - id: ma-05/q-check
+    prompt: 投資ファンドの資料に「IRR 20％ が目標」と書かれていました。経営者として、あわせて確かめたいことはどれですか。
+    choices:
+      - { id: a, label: "ファンドの社員の人数" }
+      - { id: b, label: "資料のページ数" }
+      - { id: c, label: "投資の大きさと期間、そして NPV" }
+      - { id: d, label: "何も確かめなくてよい" }
+    answer: c
+    explanation: 同じ IRR でも、投資の大きさや期間で、生まれる価値は変わります。IRR だけでなく、NPV や金額もあわせて見ましょう。
+    reviewSection: 経営者が見るところ

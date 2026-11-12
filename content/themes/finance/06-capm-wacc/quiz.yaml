@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: finance-06
+questions:
+  - id: finance-06/q-capm
+    prompt: リスクのない金利 1％、β 1.2、市場のリスクの上乗せ 6％ のとき、CAPM で出す株主資本コストはいくつですか。
+    choices:
+      - { id: a, label: "7.0％" }
+      - { id: b, label: "1.2％" }
+      - { id: c, label: "6.0％" }
+      - { id: d, label: "8.2％" }
+    answer: d
+    explanation: 1％ ＋ 1.2 × 6％ ＝ 1％ ＋ 7.2％ ＝ 8.2％ です。
+    reviewSection: みなと館ホテルの WACC
+  - id: finance-06/q-beta
+    prompt: β（ベータ）が 1 より大きい会社の説明として、正しいものはどれですか。
+    choices:
+      - { id: a, label: "株全体より大きく株の値段が動き、株主はより大きな見返りを求める" }
+      - { id: b, label: "株の値段がまったく動かない" }
+      - { id: c, label: "借入がまったくない" }
+      - { id: d, label: "必ず赤字になる" }
+    answer: a
+    explanation: βは、株全体が動いたときに、その会社の株がどれだけ動くかです。1 より大きいほど景気の波を大きく受け、株主はそのぶん大きな見返りを求めます。
+    reviewSection: CAPM の考え方
+  - id: finance-06/q-wacc
+    prompt: 株主のお金 60％（費用 8.2％）、借入 40％（税金のあとの費用 1.4％）のとき、WACC はおよそいくつですか。
+    choices:
+      - { id: a, label: "約 9.6％" }
+      - { id: b, label: "約 5.5％" }
+      - { id: c, label: "約 4.8％" }
+      - { id: d, label: "約 1.4％" }
+    answer: b
+    explanation: 60％ × 8.2％ ＋ 40％ × 1.4％ ＝ 4.92％ ＋ 0.56％ ＝ 5.48％ で、約 5.5％ です。
+    reviewSection: みなと館ホテルの WACC
+  - id: finance-06/q-tax
+    prompt: WACC の計算で、借入の金利に（1 − 税率）をかけるのはなぜですか。
+    choices:
+      - { id: a, label: "借入は返さなくてよいから" }
+      - { id: b, label: "銀行が税金を払ってくれるから" }
+      - { id: c, label: "利息は税金の計算で費用になり、そのぶん税金が減るから" }
+      - { id: d, label: "株主の費用を小さく見せるため" }
+    answer: c
+    explanation: 利息が費用になると、法人税が減ります。借入の本当の費用は、減った税金の分だけ小さくなります。
+    reviewSection: みなと館ホテルの WACC
+  - id: finance-06/q-use
+    prompt: WACC の使い方として、正しいものはどれですか。
+    choices:
+      - { id: a, label: "売上高の目標にする" }
+      - { id: b, label: "従業員の人数を決める" }
+      - { id: c, label: "借入の金利そのものとして銀行に伝える" }
+      - { id: d, label: "NPV を計算するときの割引率にする" }
+    answer: d
+    explanation: WACC は、お金を出した人が期待する平均の利回りです。投資の NPV を計算するときの割引率に使います。
+    reviewSection: WACC の使い方

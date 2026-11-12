@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: leadership-06
+questions:
+  - id: leadership-06/q-first-step
+    prompt: コッターの8段階で、いちばん最初の段階はどれですか。
+    choices:
+      - { id: a, label: "最初の成果を出す" }
+      - { id: b, label: "危機感を高める" }
+      - { id: c, label: "根づかせる" }
+      - { id: d, label: "ビジョンを描く" }
+    answer: b
+    explanation: まず、変わらないと何が起きるかを事実で示し、危機感を高めます。
+    reviewSection: 8つの段階
+  - id: leadership-06/q-coalition
+    prompt: 「推進チームをつくる」の例として、よいものはどれですか。
+    choices:
+      - { id: a, label: "社長が1人で決めて進める" }
+      - { id: b, label: "外の会社にすべて任せる" }
+      - { id: c, label: "IT 担当だけで進める" }
+      - { id: d, label: "支配人と、フロント・清掃のリーダー、IT 担当でチームを作る" }
+    answer: d
+    explanation: 立場の違う人でチームを作ると、現場の事情もわかり、変化を引っぱる力が強くなります。
+    reviewSection: 8つの段階
+  - id: leadership-06/q-anchor
+    prompt: 「根づかせる」の段階で、することはどれですか。
+    choices:
+      - { id: a, label: "新しいやり方を、評価の項目や新人の研修に入れる" }
+      - { id: b, label: "古い手順書をそのまま残す" }
+      - { id: c, label: "推進チームを解散して、もう見ない" }
+      - { id: d, label: "危機感を高める" }
+    answer: a
+    explanation: 評価や研修に入れると、新しいやり方が、ふつうのやり方になります。
+    reviewSection: 8つの段階
+  - id: leadership-06/q-fail
+    prompt: 変化がとちゅうで失敗しやすいのは、どんなときですか。
+    choices:
+      - { id: a, label: "最初に事実で危機感を示したとき" }
+      - { id: b, label: "うまくいきやすい部署から始めたとき" }
+      - { id: c, label: "成果が1つ出たところで、早く「終わった」と言ったとき" }
+      - { id: d, label: "推進チームに現場のリーダーを入れたとき" }
+    answer: c
+    explanation: 早く手を止めると、元のやり方に戻ります。危機感がうすいまま進むのも、失敗のもとです。
+    reviewSection: 要点
+  - id: leadership-06/q-book
+    prompt: コッターの8段階の、もとになった本はどれですか。
+    choices:
+      - { id: a, label: "『影響力の武器』" }
+      - { id: b, label: "『ファスト＆スロー』" }
+      - { id: c, label: "『恐れのない組織』" }
+      - { id: d, label: "『Leading Change』（訳は『企業変革力』）" }
+    answer: d
+    explanation: コッターは 1996 年に『Leading Change』を出しました。訳は『企業変革力』（日経BP、2002 年）です。
+    reviewSection: 要点

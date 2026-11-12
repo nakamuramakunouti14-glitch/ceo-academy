@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: strategy-02
+questions:
+  - id: strategy-02/q-three
+    prompt: 基本の3つの戦い方に入らないものはどれですか。
+    choices:
+      - { id: a, label: "コストで勝つ" }
+      - { id: b, label: "違いで勝つ" }
+      - { id: c, label: "絞り込む" }
+      - { id: d, label: "すべてのお客様に、すべての価値を一番安く出す" }
+    answer: d
+    explanation: すべてを同時に一番にするのは、現実にはできません。3つの戦い方は、どこで一番になるかを選ぶ考え方です。
+    reviewSection: 要点
+  - id: strategy-02/q-middle
+    prompt: 中途半端な戦い方が危ないのはなぜですか。
+    choices:
+      - { id: a, label: "安さでも違いでも一番でないと、どちらのお客様にも選ばれないから" }
+      - { id: b, label: "法律で禁止されているから" }
+      - { id: c, label: "税金が高くなるから" }
+      - { id: d, label: "広告が出せなくなるから" }
+    answer: a
+    explanation: 安さを求めるお客様は、もっと安い店に行きます。違いを求めるお客様は、もっと特徴のある店に行きます。どちらでも一番でないと、選ばれる理由がなくなります。
+    reviewSection: 要点
+  - id: strategy-02/q-pl-shape
+    prompt: 「違いで勝つ」会社の PL に出やすい特徴はどれですか。
+    choices:
+      - { id: a, label: "単価が低く、費用もとても小さい" }
+      - { id: b, label: "売上高がない" }
+      - { id: c, label: "単価が高く、売上総利益率が高い" }
+      - { id: d, label: "営業外収益が大きい" }
+    answer: c
+    explanation: ほかにない価値で高く売るので、単価と売上総利益率が高くなります。単価が低く費用が小さいのは、コストで勝つ会社の形です。
+    reviewSection: 3つの戦い方
+  - id: strategy-02/q-minatokan
+    prompt: みなと館ホテルに、このテーマですすめている道はどれですか。
+    choices:
+      - { id: a, label: "チェーンより安く運営して、値段で勝つ" }
+      - { id: b, label: "港町を味わいたい観光客に絞り込み、地元の魚料理という違いで勝つ" }
+      - { id: c, label: "外資系ホテルと同じ設備をそろえる" }
+      - { id: d, label: "出張のお客様と観光客の両方に、同じように売る" }
+    answer: b
+    explanation: 80室の大きさでは、チェーンより安くするのも、外資系と同じ設備をそろえるのも難しいです。せまい客層に絞り、自社の強みで違いを出します。
+    reviewSection: みなと館ホテルはどれを選ぶか
+  - id: strategy-02/q-imitate
+    prompt: 競合にまねされにくい違いはどれですか。
+    choices:
+      - { id: a, label: "新しいベッド" }
+      - { id: b, label: "大きなテレビ" }
+      - { id: c, label: "長く育ててきた料理人と、地元の漁師とのつながり" }
+      - { id: d, label: "値下げ" }
+    answer: c
+    explanation: 設備や値下げは、お金があればすぐまねできます。人や地域とのつながりは、時間をかけて作るものです。だから、まねされにくいのです。
+    reviewSection: 経営者が見るところ

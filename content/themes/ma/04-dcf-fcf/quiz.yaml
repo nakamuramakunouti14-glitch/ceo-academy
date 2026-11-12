@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: ma-04
+questions:
+  - id: ma-04/q-fcf
+    prompt: フリーキャッシュフロー（FCF）の説明として、正しいものはどれですか。
+    choices:
+      - { id: a, label: "PL の売上高そのもの" }
+      - { id: b, label: "BS の現金・預金の残高" }
+      - { id: c, label: "その年の当期純利益と同じ金額" }
+      - { id: d, label: "本業で生んだ現金から、設備の投資などを引いた、自由に使えるお金" }
+    answer: d
+    explanation: FCF は、借入の返済や配当に回せる、自由に使えるお金です。利益とも現金の残高とも違います。
+    reviewSection: 要点
+  - id: ma-04/q-calc
+    prompt: 税金を引いた営業利益 4,200、減価償却費 5,000、設備投資 5,000、運転資金の増加 200（単位は万円）のとき、FCF はいくらですか。
+    choices:
+      - { id: a, label: "4,200 万円" }
+      - { id: b, label: "4,000 万円" }
+      - { id: c, label: "9,200 万円" }
+      - { id: d, label: "14,400 万円" }
+    answer: b
+    explanation: 4,200 ＋ 5,000 − 5,000 − 200 ＝ 4,000 万円です。
+    reviewSection: FCF を計算する
+  - id: ma-04/q-value
+    prompt: FCF 4,000 万円が毎年ずっと続き、割引率が 5％ のとき、会社全体の値段（事業価値）はいくらですか。
+    choices:
+      - { id: a, label: "20,000 万円" }
+      - { id: b, label: "4,200 万円" }
+      - { id: c, label: "80,000 万円" }
+      - { id: d, label: "200 万円" }
+    answer: c
+    explanation: ずっと同じ額が続くときは、FCF ÷ 割引率 で出せます。4,000 ÷ 5％ ＝ 80,000 万円です。
+    reviewSection: 割り引いて会社の値段を出す
+  - id: ma-04/q-rate
+    prompt: 割引率が 5％ から 6％ に上がると、DCF 法で出す会社の値段はどうなりますか。
+    choices:
+      - { id: a, label: "下がる" }
+      - { id: b, label: "上がる" }
+      - { id: c, label: "変わらない" }
+      - { id: d, label: "必ずゼロになる" }
+    answer: a
+    explanation: 割引率が上がると、将来のお金の今の価値が小さくなります。みなと館ホテルの例では、80,000 万円から約 66,700 万円に下がります。
+    reviewSection: 割り引いて会社の値段を出す
+  - id: ma-04/q-capex
+    prompt: ホテルの DCF 法で、特に気をつけることはどれですか。
+    choices:
+      - { id: a, label: "売上高を必ず小さく見積もる" }
+      - { id: b, label: "減価償却費を FCF から引く" }
+      - { id: c, label: "割引率は 0％ にする" }
+      - { id: d, label: "建物や設備の入れかえにかかる投資を、小さく見積もらない" }
+    answer: d
+    explanation: 設備投資を小さく見積もると、FCF が大きく見え、会社の値段も高く出てしまいます。ホテルは設備の入れかえにお金がかかるので、特に気をつけます。
+    reviewSection: 経営者が見るところ

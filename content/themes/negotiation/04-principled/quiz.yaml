@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: negotiation-04
+questions:
+  - id: negotiation-04/q-principles
+    prompt: ハーバード流交渉術の4つの原則に入らないものはどれですか。
+    choices:
+      - { id: a, label: "人と問題を分ける" }
+      - { id: b, label: "立場ではなく、利害に目を向ける" }
+      - { id: c, label: "最初に強く出て、相手をおどす" }
+      - { id: d, label: "だれもが納得できる基準を使う" }
+    answer: c
+    explanation: 4つの原則は、人と問題を分ける、利害に目を向ける、得になる案を作る、基準を使う、です。おどしは入りません。
+    reviewSection: 要点
+  - id: negotiation-04/q-interest
+    prompt: 「利害」の説明として、正しいものはどれですか。
+    choices:
+      - { id: a, label: "「いくらにしてほしい」という言い分" }
+      - { id: b, label: "交渉に勝った方の得" }
+      - { id: c, label: "契約書の条文" }
+      - { id: d, label: "言い分の裏にある、本当の望みや心配" }
+    answer: d
+    explanation: 「いくらにしてほしい」は立場です。その裏にある理由や心配が利害です。
+    reviewSection: 要点
+  - id: negotiation-04/q-ask-why
+    prompt: 酒屋さんに「1割値上げしたい」と言われました。最初にすることとして、よいものはどれですか。
+    choices:
+      - { id: a, label: "すぐに断る" }
+      - { id: b, label: "なぜ値上げしたいのか、理由を聞く" }
+      - { id: c, label: "まん中の 5％ で手を打つ" }
+      - { id: d, label: "ほかの酒屋さんに変えると言う" }
+    answer: b
+    explanation: 理由（利害）を聞くと、値段のほかに動かせる条件が見つかります。
+    reviewSection: 4つの原則
+  - id: negotiation-04/q-criteria
+    prompt: 「だれもが納得できる基準」の例はどれですか。
+    choices:
+      - { id: a, label: "ガソリン代の上がり具合や、まわりの店の仕入れ値" }
+      - { id: b, label: "どちらの声が大きいか" }
+      - { id: c, label: "先に言い出した方の数字" }
+      - { id: d, label: "社長の気分" }
+    answer: a
+    explanation: 相場や数字のように、どちらの言い分でもない物差しを使うと、言い合いになりにくいです。
+    reviewSection: 4つの原則
+  - id: negotiation-04/q-book
+    prompt: ハーバード流交渉術のもとになった本について、正しいものはどれですか。
+    choices:
+      - { id: a, label: "カーネマンが 2011 年に書いた" }
+      - { id: b, label: "コッターが 1996 年に書いた" }
+      - { id: c, label: "チャルディーニが 1984 年に書いた" }
+      - { id: d, label: "フィッシャーとユーリーが 1981 年に書いた『Getting to Yes』" }
+    answer: d
+    explanation: 『Getting to Yes』は 1981 年に出ました。訳は『ハーバード流交渉術』です。
+    reviewSection: 要点

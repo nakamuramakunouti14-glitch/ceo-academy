@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: accounting-05
+questions:
+  - id: accounting-05/q-fixed
+    prompt: 次のうち、固定費にあたるものはどれですか。
+    choices:
+      - { id: a, label: "食材の仕入れ" }
+      - { id: b, label: "予約サイトの手数料" }
+      - { id: c, label: "お店の家賃" }
+      - { id: d, label: "飲み物の仕入れ" }
+    answer: c
+    explanation: 家賃は、お客様が来ても来なくても同じ額がかかるので固定費です。仕入れや手数料は、お客様が増えると増えるので変動費です。
+    reviewSection: 固定費と変動費に分ける
+  - id: accounting-05/q-bep-sales
+    prompt: 固定費が月 390 万円、限界利益率が 65％ です。損益分岐点売上高はいくらですか。
+    choices:
+      - { id: a, label: "600 万円" }
+      - { id: b, label: "253.5 万円" }
+      - { id: c, label: "455 万円" }
+      - { id: d, label: "390 万円" }
+    answer: a
+    explanation: 損益分岐点売上高 ＝ 固定費 ÷ 限界利益率 ＝ 390 ÷ 65％ ＝ 600 万円です。
+    reviewSection: うみかぜ食堂で計算する
+  - id: accounting-05/q-margin
+    prompt: 客単価 2,000 円、1人あたりの変動費が 700 円です。1人あたりの限界利益はいくらですか。
+    choices:
+      - { id: a, label: "2,700 円" }
+      - { id: b, label: "700 円" }
+      - { id: c, label: "2,000 円" }
+      - { id: d, label: "1,300 円" }
+    answer: d
+    explanation: 限界利益 ＝ 売上 − 変動費 ＝ 2,000 − 700 ＝ 1,300 円です。この 1,300 円で固定費をまかないます。
+    reviewSection: うみかぜ食堂で計算する
+  - id: accounting-05/q-safety
+    prompt: 売上が 750 万円、損益分岐点売上高が 600 万円です。安全余裕率はいくつですか。
+    choices:
+      - { id: a, label: "80％" }
+      - { id: b, label: "20％" }
+      - { id: c, label: "25％" }
+      - { id: d, label: "150％" }
+    answer: b
+    explanation: 安全余裕率 ＝（売上 − 損益分岐点売上高）÷ 売上 ＝（750 − 600）÷ 750 ＝ 20％ です。売上が 2割より多く落ちると赤字になります。
+    reviewSection: うみかぜ食堂で計算する
+  - id: accounting-05/q-target
+    prompt: 固定費 390 万円、限界利益率 65％ の店で、月 130 万円の利益を出すには、売上がいくら必要ですか。
+    choices:
+      - { id: a, label: "800 万円" }
+      - { id: b, label: "600 万円" }
+      - { id: c, label: "520 万円" }
+      - { id: d, label: "700 万円" }
+    answer: a
+    explanation: 目標の売上 ＝（固定費 ＋ 目標の利益）÷ 限界利益率 ＝（390 ＋ 130）÷ 65％ ＝ 800 万円です。
+    reviewSection: 損益分岐点を下げる3つの方法

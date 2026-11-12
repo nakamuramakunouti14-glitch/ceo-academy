@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: marketing-05
+questions:
+  - id: marketing-05/q-start
+    prompt: サービス・プロフィット・チェーンで、くさりの前のほう（お客様より先）にあるのはどれですか。
+    choices:
+      - { id: a, label: "広告をふやすこと" }
+      - { id: b, label: "値段を下げること" }
+      - { id: c, label: "部屋をふやすこと" }
+      - { id: d, label: "働く人の満足" }
+    answer: d
+    explanation: くさりは、社内のしくみが整い、働く人が満足するところから始まります。そこから、辞めない・サービスの質・お客様の満足とリピート・利益へとつながります。
+    reviewSection: 要点
+  - id: marketing-05/q-order
+    prompt: くさりの順番として正しいものはどれですか。
+    choices:
+      - { id: a, label: "働く人の満足 → サービスの質 → お客様のリピート → 利益" }
+      - { id: b, label: "利益 → 働く人の満足 → サービスの質 → お客様のリピート" }
+      - { id: c, label: "お客様のリピート → 利益 → 働く人の満足 → サービスの質" }
+      - { id: d, label: "サービスの質 → 利益 → お客様のリピート → 働く人の満足" }
+    answer: a
+    explanation: 働く人が満足して残ると、サービスの質が上がります。するとお客様がまた来て、利益がふえます。
+    reviewSection: くさりの輪を順に見る
+  - id: marketing-05/q-minatokan
+    prompt: みなと館ホテルで、リピートがへっていた一番の原因はどれですか。
+    choices:
+      - { id: a, label: "部屋の値段が高すぎた" }
+      - { id: b, label: "フロントの人がたくさん辞めて、常連のお客様を覚えた人がいなくなった" }
+      - { id: c, label: "近くに新しいホテルができた" }
+      - { id: d, label: "朝ごはんの量が少なかった" }
+    answer: b
+    explanation: フロントの人が1年で半分辞め、常連のお客様の顔と名前がわかる人がへりました。くさりの最初の輪が切れていました。
+    reviewSection: みなと館ホテルで考える
+  - id: marketing-05/q-time
+    prompt: 働く人への投資について、正しいものはどれですか。
+    choices:
+      - { id: a, label: "次の日には利益がふえる" }
+      - { id: b, label: "PL には出てこない" }
+      - { id: c, label: "先に費用として出て、利益になるまでには時間がかかる" }
+      - { id: d, label: "お客様の満足とは関係がない" }
+    answer: c
+    explanation: 道具の入れかえや休みのしくみには、先にお金がかかります。辞める人がへり、リピートがふえて利益になるまでには、何か月かかかります。
+    reviewSection: 気をつけること
+  - id: marketing-05/q-measure
+    prompt: くさりがどこで切れているかを確かめるには、どうしますか。
+    choices:
+      - { id: a, label: "利益だけを見る" }
+      - { id: b, label: "スタッフの満足度、口コミの点数、リピートの割合を続けて記録する" }
+      - { id: c, label: "社長の感覚で決める" }
+      - { id: d, label: "ライバルの値段だけを見る" }
+    answer: b
+    explanation: 最後の利益だけを見ても、どの輪が弱いかはわかりません。途中の輪も数字で見て、切れている場所をさがします。
+    reviewSection: 経営者が見るところ

@@ -1,0 +1,38 @@
+{
+  "name": "ceo-academy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NEXT_TELEMETRY_DISABLED=1 next dev --webpack -p 3210",
+    "build": "NEXT_TELEMETRY_DISABLED=1 next build --webpack",
+    "build:pages": "NEXT_TELEMETRY_DISABLED=1 STATIC_EXPORT=1 BASE_PATH=/ceo-academy next build --webpack && touch out/.nojekyll",
+    "start": "NEXT_TELEMETRY_DISABLED=1 next start -p 3210",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "vitest run",
+    "content:check": "vitest run tests/content.test.ts"
+  },
+  "dependencies": {
+    "dexie": "4.4.7",
+    "next": "16.4.3",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remark-gfm": "4.0.1",
+    "remark-parse": "11.0.0",
+    "ts-fsrs": "5.4.2",
+    "unified": "11.0.5",
+    "yaml": "2.8.4",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/mdast": "4.0.4",
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "fake-indexeddb": "6.2.7",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3",
+    "vitest": "5.0.5"
+  },
+  "license": "UNLICENSED"
+}

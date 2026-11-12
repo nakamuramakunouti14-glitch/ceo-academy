@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: operations-01
+questions:
+  - id: operations-01/q-occupancy
+    prompt: 80室のホテルで、ある日 60 室が売れました。稼働率は何％ですか。
+    choices:
+      - { id: a, label: "75％" }
+      - { id: b, label: "60％" }
+      - { id: c, label: "80％" }
+      - { id: d, label: "133％" }
+    answer: a
+    explanation: 稼働率 ＝ 売れた部屋の数 ÷ 売れる部屋の数 ＝ 60 ÷ 80 ＝ 75％ です。
+    reviewSection: 要点
+  - id: operations-01/q-adr
+    prompt: 客室の売上が 90 万円で、売れた部屋は 60 室でした。客室単価（ADR）はいくらですか。
+    choices:
+      - { id: a, label: "11,250 円" }
+      - { id: b, label: "9,000 円" }
+      - { id: c, label: "15,000 円" }
+      - { id: d, label: "16,000 円" }
+    answer: c
+    explanation: ADR ＝ 客室の売上 ÷ 売れた部屋の数 ＝ 90 万円 ÷ 60 室 ＝ 15,000 円です。売れる部屋の数（80室）で割ると、RevPAR（11,250 円）になります。
+    reviewSection: 3つの数字を計算する
+  - id: operations-01/q-revpar
+    prompt: 稼働率 75％、客室単価 16,000 円のとき、RevPAR はいくらですか。
+    choices:
+      - { id: a, label: "16,000 円" }
+      - { id: b, label: "12,000 円" }
+      - { id: c, label: "21,333 円" }
+      - { id: d, label: "4,000 円" }
+    answer: b
+    explanation: RevPAR ＝ 稼働率 × 客室単価 ＝ 0.75 × 16,000 ＝ 12,000 円です。
+    reviewSection: 要点
+  - id: operations-01/q-compare
+    prompt: A 案は稼働率 95％・値段 11,000 円、B 案は稼働率 80％・値段 14,000 円です。客室の稼ぎが多いのはどちらですか。
+    choices:
+      - { id: a, label: "A 案。満室に近いから" }
+      - { id: b, label: "同じ" }
+      - { id: c, label: "くらべられない" }
+      - { id: d, label: "B 案。RevPAR が 11,200 円で、A 案の 10,450 円より高いから" }
+    answer: d
+    explanation: RevPAR は、A が 0.95 × 11,000 ＝ 10,450 円、B が 0.8 × 14,000 ＝ 11,200 円です。さらに B は売れた部屋が少ないので、そうじなどの費用も少なくなります。
+    reviewSection: どちらの案がよいか
+  - id: operations-01/q-trap
+    prompt: 「稼働率が 95％ なので、経営は順調だ」という考えの問題点はどれですか。
+    choices:
+      - { id: a, label: "稼働率は 100％ でないと意味がないから" }
+      - { id: b, label: "安く売って埋めているだけなら、売上も利益も少ないことがあるから" }
+      - { id: c, label: "稼働率は PL に関係ないから" }
+      - { id: d, label: "稼働率は毎日変わるから" }
+    answer: b
+    explanation: 稼働率は、値段を見ていません。値下げで埋めた満室は、RevPAR も利益も低いことがあります。稼働率と値段をいっしょに見ましょう。
+    reviewSection: どちらの案がよいか

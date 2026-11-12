@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: hr-06
+questions:
+  - id: hr-06/q-compare
+    prompt: 公平理論で、人が不公平を感じるのはどんなときですか。
+    choices:
+      - { id: a, label: "給料が去年より少しでも上がらなかったとき" }
+      - { id: b, label: "自分の出したものと受け取ったものの釣り合いが、ほかの人とくらべて取れていないとき" }
+      - { id: c, label: "会社の売上が下がったとき" }
+      - { id: d, label: "仕事が忙しいとき" }
+    answer: b
+    explanation: 公平理論では、自分の釣り合いを、ほかの人の釣り合いとくらべて判断します。
+    reviewSection: 要点
+  - id: hr-06/q-input
+    prompt: 公平理論で「出したもの」に入るのはどれですか。
+    choices:
+      - { id: a, label: "給料" }
+      - { id: b, label: "賞与" }
+      - { id: c, label: "休み" }
+      - { id: d, label: "経験や努力" }
+    answer: d
+    explanation: 出したものは、時間・経験・腕前・努力などです。給料・賞与・休みは、受け取ったものです。
+    reviewSection: 要点
+  - id: hr-06/q-reaction
+    prompt: 不公平だと感じた人がとる行動として、このテーマが挙げているものはどれですか。
+    choices:
+      - { id: a, label: "頑張りを減らしたり、辞めたりする" }
+      - { id: b, label: "必ず社長に直接うったえる" }
+      - { id: c, label: "何もしない" }
+      - { id: d, label: "ほかの人の給料を下げるよう頼む" }
+    answer: a
+    explanation: 釣り合いを取りもどそうとして、頑張りを減らす、仕事の質を下げる、見方を変える、辞める、などをします。
+    reviewSection: 要点
+  - id: hr-06/q-veteran
+    prompt: 新人に仕事を教えているベテランのパートが、不公平を感じています。いちばんよい手はどれですか。
+    choices:
+      - { id: a, label: "教えるのをやめてもらう" }
+      - { id: b, label: "新人の社員の給料を下げる" }
+      - { id: c, label: "教える仕事を評価や手当で認め、待遇の差の理由も説明する" }
+      - { id: d, label: "気にしないように言う" }
+    answer: c
+    explanation: 出したもの（教えること）を認め、差の理由を言葉にすると、不公平感がへります。
+    reviewSection: 不公平感をへらす
+  - id: hr-06/q-feel
+    prompt: 公平理論で、とくに大切だとされているのはどれですか。
+    choices:
+      - { id: a, label: "全員の給料を同じにすること" }
+      - { id: b, label: "本人が公平だと感じるかどうか" }
+      - { id: c, label: "給料をできるだけ秘密にすること" }
+      - { id: d, label: "差をつけないこと" }
+    answer: b
+    explanation: 本当の差より、本人の感じ方が行動を決めます。だから、差の理由を説明して、しくみを見えるようにします。
+    reviewSection: 要点

@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: operations-06
+questions:
+  - id: operations-06/q-idea
+    prompt: 制約理論（TOC）の考え方として正しいものはどれですか。
+    choices:
+      - { id: a, label: "全部の工程を同じだけよくすると、全体がいちばんよくなる" }
+      - { id: b, label: "全体の出来高は、いちばん詰まるところで決まる" }
+      - { id: c, label: "人をふやせば、いつでも売上がふえる" }
+      - { id: d, label: "いちばん速い工程に合わせて、ほかを急がせる" }
+    answer: b
+    explanation: びんの首が細いと、中身はその細さでしか出てきません。全体の出来高は、いちばん詰まるところで決まります。
+    reviewSection: 要点
+  - id: operations-06/q-order
+    prompt: 5つの手順で、「人や道具を足す（強くする）」はいつ行いますか。
+    choices:
+      - { id: a, label: "いちばん最初" }
+      - { id: b, label: "詰まりを見つける前" }
+      - { id: c, label: "見つける・使いきる・ほかを合わせる、をやったあと" }
+      - { id: d, label: "やってはいけない" }
+    answer: c
+    explanation: お金をかけるのは、詰まりを見つけ、目いっぱい使い、ほかを合わせてからです。それでも足りないときに強くします。
+    reviewSection: 5つの手順
+  - id: operations-06/q-exploit
+    prompt: 朝ごはんで卵料理のコーナーに行列ができています。「使いきる」にあたる手はどれですか。
+    choices:
+      - { id: a, label: "卵を焼く人に、皿洗いをさせない" }
+      - { id: b, label: "焼く台をすぐに3つ買う" }
+      - { id: c, label: "コーヒーの機械を新しくする" }
+      - { id: d, label: "朝ごはんの時間を短くする" }
+    answer: a
+    explanation: お金をかけずに、詰まりの力を目いっぱい使うのが「使いきる」です。焼く人を焼くことに集中させます。
+    reviewSection: 5つの手順
+  - id: operations-06/q-umikaze
+    prompt: うみかぜ食堂のお昼のピークで、本当の詰まりはどこでしたか。
+    choices:
+      - { id: a, label: "ホールの人数" }
+      - { id: b, label: "レジ" }
+      - { id: c, label: "入口の案内" }
+      - { id: d, label: "1つしかない揚げ物の台" }
+    answer: d
+    explanation: 注文は揚げ物の台で止まっていました。ホールの人をふやしても、料理が出てくる速さは変わりません。
+    reviewSection: うみかぜ食堂で考える
+  - id: operations-06/q-move
+    prompt: 詰まりを1つ直したあと、どうしますか。
+    choices:
+      - { id: a, label: "もう見直さなくてよい" }
+      - { id: b, label: "新しく詰まったところを見つけるため、1にもどる" }
+      - { id: c, label: "直したところに、さらに人を足す" }
+      - { id: d, label: "全部の工程に同じだけ人を足す" }
+    answer: b
+    explanation: 1つ直すと、詰まりは別のところに動きます。手順の1にもどって、くり返し見直します。
+    reviewSection: 経営者が見るところ

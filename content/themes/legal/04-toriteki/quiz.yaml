@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: legal-04
+questions:
+  - id: legal-04/q-start
+    prompt: 取適法（下請法を改正した法律）は、いつ施行されましたか。
+    choices:
+      - { id: a, label: "2024年4月1日" }
+      - { id: b, label: "2026年1月1日" }
+      - { id: c, label: "2026年10月1日" }
+      - { id: d, label: "まだ施行されていない" }
+    answer: b
+    explanation: 取適法は 2026年1月1日に施行されました。下請法を改正し、名前も変わりました。
+    reviewSection: 要点
+  - id: legal-04/q-employees
+    prompt: 役務提供委託（一部をのぞく）で、資本金の基準に当たらないとき、頼む側が対象になる従業員数の基準はどれですか。
+    choices:
+      - { id: a, label: "いつも使う従業員が 50 人を超える" }
+      - { id: b, label: "いつも使う従業員が 300 人を超える" }
+      - { id: c, label: "いつも使う従業員が 100 人を超え、相手が 100 人以下か個人" }
+      - { id: d, label: "従業員数は関係ない" }
+    answer: c
+    explanation: 改正で従業員数の基準が加わりました。役務提供委託など（一部をのぞく）は 100 人、製造委託などは 300 人が境目です。
+    reviewSection: 対象になるかどうか
+  - id: legal-04/q-pay
+    prompt: 取適法で、支払期日はどう決めますか。
+    choices:
+      - { id: a, label: "受け取った日から 60 日以内で、できるだけ短くする" }
+      - { id: b, label: "受け取った日から 90 日以内" }
+      - { id: c, label: "決算日までに払えばよい" }
+      - { id: d, label: "相手と合意すれば何日でもよい" }
+    answer: a
+    explanation: 第3条で、受け取った日から数えて 60 日以内の、できるだけ短い期間で支払期日を決めます。決めなかったときは、受け取った日が支払期日とみなされます。
+    reviewSection: 要点
+  - id: legal-04/q-price
+    prompt: 取引先から「材料費が上がったので値段を相談したい」と言われました。取適法で禁止されているのはどれですか。
+    choices:
+      - { id: a, label: "相談の日を決めて話し合う" }
+      - { id: b, label: "値上げの理由を聞き、自社の考えを説明する" }
+      - { id: c, label: "話し合った結果、値段を少し上げる" }
+      - { id: d, label: "話し合いに応じず、説明もしないで、今までの値段のまま決める" }
+    answer: d
+    explanation: 改正で、相談を求められたのに話し合いに応じない、必要な説明をしないなどで、一方的に代金を決めることが禁止されました（第5条第2項第4号）。
+    reviewSection: してはいけないこと
+  - id: legal-04/q-bill
+    prompt: 改正で、支払いのしかたについて新しく禁止されたのはどれですか。
+    choices:
+      - { id: a, label: "銀行振込で払う" }
+      - { id: b, label: "現金で払う" }
+      - { id: c, label: "手形で払う、振込手数料を相手に負担させる" }
+      - { id: d, label: "支払期日より早く払う" }
+    answer: c
+    explanation: 改正で、手形での支払いが禁止されました。期日までに満額を受け取りにくい電子の支払い手段や、振込手数料を相手に負担させることも禁止です。
+    reviewSection: してはいけないこと

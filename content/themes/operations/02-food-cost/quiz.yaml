@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: operations-02
+questions:
+  - id: operations-02/q-cost-rate
+    prompt: 1か月の売上が 500 万円、食材・飲み物の原価が 160 万円のお店です。原価率はいくらですか。
+    choices:
+      - { id: a, label: "16％" }
+      - { id: b, label: "68％" }
+      - { id: c, label: "3.1％" }
+      - { id: d, label: "32％" }
+    answer: d
+    explanation: 原価率 ＝ 原価 ÷ 売上高 ＝ 160 ÷ 500 ＝ 32％ です。
+    reviewSection: 要点
+  - id: operations-02/q-fl
+    prompt: 売上 600 万円、食材 180 万円、人件費 180 万円のとき、FL 比率はいくらですか。
+    choices:
+      - { id: a, label: "60％" }
+      - { id: b, label: "30％" }
+      - { id: c, label: "40％" }
+      - { id: d, label: "100％" }
+    answer: a
+    explanation: FL 比率 ＝ (食材 ＋ 人件費) ÷ 売上高 ＝ 360 ÷ 600 ＝ 60％ です。
+    reviewSection: うみかぜ食堂の1か月
+  - id: operations-02/q-gap
+    prompt: 理論原価率 28％、実際原価率 30％、売上 600 万円のお店です。差は1か月いくらにあたりますか。
+    choices:
+      - { id: a, label: "2 万円" }
+      - { id: b, label: "1.2 万円" }
+      - { id: c, label: "12 万円" }
+      - { id: d, label: "180 万円" }
+    answer: c
+    explanation: 差は 2％ です。600 万円 × 2％ ＝ 12 万円です。この分が、捨てた食材や盛りつけのばらつきなどで、なくなっています。
+    reviewSection: 理論原価率と実際原価率
+  - id: operations-02/q-gap-cause
+    prompt: 理論原価率と実際原価率の差の原因として、当てはまらないものはどれですか。
+    choices:
+      - { id: a, label: "仕込みすぎて捨てた食材" }
+      - { id: b, label: "家賃の値上がり" }
+      - { id: c, label: "盛りつけの量のばらつき" }
+      - { id: d, label: "記録していないまかない" }
+    answer: b
+    explanation: 家賃は原価（食材・飲み物）ではないので、原価率の差の原因になりません。ほかの3つは、使った食材が売上につながらない原因です。
+    reviewSection: 理論原価率と実際原価率
+  - id: operations-02/q-high-cost
+    prompt: 原価率は 45％ ですが、1皿の粗利が 900 円あって、よく売れる人気の料理があります。どう考えるのがよいですか。
+    choices:
+      - { id: a, label: "原価率が高いので、すぐにメニューから外す" }
+      - { id: b, label: "原価率が 30％ になるまで値上げする" }
+      - { id: c, label: "食材の質を下げる" }
+      - { id: d, label: "粗利の額と売れる数も見て、お店全体の利益にどれだけ役立っているかで決める" }
+    answer: d
+    explanation: 原価率が高くても、粗利の額が大きく、たくさん売れる料理は、お店の利益を支えていることがあります。割合だけでなく、額と数で決めましょう。
+    reviewSection: 経営者が見るところ

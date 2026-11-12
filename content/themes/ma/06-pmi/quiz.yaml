@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: ma-06
+questions:
+  - id: ma-06/q-questions
+    prompt: まとめ方を選ぶ2つの問いの組み合わせとして、正しいものはどれですか。
+    choices:
+      - { id: a, label: "どれだけ一緒にする必要があるか、どれだけ任せておく必要があるか" }
+      - { id: b, label: "いくらで買うか、いつ売るか" }
+      - { id: c, label: "何人雇うか、何店出すか" }
+      - { id: d, label: "借入で買うか、出資で買うか" }
+    answer: a
+    explanation: 価値を生むために一緒にする必要と、買った会社の良さを守るために任せる必要の2つで、まとめ方を選びます。
+    reviewSection: 要点
+  - id: ma-06/q-preserve
+    prompt: 人気の老舗旅館を、名前やおもてなしのやり方をそのまま残して経営する型はどれですか。
+    choices:
+      - { id: a, label: "吸収" }
+      - { id: b, label: "持ち株" }
+      - { id: c, label: "保護" }
+      - { id: d, label: "共生" }
+    answer: c
+    explanation: 一緒にする必要が小さく、任せる必要が大きいときは「保護」の型です。買った理由の良さを残すことを大事にします。
+    reviewSection: まとめ方は4つに分けられる
+  - id: ma-06/q-payback
+    prompt: そろえるために1回 1,500 万円かかり、毎年 600 万円の費用が減ります。1回の費用を取りもどすのは何年ですか。
+    choices:
+      - { id: a, label: "0.4 年" }
+      - { id: b, label: "2.5 年" }
+      - { id: c, label: "9 年" }
+      - { id: d, label: "4 年" }
+    answer: b
+    explanation: 1,500 ÷ 600 ＝ 2.5 年です。ただし、費用が減り始めるのは、システムの入れかえが終わってからです。
+    reviewSection: シナジーを数字で確かめる
+  - id: ma-06/q-mistake
+    prompt: 良さを残したくて買った会社を、全部自社のやり方にそろえると、何が起きやすいですか。
+    choices:
+      - { id: a, label: "シナジーが必ず大きくなる" }
+      - { id: b, label: "税金が減る" }
+      - { id: c, label: "買う値段が下がる" }
+      - { id: d, label: "買った理由だった良さを、自分でなくしてしまう" }
+    answer: d
+    explanation: 買った理由が、その会社の味やおもてなしなら、そこを変えると価値がなくなります。買った理由とまとめ方を合わせましょう。
+    reviewSection: まとめ方は4つに分けられる
+  - id: ma-06/q-first
+    prompt: まとめ始めに、働く人の不安を減らすためにまずすることはどれですか。
+    choices:
+      - { id: a, label: "何も伝えずに、全部決まってから発表する" }
+      - { id: b, label: "全員の給料を下げる" }
+      - { id: c, label: "給料や働く場所など、変えないものを早く伝える" }
+      - { id: d, label: "責任者を決めずに、現場に任せる" }
+    answer: c
+    explanation: わからないままだと、よい人から辞めていきます。変えないものを早く伝え、責任者と期限も決めておきます。
+    reviewSection: 最初に決めておくこと

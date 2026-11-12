@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: it-dx-05
+questions:
+  - id: it-dx-05/q-new
+    prompt: NIST CSF 2.0 で新しく加わり、6つの機能の真ん中に置かれたのはどれですか。
+    choices:
+      - { id: a, label: "検知（DETECT）" }
+      - { id: b, label: "復旧（RECOVER）" }
+      - { id: c, label: "防御（PROTECT）" }
+      - { id: d, label: "統治（GOVERN）" }
+    answer: d
+    explanation: 2.0 で統治（GOVERN）が加わりました。ほかの5つをどう進めるかを決める働きなので、真ん中に置かれています。
+    reviewSection: 要点
+  - id: it-dx-05/q-who
+    prompt: NIST CSF 2.0 は、どんな組織が使うものとされていますか。
+    choices:
+      - { id: a, label: "アメリカの政府機関だけ" }
+      - { id: b, label: "大きさや業種を問わず、すべての組織" }
+      - { id: c, label: "電力や水道などの重要インフラだけ" }
+      - { id: d, label: "IT の会社だけ" }
+    answer: b
+    explanation: 2.0 では、重要インフラだけでなく、大きさや業種を問わずすべての組織が使えるものになりました。
+    reviewSection: 要点
+  - id: it-dx-05/q-function
+    prompt: 予約システムが攻撃されたあと、バックアップから戻し、戻ったことを確かめるのは、どの機能に当たりますか。
+    choices:
+      - { id: a, label: "復旧（RECOVER）" }
+      - { id: b, label: "識別（IDENTIFY）" }
+      - { id: c, label: "統治（GOVERN）" }
+      - { id: d, label: "検知（DETECT）" }
+    answer: a
+    explanation: 復旧は、事故で影響を受けたものと業務を元に戻す働きです。CSF は、戻す前にバックアップが正しいかを確かめることも挙げています。
+    reviewSection: 6つの機能
+  - id: it-dx-05/q-profile
+    prompt: CSF の「プロファイル」の使い方として正しいのはどれですか。
+    choices:
+      - { id: a, label: "社長の経歴を書く" }
+      - { id: b, label: "攻撃してきた相手の情報を書く" }
+      - { id: c, label: "今の姿とめざす姿を成果で書いて比べ、差を埋める行動計画を作る" }
+      - { id: d, label: "決まった製品の一覧を書く" }
+    answer: c
+    explanation: 現在のプロファイルと目標のプロファイルを比べ、差を分析して、優先順位をつけた行動計画を作ります。
+    reviewSection: 今の姿とめざす姿を比べる
+  - id: it-dx-05/q-tier
+    prompt: CSF のティアについて、正しいのはどれですか。
+    choices:
+      - { id: a, label: "すべての会社が、すぐにティア4をめざさなければならない" }
+      - { id: b, label: "取り組みの深さを4段階で表す。リスクが大きいときや費用に見合うときに上の段階へ進む" }
+      - { id: c, label: "会社の売上の大きさで決まる" }
+      - { id: d, label: "ティアは1つしかない" }
+    answer: b
+    explanation: ティアは、部分的・リスクを踏まえた・繰り返し可能・適応的の4段階です。NIST は、リスクや求められることが大きいとき、または費用に見合うときに上へ進むことを勧めています。
+    reviewSection: 今の姿とめざす姿を比べる

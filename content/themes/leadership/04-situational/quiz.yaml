@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: leadership-04
+questions:
+  - id: leadership-04/q-idea
+    prompt: SL 理論の考え方として、正しいものはどれですか。
+    choices:
+      - { id: a, label: "よいリーダーは、いつも同じ関わり方をする" }
+      - { id: b, label: "相手の準備の度合いに合わせて、関わり方を変える" }
+      - { id: c, label: "部下には、いつもすべてを任せる" }
+      - { id: d, label: "部下には、いつも細かく指示する" }
+    answer: b
+    explanation: SL 理論では、相手が「できるか」「やる気や自信があるか」に合わせて、関わり方を変えます。
+    reviewSection: 要点
+  - id: leadership-04/q-newcomer
+    prompt: 初日の新人に、チェックインの仕事を教えます。合う関わり方はどれですか。
+    choices:
+      - { id: a, label: "S1 指示する" }
+      - { id: b, label: "S3 一緒に決める" }
+      - { id: c, label: "S4 任せる" }
+      - { id: d, label: "何もしない" }
+    answer: a
+    explanation: できない・自信もない段階では、何を、どうするかを、細かく見せて伝えます。
+    reviewSection: 4つの関わり方
+  - id: leadership-04/q-unsure
+    prompt: 仕事はできるのに、自信がないスタッフがいます。合う関わり方はどれですか。
+    choices:
+      - { id: a, label: "S1 指示する" }
+      - { id: b, label: "S2 説得する" }
+      - { id: c, label: "S4 任せる" }
+      - { id: d, label: "S3 一緒に決める" }
+    answer: d
+    explanation: できるが自信がない人には、話を聞き、一緒に考えます。自信がついたら、任せる段階へ進みます。
+    reviewSection: 4つの関わり方
+  - id: leadership-04/q-mistake
+    prompt: ベテランのスタッフに、いつも手順を細かく言っています。起こりやすいことはどれですか。
+    choices:
+      - { id: a, label: "仕事がとても速くなる" }
+      - { id: b, label: "自信がつく" }
+      - { id: c, label: "「信用されていない」と感じ、やる気が下がる" }
+      - { id: d, label: "何も変わらない" }
+    answer: c
+    explanation: できる人に細かく言いすぎると、やる気が下がります。相手の段階に合った関わり方にしましょう。
+    reviewSection: よくある失敗
+  - id: leadership-04/q-same-person
+    prompt: 同じ人への関わり方について、正しいものはどれですか。
+    choices:
+      - { id: a, label: "一度決めた段階は、ずっと変えない" }
+      - { id: b, label: "仕事によって段階が違うことがあるので、仕事ごとに見る" }
+      - { id: c, label: "年齢で段階を決める" }
+      - { id: d, label: "入社した年で段階を決める" }
+    answer: b
+    explanation: チェックインは任せられても、宴会の見積もりは指示が要る、ということがあります。仕事ごとに見ましょう。
+    reviewSection: 4つの関わり方

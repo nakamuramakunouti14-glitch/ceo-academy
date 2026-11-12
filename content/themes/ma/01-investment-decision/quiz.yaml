@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: ma-01
+questions:
+  - id: ma-01/q-payback
+    prompt: 1,000 万円を投資して、毎年 300 万円の現金が戻ります。回収期間はおよそ何年ですか。
+    choices:
+      - { id: a, label: "約 3.3 年" }
+      - { id: b, label: "約 0.3 年" }
+      - { id: c, label: "5 年" }
+      - { id: d, label: "10 年" }
+    answer: a
+    explanation: 回収期間 ＝ 投資額 ÷ 毎年戻る現金 ＝ 1,000 ÷ 300 ≒ 3.3 年です。
+    reviewSection: 割り引いて計算する
+  - id: ma-01/q-time-value
+    prompt: 何年かあとにもらう 100 万円は、今の 100 万円より価値が低いとされます。理由はどれですか。
+    choices:
+      - { id: a, label: "先になるとお札のデザインが変わるから" }
+      - { id: b, label: "先になると税金がかからないから" }
+      - { id: c, label: "今あれば運用したり借入を返したりでき、その分の価値があるから" }
+      - { id: d, label: "あとでもらうお金は数えにくいから" }
+    answer: c
+    explanation: 今あるお金は、すぐに使って利息を減らしたり、運用したりできます。だから、あとでもらうお金は、割り引いてからくらべます。
+    reviewSection: 要点
+  - id: ma-01/q-npv
+    prompt: 先の現金を割り引いた合計が約 1,299 万円、投資額が 1,000 万円です。NPV はいくらですか。
+    choices:
+      - { id: a, label: "約 500 万円" }
+      - { id: b, label: "約 299 万円" }
+      - { id: c, label: "約 2,299 万円" }
+      - { id: d, label: "約 −299 万円" }
+    answer: b
+    explanation: NPV ＝ 割り引いた合計 − 投資額 ＝ 1,299 − 1,000 ＝ 約 299 万円です。500 万円は、割り引かずに計算したまちがいです。
+    reviewSection: 割り引いて計算する
+  - id: ma-01/q-positive
+    prompt: NPV がプラスであることの意味として、正しいものはどれですか。
+    choices:
+      - { id: a, label: "必ず 1 年で取りもどせる" }
+      - { id: b, label: "リスクがまったくない" }
+      - { id: c, label: "会計の利益が必ず増える" }
+      - { id: d, label: "集めたお金の費用（割引率）より多くの価値を生む" }
+    answer: d
+    explanation: NPV がプラスなら、割引率で表したお金の費用を引いても、価値が残ります。ただし、見積もりが外れればマイナスにもなります。
+    reviewSection: 要点
+  - id: ma-01/q-weak
+    prompt: 回収期間の弱いところとして、正しいものはどれですか。
+    choices:
+      - { id: a, label: "計算が難しすぎる" }
+      - { id: b, label: "取りもどしたあとに戻る現金と、お金の時間の価値を見ていない" }
+      - { id: c, label: "早く取りもどせるかがわからない" }
+      - { id: d, label: "投資額を使わない" }
+    answer: b
+    explanation: 回収期間で、早さ（安全か）はわかります。でも、そのあとの現金や時間の価値は見ません。価値の大きさは、NPV で補いましょう。
+    reviewSection: 2つの物差しの使い分け

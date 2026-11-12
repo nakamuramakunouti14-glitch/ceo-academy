@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+/*
+ * 色と書体の正 (SPEC の「デザインの方向性」)。
+ * 地 #F3F5F1、文字 #1F2A44、学習済み・主ボタン #0F766E、つながりの線 #B8862B、減少 #B42318
+ */
+:root {
+  color-scheme: light;
+  --ground: #f3f5f1;
+  --paper: #ffffff;
+  --ink: #1f2a44;
+  --ink-soft: #4a5368;
+  --ink-faint: #6b7387;
+  --rule: #c9d0d9;
+  --rule-soft: #e2e6e0;
+  --teal: #0f766e;
+  --teal-deep: #0b5c56;
+  --teal-wash: #e3efec;
+  --gold: #b8862b;
+  --gold-ink: #8a6420;
+  --gold-wash: #f4ecdb;
+  --loss: #b42318;
+  --ledger-line: #dce3dc;
+}
+
+@theme inline {
+  --color-ground: var(--ground);
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-faint: var(--ink-faint);
+  --color-rule: var(--rule);
+  --color-rule-soft: var(--rule-soft);
+  --color-teal: var(--teal);
+  --color-teal-deep: var(--teal-deep);
+  --color-teal-wash: var(--teal-wash);
+  --color-gold: var(--gold);
+  --color-gold-ink: var(--gold-ink);
+  --color-gold-wash: var(--gold-wash);
+  --color-loss: var(--loss);
+  --color-ledger-line: var(--ledger-line);
+  --font-sans: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", system-ui, sans-serif;
+  /* 帳簿の部分 (3 表の見出し) だけに使う */
+  --font-ledger: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+}
+
+html {
+  background: var(--ground);
+  color: var(--ink);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--ground);
+  font-family: var(--font-sans);
+  font-feature-settings: "palt" 0;
+  line-break: strict;
+}
+
+/* 数字の桁をそろえる */
+.tnum {
+  font-feature-settings: "tnum";
+  font-variant-numeric: tabular-nums;
+}
+
+:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* 地図の金色の線を、開いたときに 1 回だけ引く (ホームの唯一の動き) */
+.route-line {
+  stroke-dasharray: 6 5;
+  animation: route-fade 900ms ease-out both;
+}
+@keyframes route-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* 帳簿の罫線 (案B「決算書ノート」) */
+.ledger {
+  background: var(--paper);
+}
+
+/* 見出しを文節で折り返す (対応するブラウザだけ) */
+h1,
+h2,
+h3 {
+  word-break: auto-phrase;
+}

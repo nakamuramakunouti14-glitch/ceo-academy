@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: hr-03
+questions:
+  - id: hr-03/q-multi
+    prompt: 多能工化とは、何のことですか。
+    choices:
+      - { id: a, label: "1人がいくつもの仕事をできるように育てること" }
+      - { id: b, label: "機械をたくさん入れること" }
+      - { id: c, label: "部署ごとに人を決めて動かさないこと" }
+      - { id: d, label: "派遣社員を増やすこと" }
+    answer: a
+    explanation: 多能工化とは、1人ができる仕事を増やすことです。混む部署へ人を回せるようになります。
+    reviewSection: 要点
+  - id: hr-03/q-effect
+    prompt: 朝はレストラン、夕方はフロントが混むホテルです。多能工化の効果として正しいのはどれですか。
+    choices:
+      - { id: a, label: "どちらの部署も、いちばん混む時間に合わせた人数が必要になる" }
+      - { id: b, label: "混む時間に手伝いに回せるので、1日に必要なのべ人数が少なくなる" }
+      - { id: c, label: "お客様の待ち時間が長くなる" }
+      - { id: d, label: "教える必要がなくなる" }
+    answer: b
+    explanation: 部署ごとに混む時間がずれていれば、両方できる人を手伝いに回せます。部署ごとに人を決めるより、少ない人数で回せます。
+    reviewSection: 多能工化の効果
+  - id: hr-03/q-ojt
+    prompt: OJT の説明として、正しいのはどれですか。
+    choices:
+      - { id: a, label: "外の研修所で、座って講義を聞くこと" }
+      - { id: b, label: "本を配って読んでもらうこと" }
+      - { id: c, label: "仕事をしながら教えること" }
+      - { id: d, label: "採用の面接のこと" }
+    answer: c
+    explanation: OJT（On the Job Training）は、実際の仕事の中で教えるやり方です。教える順番と、できたかの確かめ方を決めておきます。
+    reviewSection: 要点
+  - id: hr-03/q-first-step
+    prompt: 育て方の段取りで、最初にすることはどれですか。
+    choices:
+      - { id: a, label: "給料を上げる" }
+      - { id: b, label: "全員に全部の仕事を一度にやらせる" }
+      - { id: c, label: "評価の面談をする" }
+      - { id: d, label: "仕事を分けて、できたかを確かめる基準を書いた一覧を作る" }
+    answer: d
+    explanation: まず、何ができればよいかを一覧にします。次に、教える人と期間を決めます。できたら、評価で認めます。この順に進めます。
+    reviewSection: 育て方の段取り
+  - id: hr-03/q-caution
+    prompt: 多能工化を進めるときに気をつけることとして、このテーマが挙げているのはどれですか。
+    choices:
+      - { id: a, label: "本人の希望を聞かずに何でもやらせると、得意な仕事の質が落ちたり、辞める理由になったりする" }
+      - { id: b, label: "多能工化すると必ず人件費が増える" }
+      - { id: c, label: "多能工化は法律で禁止されている" }
+      - { id: d, label: "教える時間は要らない" }
+    answer: a
+    explanation: 多能工化は、本人の希望も聞きながら進めます。むりにやらせると、仕事の質が落ちたり、辞める人が出たりします。
+    reviewSection: 経営者が見るところ

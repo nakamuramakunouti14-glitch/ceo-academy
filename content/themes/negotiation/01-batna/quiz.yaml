@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: negotiation-01
+questions:
+  - id: negotiation-01/q-batna
+    prompt: BATNA とは、何のことですか。
+    choices:
+      - { id: a, label: "交渉がまとまらなかったときの、いちばんよい代わりの案" }
+      - { id: b, label: "交渉で最初に出す数字" }
+      - { id: c, label: "相手の名前" }
+      - { id: d, label: "契約書の題名" }
+    answer: a
+    explanation: BATNA は、話がまとまらなかったときに取る、いちばんよい代わりの案です。これがよいほど、交渉で強く出られます。
+    reviewSection: 要点
+  - id: negotiation-01/q-limit
+    prompt: 移る先の家賃は月 52 万円です。引っこしの費用を月にならすと 10 万円です。今の店で受けてよい家賃の上限はいくらですか。
+    choices:
+      - { id: a, label: "月 52 万円" }
+      - { id: b, label: "月 60 万円" }
+      - { id: c, label: "月 62 万円" }
+      - { id: d, label: "月 42 万円" }
+    answer: c
+    explanation: 移った場合、実際にかかる家賃は 52 ＋ 10 ＝ 62 万円です。これより安ければ、今の店に残る方がよいです。
+    reviewSection: 家賃の交渉で考える
+  - id: negotiation-01/q-zopa
+    prompt: 自分の上限は月 62 万円です。家主が受けてよい下限は月 55 万円です。合意できる範囲はどれですか。
+    choices:
+      - { id: a, label: "月 62 万円以上" }
+      - { id: b, label: "月 55〜62 万円" }
+      - { id: c, label: "月 55 万円未満" }
+      - { id: d, label: "合意できる範囲はない" }
+    answer: b
+    explanation: 自分の上限と、相手の下限のあいだが、合意できる範囲です。この中で、理由のある数字を示して交渉します。
+    reviewSection: 家賃の交渉で考える
+  - id: negotiation-01/q-prepare
+    prompt: 交渉で強く出られるようになるための、いちばんの準備はどれですか。
+    choices:
+      - { id: a, label: "大きな声で話す練習" }
+      - { id: b, label: "相手を急がせる" }
+      - { id: c, label: "最初に極端な数字を出す" }
+      - { id: d, label: "交渉の前に、自分の代わりの案を調べてよくしておく" }
+    answer: d
+    explanation: 交渉の強さは、まとまらなくても困らない代わりの案があるかで決まります。実際に見積もりを取るなどして、代わりの案を確かなものにしましょう。
+    reviewSection: 要点
+  - id: negotiation-01/q-bluff
+    prompt: 持っていない代わりの案をちらつかせると、どうなりやすいですか。
+    choices:
+      - { id: a, label: "見ぬかれたときに信用をなくし、その後の交渉で不利になる" }
+      - { id: b, label: "必ず有利な条件になる" }
+      - { id: c, label: "相手が喜ぶ" }
+      - { id: d, label: "何も起こらない" }
+    answer: a
+    explanation: 長く付き合う相手との交渉では、信用がいちばん大事な財産です。代わりの案は、本物を用意しましょう。
+    reviewSection: 経営者が見るところ

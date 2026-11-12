@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: tax-02
+questions:
+  - id: tax-02/q-mechanism
+    prompt: 会社が納める消費税の計算で、正しいのはどれですか。
+    choices:
+      - { id: a, label: "売上高 × 10％" }
+      - { id: b, label: "利益 × 10％" }
+      - { id: c, label: "預かった消費税 − 仕入れや経費で払った消費税" }
+      - { id: d, label: "人件費 × 10％" }
+    answer: c
+    explanation: 消費税は、お客様から預かった税から、仕入れなどで払った税を引き、その差を納めます。
+    reviewSection: 要点
+  - id: tax-02/q-eat-in
+    prompt: 定食を店内で食べてもらうときと、持ち帰ってもらうときの消費税率の組み合わせはどれですか。
+    choices:
+      - { id: a, label: "店内 8％・持ち帰り 10％" }
+      - { id: b, label: "店内 10％・持ち帰り 8％" }
+      - { id: c, label: "どちらも 8％" }
+      - { id: d, label: "どちらも 10％" }
+    answer: b
+    explanation: 店内で食事を出すのは外食なので 10％ です。持ち帰りは飲食料品を売ることになるので、軽減税率の 8％ です。
+    reviewSection: 要点
+  - id: tax-02/q-calc
+    prompt: 預かった消費税が 58 万円、払った消費税が 30.4 万円のとき、納める消費税はいくらですか。
+    choices:
+      - { id: a, label: "88.4 万円" }
+      - { id: b, label: "58 万円" }
+      - { id: c, label: "30.4 万円" }
+      - { id: d, label: "27.6 万円" }
+    answer: d
+    explanation: 58 − 30.4 ＝ 27.6 万円です。
+    reviewSection: 納める額を計算する
+  - id: tax-02/q-labor
+    prompt: 人件費の多い飲食業で、売上にくらべて納める消費税が大きくなりやすいのは、なぜですか。
+    choices:
+      - { id: a, label: "人件費には消費税がかからず、払った消費税として差し引けないから" }
+      - { id: b, label: "飲食業だけ税率が高いから" }
+      - { id: c, label: "人件費の消費税は 2 倍になるから" }
+      - { id: d, label: "飲食業はインボイスが使えないから" }
+    answer: a
+    explanation: 給料には消費税がかかりません。費用の中で人件費の割合が大きいほど、差し引ける消費税が少なくなります。そのぶん、納める額が大きくなります。
+    reviewSection: 納める額を計算する
+  - id: tax-02/q-invoice
+    prompt: 2026-11-07 時点で、免税事業者から魚を買いました。消費税にあたる分は 8 万円です。差し引ける額はいくらですか。
+    choices:
+      - { id: a, label: "8 万円" }
+      - { id: b, label: "0 円" }
+      - { id: c, label: "5.6 万円" }
+      - { id: d, label: "4 万円" }
+    answer: c
+    explanation: 2026 年 10 月 1 日から 2 年間は、70％ を差し引けます。8 万円 × 70％ ＝ 5.6 万円です。
+    reviewSection: インボイスと免税の仕入れ先

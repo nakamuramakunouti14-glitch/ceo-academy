@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: strategy-03
+questions:
+  - id: strategy-03/q-axes
+    prompt: 店や事業を分ける2つの軸として、このテーマで使ったものはどれですか。
+    choices:
+      - { id: a, label: "市場が伸びているか、自社がその市場で強いか" }
+      - { id: b, label: "店長の年齢と店の広さ" }
+      - { id: c, label: "開店した年と席数" }
+      - { id: d, label: "売上の大きさと従業員数" }
+    answer: a
+    explanation: 市場の伸びと、自社の強さの2つの軸で分けます。伸ばす・選ぶ・守る・やめるの4つです。
+    reviewSection: 2つの軸で分ける
+  - id: strategy-03/q-cash-cow
+    prompt: 「市場は伸びていないが、自社は強い」店の、基本の扱い方はどれですか。
+    choices:
+      - { id: a, label: "すぐにやめる" }
+      - { id: b, label: "大きくお金をかけて伸ばす" }
+      - { id: c, label: "かけるお金をおさえて現金を生み、伸ばす店に回す" }
+      - { id: d, label: "値下げしてお客様を増やす" }
+    answer: c
+    explanation: 伸びない市場で強い店は、大きくお金をかけなくても現金を生みます。そのお金を、伸びる市場の店に回すのが基本です。
+    reviewSection: 2つの軸で分ける
+  - id: strategy-03/q-total
+    prompt: 店の貢献利益が 1,100、500、−200 万円です。本部の費用が 1,000 万円のとき、会社全体の営業利益はいくらですか。
+    choices:
+      - { id: a, label: "1,400 万円" }
+      - { id: b, label: "400 万円" }
+      - { id: c, label: "1,600 万円" }
+      - { id: d, label: "−600 万円" }
+    answer: b
+    explanation: 1,100 ＋ 500 − 200 − 1,000 ＝ 400 万円です。
+    reviewSection: 店ごとの数字で見る
+  - id: strategy-03/q-close-check
+    prompt: 赤字の郊外店を閉じる前に確かめること。このテーマが挙げていないものはどれですか。
+    choices:
+      - { id: a, label: "立て直せる見込み" }
+      - { id: b, label: "残りの契約期間の家賃や、原状回復の費用" }
+      - { id: c, label: "働く人の行き先" }
+      - { id: d, label: "店長の好きな料理" }
+    answer: d
+    explanation: 閉じるかを決めるときは、立て直せる見込み、閉店の費用、働く人の行き先を確かめます。店長の好みは、決める材料ではありません。
+    reviewSection: 店ごとの数字で見る
+  - id: strategy-03/q-hq-cost
+    prompt: 郊外店を閉じても、営業利益が思ったほど増えないことがあります。理由はどれですか。
+    choices:
+      - { id: a, label: "本部の費用は、店を閉じても減らないことが多いから" }
+      - { id: b, label: "閉じると売上が増えるから" }
+      - { id: c, label: "貢献利益は税金だから" }
+      - { id: d, label: "ほかの店の売上がすべて減るから" }
+    answer: a
+    explanation: 本部の費用を店ごとに割りふって見ると、閉じれば本部の費用も減るように見えます。でも実際は、本部の費用は残ります。残った分は、ほかの店が受け持つことになります。
+    reviewSection: 店ごとの数字で見る

@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: leadership-05
+questions:
+  - id: leadership-05/q-systems
+    prompt: カーネマンの言う「システム2」の説明として、正しいものはどれですか。
+    choices:
+      - { id: a, label: "ぱっと、自動で決まる速い考え" }
+      - { id: b, label: "会社の会計のしくみ" }
+      - { id: c, label: "気持ちだけで決める考え" }
+      - { id: d, label: "じっくり、筋道を立てて考える遅い考え" }
+    answer: d
+    explanation: システム1 は速い考え、システム2 は遅い考えです。大事な決定では、システム2 を使います。
+    reviewSection: 要点
+  - id: leadership-05/q-anchoring
+    prompt: 最初に聞いた見積もりの金額が、その後の判断の基準になってしまう。このくせを何と呼びますか。
+    choices:
+      - { id: a, label: "損をきらう" }
+      - { id: b, label: "アンカリング" }
+      - { id: c, label: "計画の楽観" }
+      - { id: d, label: "思い出しやすさ" }
+    answer: b
+    explanation: アンカリングは、最初に見た数字に引っぱられるくせです。アンカーは船のいかりのことです。
+    reviewSection: よくある5つのくせ
+  - id: leadership-05/q-sunk
+    prompt: 赤字の店を「内装にお金をかけたから」と続けています。どう考えるのがよいですか。
+    choices:
+      - { id: a, label: "使ったお金はもう戻らないので、これからの得と損だけで決める" }
+      - { id: b, label: "かけたお金を取り返すまで、必ず続ける" }
+      - { id: c, label: "もっとお金をかけて内装を直す" }
+      - { id: d, label: "直感で決める" }
+    answer: a
+    explanation: もう戻らないお金にしばられると、やめるべきことをやめられません。これからの得と損だけで決めます。
+    reviewSection: よくある5つのくせ
+  - id: leadership-05/q-mechanism
+    prompt: 直感のくせをふせぐ方法として、このテーマがすすめているものはどれですか。
+    choices:
+      - { id: a, label: "「気をつけよう」と強く思う" }
+      - { id: b, label: "決定をできるだけ速くする" }
+      - { id: c, label: "似た例の実際の数字を見る、反対の役を決める、一晩おく" }
+      - { id: d, label: "経験の長い人の直感にまかせる" }
+    answer: c
+    explanation: 思うだけでは、くせはなくなりません。決め方に、システム2 を呼ぶしくみを入れます。
+    reviewSection: システム2 を呼ぶしくみ
+  - id: leadership-05/q-caution
+    prompt: 『ファスト＆スロー』について、このテーマが注意していることはどれですか。
+    choices:
+      - { id: a, label: "本の研究の一部は、あとで同じ結果が出ないと言われた" }
+      - { id: b, label: "日本では売られていない" }
+      - { id: c, label: "直感は、いつもまちがっている" }
+      - { id: d, label: "システム1 は使ってはいけない" }
+    answer: a
+    explanation: 一部の研究は、同じ結果が出ないと言われ、カーネマンも認めました。直感はずれることがある、と知って、しくみでふせぎます。
+    reviewSection: 気をつけること

@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: finance-01
+questions:
+  - id: finance-01/q-equity-cost
+    prompt: 出資で集めたお金について、正しいものはどれですか。
+    choices:
+      - { id: a, label: "返さなくてよいが、株主は大きな見返りを期待する。会社の持ち分も渡す" }
+      - { id: b, label: "毎月決まった額を返す必要がある" }
+      - { id: c, label: "BS の負債が増える" }
+      - { id: d, label: "利息が PL の費用になる" }
+    answer: a
+    explanation: 出資は返さなくてよいお金です。その代わりに、配当と会社の持ち分を渡します。株主は銀行より大きなリスクを取るので、期待する見返りも大きくなります。
+    reviewSection: 要点
+  - id: finance-01/q-bs
+    prompt: 銀行から借りると、BS のどこが増えますか。
+    choices:
+      - { id: a, label: "純資産の資本金" }
+      - { id: b, label: "PL の売上高" }
+      - { id: c, label: "負債の借入金（と資産の現金）" }
+      - { id: d, label: "どこも増えない" }
+    answer: c
+    explanation: 借りたお金は返す必要があるので、負債に入ります。受け取った現金は資産に入ります。出資なら、純資産が増えます。
+    reviewSection: 3つの集め方を比べる
+  - id: finance-01/q-repay-years
+    prompt: 借入金 44,000 万円、営業キャッシュフロー 8,700 万円の会社です。借入を返すのにかかる年数の目安はどれですか。
+    choices:
+      - { id: a, label: "約 0.2 年" }
+      - { id: b, label: "約 5 年" }
+      - { id: c, label: "約 8.7 年" }
+      - { id: d, label: "約 44 年" }
+    answer: b
+    explanation: 借入金 ÷ 営業キャッシュフロー ＝ 44,000 ÷ 8,700 ≒ 5.1 年です。本業でかせぐ現金で、約 5 年で返せる計算です。
+    reviewSection: 借入の重さを測る
+  - id: finance-01/q-matching
+    prompt: 20 年使う建物の改装代を、1年で返す短い借入でまかないました。起こりやすい問題はどれですか。
+    choices:
+      - { id: a, label: "利息がかからなくなる" }
+      - { id: b, label: "株主の持ち分が減る" }
+      - { id: c, label: "売上が増えすぎる" }
+      - { id: d, label: "改装の効果で現金が入る前に返済が来て、お金が足りなくなる" }
+    answer: d
+    explanation: 長く使うものは、長い時間をかけて現金を生みます。短い借入で買うと、現金が戻る前に返済が来ます。使う期間と、借りる期間をそろえましょう。
+    reviewSection: 経営者が見るところ
+  - id: finance-01/q-downturn
+    prompt: 売上が大きく落ちた時期に、借入が多い会社が苦しくなりやすいのはなぜですか。
+    choices:
+      - { id: a, label: "株主に配当を払わなければならないから" }
+      - { id: b, label: "売上が落ちても、利息と返済は止まらないから" }
+      - { id: c, label: "借入金が売上高に含まれるから" }
+      - { id: d, label: "銀行が借入を出資に変えるから" }
+    answer: b
+    explanation: 借入の利息と返済は、業績が落ちても自動では減りません。出資の配当は、業績が悪ければ減らせます。借入の返済を減らすには、銀行との相談が必要です。
+    reviewSection: 3つの集め方を比べる

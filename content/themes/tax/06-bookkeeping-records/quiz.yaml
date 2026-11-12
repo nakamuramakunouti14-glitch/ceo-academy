@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: tax-06
+questions:
+  - id: tax-06/q-period
+    prompt: 会社の帳簿と書類は、原則として何年保存しますか。
+    choices:
+      - { id: a, label: "確定申告書の提出期限の翌日から 7 年" }
+      - { id: b, label: "事業年度の終わりの日から 3 年" }
+      - { id: c, label: "1 年" }
+      - { id: d, label: "決まりはない" }
+    answer: a
+    explanation: 国税庁 No.5930 で、原則は確定申告書の提出期限の翌日から 7 年です。数え始めは、事業年度の終わりの日ではありません。
+    reviewSection: 要点
+  - id: tax-06/q-ten
+    prompt: 帳簿と書類を 10 年保存するのは、どんな年度ですか。
+    choices:
+      - { id: a, label: "黒字が大きかった年度" }
+      - { id: b, label: "社長が交代した年度" }
+      - { id: c, label: "税務調査があった年度" }
+      - { id: d, label: "青色申告で欠損金（赤字）が出た年度" }
+    answer: d
+    explanation: 青色申告で欠損金が出た年度は 10 年です。青色申告をしていない会社で災害の損失が出た年度も 10 年です。
+    reviewSection: 何を、何年取っておくか
+  - id: tax-06/q-email
+    prompt: 食材の請求書が、PDF でメールに付いて届きました。電子帳簿保存法での扱いに合うのはどれですか。
+    choices:
+      - { id: a, label: "電子取引に当たるので、そのデータを保存しなければならない" }
+      - { id: b, label: "メールは消してよい" }
+      - { id: c, label: "保存の決まりは関係ない" }
+      - { id: d, label: "1 か月だけ取っておけばよい" }
+    answer: a
+    explanation: 請求書などに書かれる事項を電子でやりとりする取引は電子取引です（第2条第5号）。そのデータを保存しなければなりません（第7条）。
+    reviewSection: 電子帳簿保存法の3つの区分
+  - id: tax-06/q-scan
+    prompt: 紙で受け取った領収書のスキャナ保存について、正しいのはどれですか。
+    choices:
+      - { id: a, label: "すべての会社に義務づけられている" }
+      - { id: b, label: "決まりを守れば、紙の代わりにしてよい" }
+      - { id: c, label: "法律で禁止されている" }
+      - { id: d, label: "スキャンすれば、決まりを守らなくても紙を捨ててよい" }
+    answer: b
+    explanation: 第4条第3項は、財務省令の決まりに従って保存すれば、紙の保存に代えることができる、という決まりです。
+    reviewSection: 電子帳簿保存法の3つの区分
+  - id: tax-06/q-start
+    prompt: 帳簿書類の保存期間は、いつから数えますか。
+    choices:
+      - { id: a, label: "帳簿を作った日から" }
+      - { id: b, label: "事業年度が始まった日から" }
+      - { id: c, label: "事業年度の終わりの日から" }
+      - { id: d, label: "その事業年度の確定申告書の提出期限の翌日から" }
+    answer: d
+    explanation: 数え始めは、確定申告書の提出期限の翌日です。いつ捨ててよいかは、この日から数えて一覧にしましょう。
+    reviewSection: 何を、何年取っておくか

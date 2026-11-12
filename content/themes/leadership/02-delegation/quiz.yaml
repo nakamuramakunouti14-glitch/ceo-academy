@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: leadership-02
+questions:
+  - id: leadership-02/q-three
+    prompt: 任せるときに渡す3つのものとして、このテーマが挙げているのはどれですか。
+    choices:
+      - { id: a, label: "目的・範囲・確かめ方" }
+      - { id: b, label: "給料・賞与・役職" }
+      - { id: c, label: "名刺・机・パソコン" }
+      - { id: d, label: "期限・罰・ほうび" }
+    answer: a
+    explanation: 何のためか（目的）、どこまで決めてよいか（範囲）、いつ何で結果を見るか（確かめ方）。この3つを渡して、はじめて任せたことになります。
+    reviewSection: 要点
+  - id: leadership-02/q-specific
+    prompt: 範囲の決め方として、いちばんよいのはどれですか。
+    choices:
+      - { id: a, label: "常識の範囲で決めてよい" }
+      - { id: b, label: "全部社長に確認する" }
+      - { id: c, label: "好きに決めてよい" }
+      - { id: d, label: "返金は 1件 3 万円まで、修理は 1件 30 万円まで自分で決めてよい" }
+    answer: d
+    explanation: 金額や条件ではっきり決めると、人によって受け取り方がぶれません。任された人が、迷わずに決められます。
+    reviewSection: 範囲を具体的に決める
+  - id: leadership-02/q-over
+    prompt: 細かい指示を出し続けると、起こりやすいことはどれですか。
+    choices:
+      - { id: a, label: "任された人がどんどん成長する" }
+      - { id: b, label: "現場の判断が速くなる" }
+      - { id: c, label: "任された人が自分で考えなくなり、確認待ちで現場が止まる" }
+      - { id: d, label: "社長の時間が増える" }
+    answer: c
+    explanation: 細かい指示が続くと、任された人は指示を待つようになります。判断が上に集まり、現場の動きがおそくなります。
+    reviewSection: 任せた後の関わり方
+  - id: leadership-02/q-trigger
+    prompt: 任せたあと、上司が口を出すのは、どんなときがよいですか。
+    choices:
+      - { id: a, label: "毎日、すべての判断に" }
+      - { id: b, label: "数字が決めた幅から外れたとき" }
+      - { id: c, label: "気が向いたとき" }
+      - { id: d, label: "一度も口を出さない" }
+    answer: b
+    explanation: 口を出す条件を先に決めておきます。すると任された人は安心して決められます。上司も、必要なときにきちんと関われます。
+    reviewSection: 任せた後の関わり方
+  - id: leadership-02/q-signal
+    prompt: もっと広く任せる合図として、このテーマが挙げているのはどれですか。
+    choices:
+      - { id: a, label: "売上が減ったとき" }
+      - { id: b, label: "支配人が辞めたいと言ったとき" }
+      - { id: c, label: "競合が値下げしたとき" }
+      - { id: d, label: "小さな承認が経営者のところにたまっているとき" }
+    answer: d
+    explanation: 経営者のところで小さな判断が止まっているなら、任せる範囲がせますぎます。できたことを確かめて、範囲を広げましょう。
+    reviewSection: 経営者が見るところ

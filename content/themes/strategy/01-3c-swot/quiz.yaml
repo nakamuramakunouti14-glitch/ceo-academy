@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: strategy-01
+questions:
+  - id: strategy-01/q-3c
+    prompt: 3C の3つの目線の組み合わせとして、正しいものはどれですか。
+    choices:
+      - { id: a, label: "お客様・競合・自社" }
+      - { id: b, label: "現金・顧客・コスト" }
+      - { id: c, label: "強み・弱み・機会" }
+      - { id: d, label: "会社・会計・契約" }
+    answer: a
+    explanation: 3C は、Customer（お客様）、Competitor（競合）、Company（自社）の頭文字です。
+    reviewSection: 要点
+  - id: strategy-01/q-overlap
+    prompt: 3C の整理から勝てる場所を探します。ねらうのはどこですか。
+    choices:
+      - { id: a, label: "競合がいちばん強いこと" }
+      - { id: b, label: "自社が苦手だが、はやっていること" }
+      - { id: c, label: "お客様が求めていて、競合が弱く、自社が得意なこと" }
+      - { id: d, label: "お客様が求めていないが、自社が得意なこと" }
+    answer: c
+    explanation: 3つの目線が重なるところが、勝てる場所の候補です。みなと館ホテルでは、地元の魚料理と港の景色です。
+    reviewSection: 3C で見る
+  - id: strategy-01/q-swot-place
+    prompt: 「外資系ホテルの開業」は、SWOT のどこに入りますか。
+    choices:
+      - { id: a, label: "強み" }
+      - { id: b, label: "脅威" }
+      - { id: c, label: "弱み" }
+      - { id: d, label: "機会" }
+    answer: b
+    explanation: 自社の外で起きる、悪いことなので脅威です。強み・弱みは自社の中のこと、機会・脅威は外のことです。
+    reviewSection: SWOT で見る
+  - id: strategy-01/q-action
+    prompt: SWOT の使い方として、いちばんよいものはどれですか。
+    choices:
+      - { id: a, label: "4つのマスを埋めたら終わりにする" }
+      - { id: b, label: "強みだけを書く" }
+      - { id: c, label: "毎回、同じ内容を使い回す" }
+      - { id: d, label: "強みと機会の組み合わせなど、打ち手まで考える" }
+    answer: d
+    explanation: SWOT は整理の道具です。打ち手を考えて、はじめて役に立ちます。機会に強みをどう使うか、脅威を弱みで受けないにはどうするかを考えます。
+    reviewSection: 要点
+  - id: strategy-01/q-fact
+    prompt: 強みの書き方として、いちばんよいものはどれですか。
+    choices:
+      - { id: a, label: "サービスがよい" }
+      - { id: b, label: "口コミの点数 4.5、料理にふれた口コミが全体の 6 割" }
+      - { id: c, label: "雰囲気がよい" }
+      - { id: d, label: "社員ががんばっている" }
+    answer: b
+    explanation: 強みは、確かめられる事実で書きます。数字があれば、競合とくらべたり、時間がたってからの変化を追ったりできます。
+    reviewSection: 経営者が見るところ

@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: it-dx-04
+questions:
+  - id: it-dx-04/q-who
+    prompt: サイバーセキュリティ経営ガイドラインは、誰に向けた手引きですか。
+    choices:
+      - { id: a, label: "経営者" }
+      - { id: b, label: "お客様" }
+      - { id: c, label: "警察" }
+      - { id: d, label: "プログラマーだけ" }
+    answer: a
+    explanation: 経済産業省と IPA が示す、経営者向けの手引きです。経営者が認識すべき3原則と、担当の幹部に指示すべき重要10項目でできています。
+    reviewSection: 要点
+  - id: it-dx-04/q-principle
+    prompt: 経営者が認識すべき3原則に入るのはどれですか。
+    choices:
+      - { id: a, label: "対策は IT 担当に任せきりにする" }
+      - { id: b, label: "自社のパソコンだけ守ればよい" }
+      - { id: c, label: "事故は外に知らせない" }
+      - { id: d, label: "自社だけでなく、取引先や委託先など、サプライチェーン全体の対策に目を配る" }
+    answer: d
+    explanation: 3原則は、リーダーシップで進めること、サプライチェーン全体に目を配ること、関係者とコミュニケーションをとることです。
+    reviewSection: 経営者が認識すべき3原則
+  - id: it-dx-04/q-budget
+    prompt: 「対策のための予算と人を確保する」は、重要10項目の何番目の指示ですか。
+    choices:
+      - { id: a, label: "指示1" }
+      - { id: b, label: "指示3" }
+      - { id: c, label: "指示7" }
+      - { id: d, label: "指示10" }
+    answer: b
+    explanation: 指示3は、サイバーセキュリティ対策のための資源（予算、人材など）の確保です。指示7は緊急対応の体制、指示10は情報の収集・共有・開示です。
+    reviewSection: 指示すべき重要10項目
+  - id: it-dx-04/q-recover
+    prompt: 「事故の被害に備えて、事業を続け、元に戻す体制を整える」は、どの考えとつながりますか。
+    choices:
+      - { id: a, label: "広告の効果測定" }
+      - { id: b, label: "採用の面接" }
+      - { id: c, label: "BCP（事業継続計画）" }
+      - { id: d, label: "消費税の計算" }
+    answer: c
+    explanation: 指示8は、インシデントによる被害に備えた事業継続・復旧の体制です。BCP の一部として準備します。
+    reviewSection: 指示すべき重要10項目
+  - id: it-dx-04/q-vendor
+    prompt: みなと館ホテルが、予約システムの会社と契約する前にすることとして、指示9に合うのはどれですか。
+    choices:
+      - { id: a, label: "値段だけで決める" }
+      - { id: b, label: "相手の会社がどんな対策をしているかを確かめる" }
+      - { id: c, label: "契約したら、相手の対策には口を出さない" }
+      - { id: d, label: "相手の会社の社長の名前だけ確かめる" }
+    answer: b
+    explanation: 指示9は、取引先や委託先を含めたサプライチェーン全体の状況の把握と対策です。契約の前に、相手の対策を確かめましょう。
+    reviewSection: ホテル・飲食での例

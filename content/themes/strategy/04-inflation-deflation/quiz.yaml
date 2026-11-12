@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: strategy-04
+questions:
+  - id: strategy-04/q-define
+    prompt: インフレの説明として正しいものはどれですか。
+    choices:
+      - { id: a, label: "物やサービスの値段が、全体として上がり続けること" }
+      - { id: b, label: "物やサービスの値段が、全体として下がり続けること" }
+      - { id: c, label: "1つの商品だけ値段が上がること" }
+      - { id: d, label: "金利が 0％ になること" }
+    answer: a
+    explanation: インフレは、値段が全体として上がり続けることです。1つの商品だけの値上げとは違います。逆に下がり続けるのがデフレです。
+    reviewSection: 要点
+  - id: strategy-04/q-money
+    prompt: インフレのとき、お金の価値はどうなりますか。
+    choices:
+      - { id: a, label: "上がる" }
+      - { id: b, label: "変わらない" }
+      - { id: c, label: "下がる（同じお金で買える物が少なくなる）" }
+      - { id: d, label: "なくなる" }
+    answer: c
+    explanation: 値段が上がると、同じ 1,000 円で買える物が少なくなります。つまり、お金の価値が下がります。
+    reviewSection: 要点
+  - id: strategy-04/q-cost
+    prompt: 食材 ＋18 万円、光熱費 ＋6 万円、人件費 ＋9 万円。営業利益が月 60 万円の店で、何もしないと営業利益はいくらになりますか。
+    choices:
+      - { id: a, label: "60 万円" }
+      - { id: b, label: "27 万円" }
+      - { id: c, label: "93 万円" }
+      - { id: d, label: "33 万円" }
+    answer: b
+    explanation: 増えた費用の合計は 18 ＋ 6 ＋ 9 ＝ 33 万円です。60 − 33 ＝ 27 万円になります。33 万円は増えた費用の合計です。
+    reviewSection: インフレのとき、店の数字はどう動く？
+  - id: strategy-04/q-price
+    prompt: 売上が月 600 万円の店で、増えた費用 33 万円を値上げで取り戻すには、およそ何％の値上げが要りますか（客数は変わらないとします）。
+    choices:
+      - { id: a, label: "約 33％" }
+      - { id: b, label: "約 0.5％" }
+      - { id: c, label: "約 10％" }
+      - { id: d, label: "約 5.5％" }
+    answer: d
+    explanation: 33 ÷ 600 ＝ 0.055 なので、約 5.5％ です。
+    reviewSection: インフレのとき、店の数字はどう動く？
+  - id: strategy-04/q-contract
+    prompt: インフレのときに損になりやすいのはどれですか。
+    choices:
+      - { id: a, label: "何年も同じ値段で売る約束（長い契約）" }
+      - { id: b, label: "毎月値段を見直せる売り方" }
+      - { id: c, label: "その日の値段で売る売り方" }
+      - { id: d, label: "仕入れ値に合わせてメニューを変える売り方" }
+    answer: a
+    explanation: 費用は上がっていくのに、売る値段が何年も同じだと、利益がどんどん減ります。長い契約には、値段を見直すきまりを入れておきます。
+    reviewSection: 経営者が見るところ

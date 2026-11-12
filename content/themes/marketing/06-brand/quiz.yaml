@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: marketing-06
+questions:
+  - id: marketing-06/q-equity
+    prompt: ブランド・エクイティとは何ですか。
+    choices:
+      - { id: a, label: "会社の建物と土地の値段" }
+      - { id: b, label: "名前があるだけで、同じ中身でも選ばれやすくなる力" }
+      - { id: c, label: "広告にかけたお金の合計" }
+      - { id: d, label: "商標の登録の手数料" }
+    answer: b
+    explanation: ブランド・エクイティは、ブランドの資産のことです。名前を見ただけで選ばれやすくなる力を指します。
+    reviewSection: 要点
+  - id: marketing-06/q-aaker
+    prompt: アーカーがあげたブランドの価値の中身に入らないものはどれですか。
+    choices:
+      - { id: a, label: "知られていること" }
+      - { id: b, label: "思いうかぶイメージ" }
+      - { id: c, label: "また選んでくれる気持ち" }
+      - { id: d, label: "社員の人数" }
+    answer: d
+    explanation: アーカーの4つは、知られていること、質が高いと思われていること、思いうかぶイメージ、また選んでくれる気持ちです。
+    reviewSection: ブランドの価値は4つでできている
+  - id: marketing-06/q-keller
+    prompt: ケラーの見方で、価値の高いイメージはどれですか。
+    choices:
+      - { id: a, label: "港の朝市に歩いて行ける宿" }
+      - { id: b, label: "きれいなホテル" }
+      - { id: c, label: "ふつうのホテル" }
+      - { id: d, label: "安いホテル" }
+    answer: a
+    explanation: イメージは、強く、好ましく、ほかにないものほど価値があります。「きれい」はどこでも言えますが、「朝市に歩いて行ける」はほかにありません。
+    reviewSection: ブランドの価値は4つでできている
+  - id: marketing-06/q-same-name
+    prompt: グループの全部の館とお店に同じ名前を付けるとき、気をつけることはどれですか。
+    choices:
+      - { id: a, label: "名前を知ってもらうのにお金がかかりすぎる" }
+      - { id: b, label: "1つの評判がほかに広がらない" }
+      - { id: c, label: "1つの館の悪い口コミが、全部に広がる" }
+      - { id: d, label: "法律で禁止されている" }
+    answer: c
+    explanation: 同じ名前だと、よい評判も悪い評判も全部に広がります。だから、どの館やお店でも質をそろえる必要があります。
+    reviewSection: グループの名前をどう付けるか
+  - id: marketing-06/q-where
+    prompt: ブランドのイメージをつくるのに、いちばん効くものはどれですか。
+    choices:
+      - { id: a, label: "毎日、現場でお客様が受ける体験" }
+      - { id: b, label: "社長のあいさつ文" }
+      - { id: c, label: "会社のロゴの色だけ" }
+      - { id: d, label: "決算書" }
+    answer: a
+    explanation: イメージは、お客様の頭の中でつくられます。広告で言うことより、実際の接客や料理の体験が効きます。
+    reviewSection: 経営者が見るところ

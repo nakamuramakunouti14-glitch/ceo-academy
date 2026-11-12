@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: legal-01
+questions:
+  - id: legal-01/q-formation
+    prompt: 民法の原則では、契約はいつ成り立ちますか。
+    choices:
+      - { id: a, label: "申込みに相手が承諾したとき（紙の契約書がなくてもよい）" }
+      - { id: b, label: "契約書に両方が印鑑を押したときだけ" }
+      - { id: c, label: "代金を全部払ったときだけ" }
+      - { id: d, label: "役所に届け出たとき" }
+    answer: a
+    explanation: 民法第522条で、契約は申込みと承諾で成り立ちます。法律に特別の決まりがある場合を除き、紙の契約書は要りません。
+    reviewSection: 要点
+  - id: legal-01/q-purpose
+    prompt: 契約書を作るおもな目的として、このテーマが挙げているのはどれですか。
+    choices:
+      - { id: a, label: "契約を成り立たせるため" }
+      - { id: b, label: "税金を安くするため" }
+      - { id: c, label: "何を約束したかと、もめたときにどうするかを残すため" }
+      - { id: d, label: "相手を信用していないと伝えるため" }
+    answer: c
+    explanation: 契約は紙がなくても成り立ちます。契約書は、約束の中身と、問題が起きたときの決め方を残すためにあります。
+    reviewSection: 要点
+  - id: legal-01/q-later
+    prompt: 契約書の項目のうち、問題が起きてから効いてくるので、特にサインの前に読むべきものはどれですか。
+    choices:
+      - { id: a, label: "会社の住所" }
+      - { id: b, label: "解約の条件と責任の上限" }
+      - { id: c, label: "契約書の題名" }
+      - { id: d, label: "担当者の名前" }
+    answer: b
+    explanation: 解約や賠償の条件は、うまくいっている間は気になりません。でも、問題が起きたときの損と得を大きく変えます。
+    reviewSection: 契約書で決めておくこと
+  - id: legal-01/q-cancel
+    prompt: お客様（消費者）との契約で先に決めたキャンセル料について、消費者契約法はどう決めていますか。
+    choices:
+      - { id: a, label: "どんな額でも有効" }
+      - { id: b, label: "キャンセル料は少しも取れない" }
+      - { id: c, label: "料金の半額までなら必ず有効" }
+      - { id: d, label: "同じ種類の契約の取り消しで、会社にふつう出る損（平均的な損害の額）を超える部分は無効" }
+    answer: d
+    explanation: 消費者契約法第9条第1項第1号で、平均的な損害の額を超える部分は無効になります。日にちごとに段階を分け、理由を説明できる率にしておきましょう。
+    reviewSection: お客様とのキャンセル料
+  - id: legal-01/q-long
+    prompt: 店の 10 年の賃貸借契約を結ぶときの考え方で、このテーマに合うのはどれですか。
+    choices:
+      - { id: a, label: "長い契約は何年も費用をしばるので、解約の条件までよく確かめ、専門家にも見せる" }
+      - { id: b, label: "家賃が安ければ、ほかの条件は読まなくてよい" }
+      - { id: c, label: "口約束で十分" }
+      - { id: d, label: "解約はいつでも自由にできるので気にしなくてよい" }
+    answer: a
+    explanation: 長い契約は、将来の費用の約束です。やめるときは何日前に言うかや、違約金を確かめましょう。大きな契約は弁護士に見てもらいます。
+    reviewSection: 経営者が見るところ

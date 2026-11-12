@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: legal-03
+questions:
+  - id: legal-03/q-purpose
+    prompt: お客様の個人情報の扱い方で、基本として正しいのはどれですか。
+    choices:
+      - { id: a, label: "集めた情報は、どんな目的に使ってもよい" }
+      - { id: b, label: "何に使うか（利用目的）を伝え、その中で使い、漏れないように守る" }
+      - { id: c, label: "紙の名簿は個人情報ではない" }
+      - { id: d, label: "従業員なら誰でも自由に見てよい" }
+    answer: b
+    explanation: 個人情報は、集めるときに利用目的を伝え、その中で使い、安全に守ります。紙の名簿も個人情報です。
+    reviewSection: 要点
+  - id: legal-03/q-four
+    prompt: 情報が漏れたときに委員会への報告が必要になる場合として、施行規則に挙げられていないのはどれですか。
+    choices:
+      - { id: a, label: "クレジットカードの番号が漏れ、財産の被害のおそれがある" }
+      - { id: b, label: "外から勝手にシステムに入られて（不正アクセス）漏れた" }
+      - { id: c, label: "本人の数が 1,000 人を超える" }
+      - { id: d, label: "漏れたのは 10 人分の名前だけで、不正の目的もない" }
+    answer: d
+    explanation: 4つの場合は、要配慮個人情報、財産の被害のおそれ、不正の目的、1,000 人超です。10 人分の名前だけで不正の目的もない場合は、この4つに当たりません（ただし、社内での対応は必要です）。
+    reviewSection: 漏えいのときに報告が必要になる4つの場合
+  - id: legal-03/q-report-deadline
+    prompt: 不正アクセス（不正の目的）で情報が漏れたとき、確報は知った日から何日以内に出しますか。
+    choices:
+      - { id: a, label: "60 日以内" }
+      - { id: b, label: "3 日以内" }
+      - { id: c, label: "1 年以内" }
+      - { id: d, label: "期限はない" }
+    answer: a
+    explanation: 確報は、ふつうは 30 日以内です。不正の目的による場合は 60 日以内です（施行規則第8条）。その前に、すぐに速報を出します。
+    reviewSection: 漏えいのときに報告が必要になる4つの場合
+  - id: legal-03/q-register
+    prompt: 宿泊者名簿は、どれだけの間取っておきますか。
+    choices:
+      - { id: a, label: "1 年間" }
+      - { id: b, label: "取っておかなくてよい" }
+      - { id: c, label: "作った日から 3 年間" }
+      - { id: d, label: "10 年間" }
+    answer: c
+    explanation: 旅館業法施行規則第4条の2 で、宿泊者名簿は作った日から 3 年間取っておきます。
+    reviewSection: 宿泊者名簿
+  - id: legal-03/q-allergy
+    prompt: 予約メモに書いたお客様の持病の情報が漏れたとき、どう扱われますか。
+    choices:
+      - { id: a, label: "メモなので個人情報ではない" }
+      - { id: b, label: "要配慮個人情報が入っているので、報告が必要になる場合に当たる" }
+      - { id: c, label: "1,000 人を超えなければ何もしなくてよい" }
+      - { id: d, label: "お客様が自分で書いたので責任はない" }
+    answer: b
+    explanation: 病歴などは要配慮個人情報です。漏れたおそれがあれば、人数に関係なく、報告が必要になる場合に当たります（とても強い暗号化などの対策をしている場合は除きます）。
+    reviewSection: 漏えいのときに報告が必要になる4つの場合

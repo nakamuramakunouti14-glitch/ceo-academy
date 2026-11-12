@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: governance-04
+questions:
+  - id: governance-04/q-lines
+    prompt: 三線モデルの第3線は、誰が受け持ちますか。
+    choices:
+      - { id: a, label: "店長や支配人などの現場" }
+      - { id: b, label: "外部の会計監査人" }
+      - { id: c, label: "本部の品質管理" }
+      - { id: d, label: "独立した立場で全体を確かめる内部監査" }
+    answer: d
+    explanation: 第3線は内部監査です。第1線は経営陣と現場、第2線は法務・品質などの専門の役です。外部の監査人は、3つの線の外にいます。
+    reviewSection: 要点
+  - id: governance-04/q-second
+    prompt: 本部の品質管理が衛生の基準を決め、店を回って点検しています。これは何線の役割ですか。
+    choices:
+      - { id: a, label: "第1線" }
+      - { id: b, label: "第2線" }
+      - { id: c, label: "第3線" }
+      - { id: d, label: "どの線にも入らない" }
+    answer: b
+    explanation: 専門の目で助言し、支え、点検するのは第2線です。毎日のリスクを持って手順を動かすのは第1線です。
+    reviewSection: 3つの線
+  - id: governance-04/q-independence
+    prompt: IIA が、確かめが信頼できないとしている場合はどれですか。
+    choices:
+      - { id: a, label: "確かめる人が、その手順を自分で作ったり動かしたりしている" }
+      - { id: b, label: "確かめる人が、取締役会に報告している" }
+      - { id: c, label: "確かめる人が、必要な情報を制限なく見られる" }
+      - { id: d, label: "確かめる人が、ほかの線と情報を分け合っている" }
+    answer: a
+    explanation: 自分で作った手順や、自分の前の判断を自分で評価すると、確かめが信頼されません。独立は大事ですが、孤立することではありません。
+    reviewSection: 内部監査の独立
+  - id: governance-04/q-report
+    prompt: 内部監査の報告のしかたとして、IIA が挙げるふつうの形はどれですか。
+    choices:
+      - { id: a, label: "報告はしない" }
+      - { id: b, label: "現場の店長にだけ報告する" }
+      - { id: c, label: "仕事の中身では取締役会に報告し、事務の面では社長に報告する" }
+      - { id: d, label: "外部の会計監査人にだけ報告する" }
+    answer: c
+    explanation: IIA は、仕事の中身では取締役会へ、事務の面では社長（CEO）へ報告する形がふつうだとしています。
+    reviewSection: 内部監査の独立
+  - id: governance-04/q-small
+    prompt: 人が少ない会社での三線モデルの使い方として、このテーマに合うのはどれですか。
+    choices:
+      - { id: a, label: "3つの線を別々の部署にしないかぎり、意味がない" }
+      - { id: b, label: "1人が2つの線にまたがるときは、役割を文字にして取締役会に伝えておく" }
+      - { id: c, label: "内部監査を外に頼めば、取締役会の責任はなくなる" }
+      - { id: d, label: "小さな会社は、リスク管理をしなくてよい" }
+    answer: b
+    explanation: IIA は、会社の大きさやリスクに合わせて形を決めるものだとしています。外に頼んでも、取締役会の責任は変わりません。
+    reviewSection: 小さな会社での使い方

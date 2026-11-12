@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: accounting-06
+questions:
+  - id: accounting-06/q-four
+    prompt: バランスト・スコアカードの4つの目の組み合わせとして、正しいものはどれですか。
+    choices:
+      - { id: a, label: "売上・原価・人件費・家賃" }
+      - { id: b, label: "PL・BS・CF・税金" }
+      - { id: c, label: "強み・弱み・機会・脅威" }
+      - { id: d, label: "財務・顧客・業務プロセス・学習と成長" }
+    answer: d
+    explanation: 4つの目は、財務・顧客・業務プロセス・学習と成長です。c は SWOT の4つです。
+    reviewSection: 要点
+  - id: accounting-06/q-who
+    prompt: バランスト・スコアカードを考えた人と、最初の論文の年の組み合わせはどれですか。
+    choices:
+      - { id: a, label: "ドナルドソン・ブラウン、1914年" }
+      - { id: b, label: "キャプランとノートン、1992年" }
+      - { id: c, label: "モディリアーニとミラー、1958年" }
+      - { id: d, label: "キャプランとノートン、1958年" }
+    answer: b
+    explanation: キャプランとノートンが、1992年にハーバード・ビジネス・レビューで論文を出しました。1996年には本も出しています。
+    reviewSection: 誰が考えたか
+  - id: accounting-06/q-why
+    prompt: 財務の数字だけで会社を見ると、何が困るとされていますか。
+    choices:
+      - { id: a, label: "計算がまちがいやすい" }
+      - { id: b, label: "税金が増える" }
+      - { id: c, label: "過去の結果しかわからず、手を打つのが遅れる" }
+      - { id: d, label: "銀行が見てくれない" }
+    answer: c
+    explanation: 財務の数字は、過去の行動の結果です。お客様・現場・人の数字を見ると、利益が落ちる前に気づけます。
+    reviewSection: 要点
+  - id: accounting-06/q-chain
+    prompt: 「原因 → 結果」のつながりとして、いちばん自然な順番はどれですか。
+    choices:
+      - { id: a, label: "研修を増やす → 提供が早くなる → 口コミが上がる → 利益が増える" }
+      - { id: b, label: "利益が増える → 研修を増やす → 口コミが上がる → 提供が早くなる" }
+      - { id: c, label: "口コミが上がる → 利益が増える → 研修を増やす → 提供が早くなる" }
+      - { id: d, label: "提供が早くなる → 利益が増える → 研修を増やす → 口コミが上がる" }
+    answer: a
+    explanation: 学習と成長 → 業務プロセス → 顧客 → 財務 の順に、下の段が上の段の原因になります。
+    reviewSection: 4つの目を原因と結果でつなぐ
+  - id: accounting-06/q-count
+    prompt: スコアカードに載せる数字の数について、よい考え方はどれですか。
+    choices:
+      - { id: a, label: "できるだけ多く載せる" }
+      - { id: b, label: "戦略とつながる数字に絞る" }
+      - { id: c, label: "財務の数字だけにする" }
+      - { id: d, label: "毎月ちがう数字にする" }
+    answer: b
+    explanation: 数字が多すぎると、何が大事かわからなくなります。戦略とつながる数字に絞りましょう。
+    reviewSection: みなと館ホテルのスコアカード

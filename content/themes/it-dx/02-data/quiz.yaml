@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: it-dx-02
+questions:
+  - id: it-dx-02/q-purpose
+    prompt: システムをつなぐ2つの目的として、このテーマが挙げているのはどれですか。
+    choices:
+      - { id: a, label: "打ちこむ手間とまちがいを減らすことと、経営の数字を早く正しく見ること" }
+      - { id: b, label: "最新の機械を使うことと、広告を出すこと" }
+      - { id: c, label: "従業員を減らすことと、税金を減らすこと" }
+      - { id: d, label: "画面を増やすことと、紙を増やすこと" }
+    answer: a
+    explanation: つなぐ値打ちは、同じ打ちこみを2回する手間とまちがいを減らし、数字を早く正しく見られるようにすることです。
+    reviewSection: 要点
+  - id: it-dx-02/q-hours
+    prompt: 毎日 60 分の手入力を 1 年（365 日）続けると、年に何時間ですか。
+    choices:
+      - { id: a, label: "60 時間" }
+      - { id: b, label: "120 時間" }
+      - { id: c, label: "365 時間" }
+      - { id: d, label: "3,650 時間" }
+    answer: c
+    explanation: 1 時間 × 365 日 ＝ 365 時間です。1時間 1,500 円なら、年 54.75 万円になります。
+    reviewSection: 手入力のコストを数える
+  - id: it-dx-02/q-hidden
+    prompt: 手入力の「数字に出にくい損」として、このテーマが挙げているのはどれですか。
+    choices:
+      - { id: a, label: "電気代が増える" }
+      - { id: b, label: "打ちまちがいによるダブルブッキングや、月末のしめの遅れ" }
+      - { id: c, label: "税率が上がる" }
+      - { id: d, label: "客室がせまくなる" }
+    answer: b
+    explanation: 手入力にはまちがいが入ります。ダブルブッキングのように信用をなくすことや、数字のしめの遅れが起きます。
+    reviewSection: 手入力のコストを数える
+  - id: it-dx-02/q-order
+    prompt: つなぐ順番として、このテーマがすすめているのはどれですか。
+    choices:
+      - { id: a, label: "全部のシステムを一度に入れかえる" }
+      - { id: b, label: "いちばん安いところからつなぐ" }
+      - { id: c, label: "つながずに手入力を続ける" }
+      - { id: d, label: "同じ打ちこみを2回しているところを書き出し、いちばん手間の大きいところからつなぐ" }
+    answer: d
+    explanation: 全部を一度に入れかえると、うまくいかなかったときの影響が大きくなります。手間の大きいところから、順に進めます。
+    reviewSection: つなぐときの順番
+  - id: it-dx-02/q-name
+    prompt: 同じお客様が別々の名前で登録されていると、何が見えなくなりますか。
+    choices:
+      - { id: a, label: "リピート率や LTV" }
+      - { id: b, label: "客室の数" }
+      - { id: c, label: "法人税の税率" }
+      - { id: d, label: "建物の減価償却費" }
+    answer: a
+    explanation: 同じお客様を1人として数えられないと、何回来たかがわかりません。だから、リピート率や LTV を出せません。
+    reviewSection: つなぐときの順番

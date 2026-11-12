@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: accounting-01
+questions:
+  - id: accounting-01/q-operating-profit
+    prompt: 本業でどれだけ稼げたかを表す利益は、どれですか。
+    choices:
+      - { id: a, label: "売上総利益" }
+      - { id: b, label: "営業利益" }
+      - { id: c, label: "経常利益" }
+      - { id: d, label: "当期純利益" }
+    answer: b
+    explanation: 営業利益は、売上総利益から人件費や広告費などの販管費を引いたものです。本業のもうけを表します。経常利益は、利息など本業以外の損益も入ります。
+    reviewSection: 利益は5段階ある
+  - id: accounting-01/q-gross-profit
+    prompt: みなと館ホテルの売上高は 50,000 万円、売上原価は 8,000 万円です。売上総利益はいくらですか。
+    choices:
+      - { id: a, label: "6,000 万円" }
+      - { id: b, label: "36,000 万円" }
+      - { id: c, label: "42,000 万円" }
+      - { id: d, label: "58,000 万円" }
+    answer: c
+    explanation: 売上総利益は、売上高 − 売上原価 ＝ 50,000 − 8,000 ＝ 42,000 万円です。6,000 万円は営業利益です。
+    reviewSection: みなと館ホテルの PL を読む
+  - id: accounting-01/q-renovation-expense
+    prompt: 4億円で客室を改装しました。使える年数（耐用年数）を10年として、毎年同じ額を費用にします。その年の PL に載る減価償却費はいくらですか。
+    choices:
+      - { id: a, label: "4,000 万円" }
+      - { id: b, label: "4億円" }
+      - { id: c, label: "0 円（費用にならない）" }
+      - { id: d, label: "2億円" }
+    answer: a
+    explanation: 改装の代金は、一度に費用にしません。使える年数に分けます。4億円 ÷ 10年 ＝ 1年 4,000 万円が、減価償却費として毎年の PL に載ります。
+    reviewSection: PL は1年分の通知表
+  - id: accounting-01/q-special-loss
+    prompt: 古い設備を捨てたことで出た損は、PL のどこに入りますか。
+    choices:
+      - { id: a, label: "売上原価" }
+      - { id: b, label: "販売費及び一般管理費" }
+      - { id: c, label: "営業外費用" }
+      - { id: d, label: "特別損失" }
+    answer: d
+    explanation: その年だけの出来事で出た損は、特別損失に入ります。営業利益と経常利益は変わりません。税引前当期純利益から下に効きます。
+    reviewSection: 利益は5段階ある
+  - id: accounting-01/q-largest-cost
+    prompt: みなと館ホテルの PL で、売上に対する割合がいちばん大きい費用はどれですか。
+    choices:
+      - { id: a, label: "人件費" }
+      - { id: b, label: "売上原価" }
+      - { id: c, label: "減価償却費" }
+      - { id: d, label: "水道光熱費" }
+    answer: a
+    explanation: 人件費は 17,000 万円で、売上の 34％ です。売上原価（16％）や減価償却費（10％）より大きいです。大きい費用ほど、良くしたときに利益が大きく変わります。
+    reviewSection: 経営者が見るところ

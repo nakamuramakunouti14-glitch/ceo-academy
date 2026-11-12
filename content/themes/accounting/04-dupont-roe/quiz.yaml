@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: accounting-04
+questions:
+  - id: accounting-04/q-roe
+    prompt: ROE（自己資本利益率）の計算として、正しいものはどれですか。
+    choices:
+      - { id: a, label: "売上高 ÷ 資産の合計" }
+      - { id: b, label: "当期純利益 ÷ 純資産" }
+      - { id: c, label: "営業利益 ÷ 売上高" }
+      - { id: d, label: "資産の合計 ÷ 純資産" }
+    answer: b
+    explanation: ROE は、株主が出したお金（純資産）で、どれだけ利益を出したかです。当期純利益 ÷ 純資産 で計算します。a は総資産回転率、d は財務レバレッジです。
+    reviewSection: 要点
+  - id: accounting-04/q-three
+    prompt: デュポン分解で、ROE を分ける3つの数字の組み合わせはどれですか。
+    choices:
+      - { id: a, label: "売上原価率 × 人件費率 × 家賃比率" }
+      - { id: b, label: "自己資本比率 × 流動比率 × 稼働率" }
+      - { id: c, label: "営業利益 × 減価償却費 × 借入金" }
+      - { id: d, label: "売上高純利益率 × 総資産回転率 × 財務レバレッジ" }
+    answer: d
+    explanation: ROE ＝ 売上高純利益率 × 総資産回転率 × 財務レバレッジ です。「利幅」×「資産の回し方」×「借入の効かせ方」と覚えましょう。
+    reviewSection: 3つの数字の意味
+  - id: accounting-04/q-calc
+    prompt: ある店は、売上高純利益率 4％、総資産回転率 2.5 回、財務レバレッジ 2 倍です。ROE はいくつですか。
+    choices:
+      - { id: a, label: "20％" }
+      - { id: b, label: "8.5％" }
+      - { id: c, label: "10％" }
+      - { id: d, label: "4％" }
+    answer: a
+    explanation: 4％ × 2.5 × 2 ＝ 20％ です。うみかぜ食堂の例と同じ計算です。
+    reviewSection: ホテルと食堂をくらべる
+  - id: accounting-04/q-hotel
+    prompt: ホテルと食堂をくらべたとき、ホテルの総資産回転率が低くなりやすい理由はどれですか。
+    choices:
+      - { id: a, label: "ホテルは売上がまったくないから" }
+      - { id: b, label: "ホテルは借入をしないから" }
+      - { id: c, label: "ホテルは建物や設備にお金がかかり、資産が大きいから" }
+      - { id: d, label: "ホテルは利益が必ずマイナスになるから" }
+    answer: c
+    explanation: 総資産回転率は 売上高 ÷ 資産の合計 です。ホテルは建物が大きな資産になるので、売上にくらべて資産が大きくなり、回転率が低くなりがちです。
+    reviewSection: ホテルと食堂をくらべる
+  - id: accounting-04/q-leverage
+    prompt: 借入を増やして ROE を上げるときに、気をつけることはどれですか。
+    choices:
+      - { id: a, label: "売上高が必ず減ること" }
+      - { id: b, label: "純資産が必ず増えること" }
+      - { id: c, label: "利幅が必ず上がること" }
+      - { id: d, label: "利益が減ったときに ROE が大きく下がり、返すお金の重さも増えること" }
+    answer: d
+    explanation: 財務レバレッジは「てこ」です。利益が出ているときは ROE を押し上げますが、利益が減ったときは逆に大きく下げます。借入の返済も重くなります。
+    reviewSection: 経営者が見るところ

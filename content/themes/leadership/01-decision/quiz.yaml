@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: leadership-01
+questions:
+  - id: leadership-01/q-irreversible
+    prompt: 取り消せない決定にあたるのはどれですか。
+    choices:
+      - { id: a, label: "4 億円で客室をすべて改装する" }
+      - { id: b, label: "新メニューを 2 週間だけ出す" }
+      - { id: c, label: "朝食の始まる時間を 30 分早める" }
+      - { id: d, label: "店内の BGM を変える" }
+    answer: a
+    explanation: 大きな改装は、一度お金を使うと元に戻せません。ほかの3つは、試してだめなら戻せます。取り消せる決定です。
+    reviewSection: 2つの決定を分ける
+  - id: leadership-01/q-speed
+    prompt: 取り消せる決定の進め方として、このテーマがすすめているのはどれですか。
+    choices:
+      - { id: a, label: "経営者が必ず時間をかけて決める" }
+      - { id: b, label: "全員が賛成するまで待つ" }
+      - { id: c, label: "速く決めて試し、数字で確かめる" }
+      - { id: d, label: "決めずに様子を見る" }
+    answer: c
+    explanation: 戻せる決定は、試して確かめる方が、早く正しい答えに近づけます。現場に任せてもかまいません。
+    reviewSection: 要点
+  - id: leadership-01/q-ev
+    prompt: うまくいく確率が 30％ で、利益は 600 万円。失敗する確率が 70％ で、損は 100 万円です。期待値はいくらですか。
+    choices:
+      - { id: a, label: "500 万円" }
+      - { id: b, label: "110 万円" }
+      - { id: c, label: "−70 万円" }
+      - { id: d, label: "180 万円" }
+    answer: b
+    explanation: 期待値 ＝ 0.3 × 600 − 0.7 × 100 ＝ 180 − 70 ＝ 110 万円です。180 万円は、うまくいく場合だけを見た金額です。
+    reviewSection: 期待値で比べる
+  - id: leadership-01/q-mistake
+    prompt: このテーマが挙げている「よくある失敗」はどれですか。
+    choices:
+      - { id: a, label: "どの決定にも同じ時間をかけること" }
+      - { id: b, label: "期待値を計算すること" }
+      - { id: c, label: "決めた理由を残すこと" }
+      - { id: d, label: "小さな取り消せる決定に時間をかけすぎ、大きな取り消せない決定を勢いで決めること" }
+    answer: d
+    explanation: 大事なのは、取り消せるかどうかで、かける時間を分けることです。これが逆になると、速さも正しさもなくします。
+    reviewSection: 2つの決定を分ける
+  - id: leadership-01/q-result
+    prompt: 期待値がプラスなので実行しましたが、結果は失敗でした。どう考えるのがよいですか。
+    choices:
+      - { id: a, label: "判断は必ずまちがっていた" }
+      - { id: b, label: "次からは期待値を使わない" }
+      - { id: c, label: "結果が悪くても判断が悪かったとはかぎらない。残した理由とくらべて学ぶ" }
+      - { id: d, label: "担当者を処分する" }
+    answer: c
+    explanation: 確率で決めるときは、正しい判断でも外れることがあります。決めた理由と結果をくらべて、前提のどこがずれたかを学びましょう。
+    reviewSection: 経営者が見るところ

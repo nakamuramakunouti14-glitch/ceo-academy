@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: operations-05
+questions:
+  - id: operations-05/q-jit
+    prompt: ジャスト・イン・タイムの考え方として正しいものはどれですか。
+    choices:
+      - { id: a, label: "必要なものを、必要なときに、必要な量だけつくる" }
+      - { id: b, label: "売り切れないように、いつも多めにつくる" }
+      - { id: c, label: "まとめてつくって、安くする" }
+      - { id: d, label: "注文がなくても、機械を止めない" }
+    answer: a
+    explanation: ジャスト・イン・タイムは、必要なものを、必要なときに、必要な量だけつくる考え方です。つくりすぎをなくします。
+    reviewSection: 要点
+  - id: operations-05/q-3mu
+    prompt: カイゼンでなくしたい「ムダ・ムラ・ムリ」の、ムラはどれですか。
+    choices:
+      - { id: a, label: "役に立たない作業" }
+      - { id: b, label: "体や心に重すぎる負担" }
+      - { id: c, label: "高すぎる値段" }
+      - { id: d, label: "ばらつき" }
+    answer: d
+    explanation: ムダは役に立たない作業、ムラはばらつき、ムリは重すぎる負担です。
+    reviewSection: 要点
+  - id: operations-05/q-umikaze
+    prompt: うみかぜ食堂が、煮魚のつくりすぎをへらすためにしたことはどれですか。
+    choices:
+      - { id: a, label: "毎朝 80 人分つくるようにした" }
+      - { id: b, label: "朝は少なめにつくり、お昼の出方を見て夜の分を追加した" }
+      - { id: c, label: "煮魚をメニューから外した" }
+      - { id: d, label: "雨の日は店を閉めた" }
+    answer: b
+    explanation: 朝は 30 人分だけつくり、お昼の注文の出方を見て、14時に夜の分を追加するようにしました。
+    reviewSection: 必要な量だけつくる
+  - id: operations-05/q-stop
+    prompt: 客室のそうじでシーツのしみを見つけました。自働化の考え方に合う動きはどれですか。
+    choices:
+      - { id: a, label: "時間がないので、そのまま使う" }
+      - { id: b, label: "あとでまとめて報告する" }
+      - { id: c, label: "その場で替えて、フロントに知らせる" }
+      - { id: d, label: "お客様が気づかなければよいと考える" }
+    answer: c
+    explanation: おかしなことを見つけたら、すぐ止めて直し、知らせます。悪い部屋をお客様に届けないためです。
+    reviewSection: おかしいと思ったら止める
+  - id: operations-05/q-kaizen
+    prompt: カイゼンの進め方として、テーマの内容に合うものはどれですか。
+    choices:
+      - { id: a, label: "数年に一度、大きな改革をする" }
+      - { id: b, label: "社長だけが改善を考える" }
+      - { id: c, label: "お金をかけて新しい機械を入れることから始める" }
+      - { id: d, label: "気づきを集め、小さくためし、うまくいったら決まりにする" }
+    answer: d
+    explanation: カイゼンは、全員で小さな改善を続けることです。気づきを集め、すぐためし、うまくいったやり方を決まりにします。
+    reviewSection: カイゼンを続けるしくみ

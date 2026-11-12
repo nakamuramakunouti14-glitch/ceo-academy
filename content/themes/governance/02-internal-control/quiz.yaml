@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: governance-02
+questions:
+  - id: governance-02/q-segregation
+    prompt: 「職務の分離」の例として、正しいのはどれですか。
+    choices:
+      - { id: a, label: "注文した人が、自分で支払いも認める" }
+      - { id: b, label: "レジ締めを、毎日同じ1人だけで行う" }
+      - { id: c, label: "仕入れの注文と、請求書の支払いを認める人を、別にする" }
+      - { id: d, label: "記録を残さない" }
+    answer: c
+    explanation: 1つの仕事を1人だけで終わらせないことが、職務の分離です。注文と支払いの承認を分けると、うその注文などを防げます。
+    reviewSection: 4つの基本
+  - id: governance-02/q-purpose
+    prompt: 内部統制の目的として、このテーマが強く言っているのはどれですか。
+    choices:
+      - { id: a, label: "従業員をいつも疑うこと" }
+      - { id: b, label: "正直な人が疑われないようにし、不正やまちがいを防いで見つけること" }
+      - { id: c, label: "税金を減らすこと" }
+      - { id: d, label: "仕事をおそくすること" }
+    answer: b
+    explanation: しくみがあれば、まちがいや不正を早く見つけられます。正直な人は、疑いを晴らせます。
+    reviewSection: 要点
+  - id: governance-02/q-cash
+    prompt: レジの記録と現金のつき合わせで、このテーマがすすめているやり方はどれですか。
+    choices:
+      - { id: a, label: "閉店後に2人で数え、差額を毎日記録する" }
+      - { id: b, label: "月に1回だけ数える" }
+      - { id: c, label: "差額は気にしない" }
+      - { id: d, label: "担当者が1人で数え、記録は残さない" }
+    answer: a
+    explanation: 2人で数えて、差額を毎日記録すると、かたよりに早く気づけます。記録は、正直な担当者を守る証拠にもなります。
+    reviewSection: 4つの基本
+  - id: governance-02/q-cause
+    prompt: ある担当者の日だけ、レジのお金が足りない日が続きました。最初にすることはどれですか。
+    choices:
+      - { id: a, label: "すぐに不正と決めて処分する" }
+      - { id: b, label: "記録を消す" }
+      - { id: c, label: "何もしない" }
+      - { id: d, label: "おつりの渡しまちがいなども含めて原因を確かめ、手順や教え方を直す" }
+    answer: d
+    explanation: 差額の原因は、不正とはかぎりません。まず原因を確かめます。まちがいなら、手順を直します。
+    reviewSection: レジの差額を見る
+  - id: governance-02/q-small
+    prompt: 従業員の少ない小さな会社での、内部統制の考え方として、このテーマに合うのはどれですか。
+    choices:
+      - { id: a, label: "人が少ないので内部統制はいらない" }
+      - { id: b, label: "社長や別の店の人が確かめる役をして、できる範囲から始める" }
+      - { id: c, label: "大きな会社と同じしくみをすべてそろえる" }
+      - { id: d, label: "外の会社に全部任せる" }
+    answer: b
+    explanation: 人が少なくても、社長や別の店の人が確かめる役をすれば、1人だけで終わる仕事を減らせます。
+    reviewSection: 経営者が見るところ

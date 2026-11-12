@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: operations-04
+questions:
+  - id: operations-04/q-what
+    prompt: レベニュー・マネジメントで決めることとして、正しいものはどれですか。
+    choices:
+      - { id: a, label: "社員の給料の上げ方" }
+      - { id: b, label: "建物の修理の時期" }
+      - { id: c, label: "いつ・誰に・いくらで・どれだけ売るか" }
+      - { id: d, label: "決算の日" }
+    answer: c
+    explanation: 売れる量に限りがある部屋や席を、いつ・誰に・いくらで・どれだけ売るかを決めて、売上をいちばん大きくします。
+    reviewSection: 要点
+  - id: operations-04/q-calc
+    prompt: 80 室のうち、60 室を 12,000 円、20 室を 18,000 円で売りました。客室の売上はいくらですか。
+    choices:
+      - { id: a, label: "108 万円" }
+      - { id: b, label: "96 万円" }
+      - { id: c, label: "120 万円" }
+      - { id: d, label: "144 万円" }
+    answer: a
+    explanation: 60 室 × 12,000 円 ＝ 72 万円、20 室 × 18,000 円 ＝ 36 万円。合わせて 108 万円です。
+    reviewSection: 早く安く売りすぎない
+  - id: operations-04/q-early
+    prompt: 1か月前に全部の部屋を安く売り切る案の、いちばんの問題はどれですか。
+    choices:
+      - { id: a, label: "そうじの手間がふえる" }
+      - { id: b, label: "高くても泊まりたい直前のお客様を断ることになる" }
+      - { id: c, label: "税金が高くなる" }
+      - { id: d, label: "稼働率が下がる" }
+    answer: b
+    explanation: 満室にはなりますが、18,000 円でも泊まる直前のお客様を断ることになります。そのぶん売上を逃しています。
+    reviewSection: 早く安く売りすぎない
+  - id: operations-04/q-slow
+    prompt: 予約の入り方が去年の同じ日より遅いとき、とる手はどれですか。
+    choices:
+      - { id: a, label: "何もせずに待つ" }
+      - { id: b, label: "値段を上げる" }
+      - { id: c, label: "部屋の数をへらす" }
+      - { id: d, label: "値段を下げるか、出す経路をふやす" }
+    answer: d
+    explanation: 予想より遅いときは、値段を下げたり、予約サイトに出す部屋をふやしたりします。予想より早いときは、値段を上げます。
+    reviewSection: 予想がはずれたときは
+  - id: operations-04/q-revpash
+    prompt: 30 席のお店で、18〜22時の4時間の売上が 18 万円でした。RevPASH はいくらですか。
+    choices:
+      - { id: a, label: "6,000 円" }
+      - { id: b, label: "4,500 円" }
+      - { id: c, label: "1,500 円" }
+      - { id: d, label: "750 円" }
+    answer: c
+    explanation: RevPASH ＝ 売上 ÷（席の数 × 営業時間）＝ 18 万円 ÷（30 席 × 4 時間）＝ 1,500 円です。
+    reviewSection: 飲食店では席と時間で考える

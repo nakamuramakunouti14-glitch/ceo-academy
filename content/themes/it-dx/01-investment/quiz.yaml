@@ -1,0 +1,53 @@
+schemaVersion: 1
+themeId: it-dx-01
+questions:
+  - id: it-dx-01/q-judge
+    prompt: IT への投資の決め方として、このテーマがすすめているのはどれですか。
+    choices:
+      - { id: a, label: "どの仕事が何時間減り、いくらの効果になるかで決める" }
+      - { id: b, label: "最新のものかどうかで決める" }
+      - { id: c, label: "ライバルの会社が入れたかどうかで決める" }
+      - { id: d, label: "画面がきれいかどうかで決める" }
+    answer: a
+    explanation: 投資の効果は、時間とお金で表します。そうすれば、ほかの投資と同じものさしで比べられます。
+    reviewSection: 要点
+  - id: it-dx-01/q-saving
+    prompt: 働く時間が年 2,000 時間減り、1時間あたりの人件費が 1,500 円なら、人件費は年いくら減りますか。
+    choices:
+      - { id: a, label: "30 万円" }
+      - { id: b, label: "150 万円" }
+      - { id: c, label: "300 万円" }
+      - { id: d, label: "3,000 万円" }
+    answer: c
+    explanation: 2,000 時間 × 1,500 円 ＝ 300 万円です。ただし、シフトを本当に減らすか、ほかの仕事に回して、はじめてお金の効果になります。
+    reviewSection: 自動チェックイン機を比べる
+  - id: it-dx-01/q-payback
+    prompt: 代金 600 万円、毎年減る人件費 300 万円、毎年の保守料 60 万円です。回収期間は何年ですか。
+    choices:
+      - { id: a, label: "2 年" }
+      - { id: b, label: "2.5 年" }
+      - { id: c, label: "10 年" }
+      - { id: d, label: "5 年" }
+    answer: b
+    explanation: 毎年の現金の効果は 300 − 60 ＝ 240 万円です。600 ÷ 240 ＝ 2.5 年です。保守料を引き忘れると、2 年とまちがえます。
+    reviewSection: 自動チェックイン機を比べる
+  - id: it-dx-01/q-pl
+    prompt: 上の例で、毎年の営業利益への効果はいくらですか（減価償却は 5 年で、毎年同じ額）。
+    choices:
+      - { id: a, label: "＋300 万円" }
+      - { id: b, label: "＋240 万円" }
+      - { id: c, label: "−120 万円" }
+      - { id: d, label: "＋120 万円" }
+    answer: d
+    explanation: 人件費 −300 万円、保守料 ＋60 万円、減価償却費 ＋120 万円（600 ÷ 5）です。差し引き、営業利益は ＋120 万円です。現金の効果（240 万円）とは、減価償却費の分だけ差があります。
+    reviewSection: 自動チェックイン機を比べる
+  - id: it-dx-01/q-fail
+    prompt: 機械で時間が減ったのに、人件費が減りませんでした。いちばん考えられる理由はどれですか。
+    choices:
+      - { id: a, label: "減価償却費が大きいから" }
+      - { id: b, label: "シフトを変えず、減った時間の使い道も決めていなかったから" }
+      - { id: c, label: "保守料が安いから" }
+      - { id: d, label: "機械が新しすぎるから" }
+    answer: b
+    explanation: 時間が減っても、同じ人数が同じ時間いれば、人件費は変わりません。シフトを減らすか、ほかの大事な仕事に回すかを決めましょう。
+    reviewSection: 効果が出ないよくある例
